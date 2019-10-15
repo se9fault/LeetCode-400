@@ -1,15 +1,28 @@
 # 12-Bit_Manipulation
 Note: Links are to the LeetCode website.
+
 389 [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
+
 136 [Single Number](https://leetcode.com/problems/single-number/description/)
+
 318 [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/) Infrequent
+
 393 [UTF-8 Validation](https://leetcode.com/problems/utf-08-validation/description/)
+
 201 [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/)
+
 371 [Sum of Two Integers emove Element](https://leetcode.com/problems/sum-of-two-integers/description/)
+
 338 [Counting Bits](https://leetcode.com/problems/counting-bits/description/)
+
 089 [Gray Code](https://leetcode.com/problems/gray-code/description/)
+
 268 [Missing Number](https://leetcode.com/problems/missing-number/description/)
+
 191 [Number of 1 Bits](https://leetcode.com/problems/number-of-01-bits/description/)
+
 190 [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)
+
 137 [Single Number II](https://leetcode.com/problems/single-number-ii/description/)
+
 260 [Single Number III](https://leetcode.com/problems/single-number-iii/description/)

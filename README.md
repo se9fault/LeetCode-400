@@ -24,6 +24,7 @@ Based on [LeetCode Classification - Cspiration](https://cspiration.com/leetcodeC
 
 ## 01-Array
 Note: Links in the content table are to the LeetCode website.
+
 027 [Remove Element](https://leetcode.com/problems/remove-element/)
 
 026 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
