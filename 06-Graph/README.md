@@ -8,7 +8,7 @@ Note: Links are to the LeetCode website.
 
 - [ ] 310 [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)
 
-## 图形学
+## Graphics
 
 - [ ] 149 [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
 
