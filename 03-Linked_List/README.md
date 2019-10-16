@@ -1,50 +1,50 @@
 # 03-Linked_List
 Note: Links are to the LeetCode website.
 
-206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+- [ ] 206 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
-141 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+- [ ] 141 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 
-024 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+- [ ] 024 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 
-328 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
+- [ ] 328 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
 
-092 [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
+- [ ] 092 [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
 
-237 [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+- [ ] 237 [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
 
-019 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+- [ ] 019 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
-083 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+- [ ] 083 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 
-203 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
+- [ ] 203 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
 
-082 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
+- [ ] 082 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
 
-369 [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/)
+- [ ] 369 [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/)
 
-002 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+- [ ] 002 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
-160 [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
+- [ ] 160 [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
-021 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+- [ ] 021 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 ## Advanced
 
-234 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+- [ ] 234 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 
-143 [Reorder List](https://leetcode.com/problems/reorder-list/description/)
+- [ ] 143 [Reorder List](https://leetcode.com/problems/reorder-list/description/)
 
-142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
+- [ ] 142 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 
-148 [Sort List](https://leetcode.com/problems/sort-list/description/)
+- [ ] 148 [Sort List](https://leetcode.com/problems/sort-list/description/)
 
-025 [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
+- [ ] 025 [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 
-061 [Rotate List](https://leetcode.com/problems/rotate-list/description/)
+- [ ] 061 [Rotate List](https://leetcode.com/problems/rotate-list/description/)
 
-086 [Partition List](https://leetcode.com/problems/partition-list/description/)
+- [ ] 086 [Partition List](https://leetcode.com/problems/partition-list/description/)
 
-023 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
+- [ ] 023 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
 
-147 [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)
+- [ ] 147 [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)
