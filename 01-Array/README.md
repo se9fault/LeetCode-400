@@ -19,11 +19,11 @@ Note: Links are to the LeetCode website.
 
 - [x] 118 [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) Infrequent
 
-- [ ] 119 [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent
+- [x] 119 [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent
 
-- [ ] 169 [Majority Element](https://leetcode.com/problems/majority-element/description/) Infrequent
+- [x] 169 [Majority Element](https://leetcode.com/problems/majority-element/description/) Infrequent
 
-- [ ] 229 [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Infrequent
+- [X] 229 [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Infrequent
 
 - [x] 274 [H-Index](https://leetcode.com/problems/h-index/description/)
 
@@ -37,9 +37,9 @@ Note: Links are to the LeetCode website.
 
 - [x] 217 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 
-- [ ] 219 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) Infrequent
+- [x] 219 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) Infrequent
 
-- [ ] 220 [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent
+- [x] 220 [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent
 
 - [x] 055 [Jump Game](https://leetcode.com/problems/jump-game/description/)
 
