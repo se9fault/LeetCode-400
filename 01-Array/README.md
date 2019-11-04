@@ -43,17 +43,17 @@ Note: Links are to the LeetCode website.
 
 - [x] 055 [Jump Game](https://leetcode.com/problems/jump-game/description/)
 
-- [x] 045 [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)
+- [x] 045 [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) greedy
 
 - [x] 121 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
-- [x] 122 [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+- [x] 122 [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) Greedy
 
-- [ ] 123 [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
+- [x] 123 [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) DP
 
-- [ ] 188 [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/)
+- [x] 188 [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) DP
 
-- [ ] 309 [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)
+- [x] 309 [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)
 
 - [x] 011 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 
@@ -61,11 +61,11 @@ Note: Links are to the LeetCode website.
 
 - [x] 334 [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)
 
-- [ ] 128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+- [x] 128 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
-- [ ] 164 [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/) Bucket
+- [x] 164 [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/) Bucket
 
-- [ ] 287 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
+- [x] 287 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
 
 - [ ] 135 [Candy](https://leetcode.com/problems/candy/description/) Infrequent
 
