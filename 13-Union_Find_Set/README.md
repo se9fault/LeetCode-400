@@ -1,5 +1,5 @@
 # 13-Union_Find_Set
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [261](261_Graph_Valid_Tree.cpp) [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)
 

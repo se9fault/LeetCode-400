@@ -1,5 +1,5 @@
 # 11-Stack
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [155](155_Min_Stack.cpp) [Min Stack](https://leetcode.com/problems/min-stack/description/)
 

@@ -1,5 +1,5 @@
 # 16-Design
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [359](359_Logger_Rate_Limiter.cpp) [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/description/)
 

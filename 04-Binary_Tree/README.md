@@ -1,5 +1,5 @@
 # 04-Binary_Tree
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## Basic
 
 - [ ] [144](144_Binary_Tree_Preorder_Traversal.cpp) [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)

@@ -1,5 +1,5 @@
 # 15-Random
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [384](384_Shuffle_an_Array.cpp) [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
 

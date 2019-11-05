@@ -1,5 +1,5 @@
 # 03-Linked_List
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [206](206_Reverse_Linked_List.cpp) [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 

@@ -1,5 +1,5 @@
 # 02-String
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## Basic
 
 - [ ] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)

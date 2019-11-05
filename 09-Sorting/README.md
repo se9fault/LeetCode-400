@@ -1,5 +1,5 @@
 # 09-Sorting
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## Priority Queue
 
 - [ ] [215](215_Kth_Largest_Element_in_an_Array.cpp) [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)

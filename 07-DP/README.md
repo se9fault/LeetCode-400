@@ -1,5 +1,5 @@
 # 07-DP
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## One-Dimension
 
 - [ ] [070](070_Climbing_Stairs.cpp) [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)

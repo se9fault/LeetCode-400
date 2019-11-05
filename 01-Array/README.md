@@ -1,5 +1,5 @@
 # 01-Array
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [x] [027](027_Remove_Element.cpp) [Remove Element](https://leetcode.com/problems/remove-element/)
 

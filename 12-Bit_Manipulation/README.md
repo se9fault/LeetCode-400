@@ -1,5 +1,5 @@
 # 12-Bit_Manipulation
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [389](389_Find_the_Difference.cpp) [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 

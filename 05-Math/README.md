@@ -1,5 +1,5 @@
 # 05-Math
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 - [ ] [007](007_Reverse_Integer.cpp) [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 

@@ -1,5 +1,5 @@
 # 06-Graph
-Note: Links are to the LeetCode website.
+Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## Basic
 
 - [ ] [133](133_Clone_Graph.cpp) [Clone Graph](https://leetcode.com/problems/clone-graph/description/)
