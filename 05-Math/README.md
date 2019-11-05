@@ -19,7 +19,7 @@ Note: Links are to the LeetCode website.
 
 - [ ] [069](069_Sqrt(x).cpp) [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
 
-- [ ] [050](050_Pow(x, n).cpp) [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
+- [ ] [050](050_Pow(x,_n).cpp) [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
 
 - [ ] [367](367_Valid_Perfect_Square.cpp) [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)
 
