@@ -19,9 +19,9 @@ public:
         return maxGap;
     }
 };
-\
 
 /*
+// solution based on n+1 buckets; need an extra bool for "bucket empty".
 class Solution {
 public:
     int maximumGap(vector<int>& nums) {
