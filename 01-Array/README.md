@@ -133,7 +133,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [033](033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 
-- [x] [081](081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+- [ ] [081](081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
 
 - [ ] [153](153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
