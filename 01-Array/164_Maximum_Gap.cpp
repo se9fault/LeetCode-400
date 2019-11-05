@@ -31,7 +31,7 @@ public:
             buckets[i][0] = INT_MAX;
             buckets[i][1] = INT_MIN;
         }
-        
+
         int min = INT_MAX, max = INT_MIN;
         for (int num : nums) {
             max = (num > max) ? num : max;
@@ -44,7 +44,7 @@ public:
             buckets[idx][0] = num < buckets[idx][0] ? num : buckets[idx][0];
             buckets[idx][1] = num > buckets[idx][0] ? num : buckets[idx][1];
         }
-        
+
         int result = INT_MIN;
         for (int i = 0; i < buckets.size(); ++i) {
             if (buckets[i][1] - buckets[i][0] > result)
@@ -54,5 +54,5 @@ public:
         }
         return result;
     }
-}; 
+};
 */

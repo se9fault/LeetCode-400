@@ -1,12 +1,12 @@
 /*
-Say you have an array for which the ith element is the price of a given stock 
+Say you have an array for which the ith element is the price of a given stock
 on day i.
 
-Design an algorithm to find the maximum profit. You may complete as many 
-transactions as you like (i.e., buy one and sell one share of the stock 
+Design an algorithm to find the maximum profit. You may complete as many
+transactions as you like (i.e., buy one and sell one share of the stock
 multiple times).
 
-Solution: what we get in the end is a greedy solution: as long as the price is 
+Solution: what we get in the end is a greedy solution: as long as the price is
 higher than yesterday, buy it yesterday and sell it today.
 
 */
@@ -19,6 +19,6 @@ public:
             if (prices[i] > prices[i - 1])
                 maxprofit += prices[i] - prices[i - 1];
         }
-        return maxprofit;    
+        return maxprofit;
     }
 };

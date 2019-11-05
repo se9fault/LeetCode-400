@@ -5,7 +5,7 @@ each bar is 1, compute how much water it is able to trap after raining.
 */
 
 class Solution {
-public:   
+public:
     int trap(vector<int>& height) {
         int n = height.size();
 	    if (n == 0)
@@ -22,7 +22,7 @@ public:
             right_max[i] = max(height[i], right_max[i + 1]);
             // 右侧最大值：右视图，能看到的最大高度
         }
-        
+
         for (int i = 1; i < n - 1; i++) {
             // 逻辑：每一格上面能装的水 = min(左侧最大值，右侧最大值) - 该格高度
             ans += min(left_max[i], right_max[i]) - height[i];

@@ -11,7 +11,7 @@ public:
         mem.push_back(good);
         return canJumpFromPos(nums, 0);
     }
-    
+
     // jump from pos to the end
     bool canJumpFromPos(vector<int>& nums, int pos) {
         if (mem[pos] != unknown) {

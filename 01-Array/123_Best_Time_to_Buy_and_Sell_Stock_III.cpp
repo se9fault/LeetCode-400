@@ -15,7 +15,7 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int dp[2][4] = {INT_MIN, 0, INT_MIN, 0};
-        // row num: days.  
+        // row num: days.
         //     dp[i][] only relies on dp[i-1][], so store 2 days is enough
         // col num: state.
         //     0: 1 buy   1: 1 buy 1 sell   2: 2 buy 1 sell   3: 2 buy 2 sell

@@ -10,7 +10,7 @@ Formally the function should:
 Note: Your algorithm should run in O(n) time complexity and O(1) space
 complexity.
 
-Solution: 3-element type LIS. for c1 and c2, store the minimum possible, 
+Solution: 3-element type LIS. for c1 and c2, store the minimum possible,
 therefore not missing c3.
 */
 

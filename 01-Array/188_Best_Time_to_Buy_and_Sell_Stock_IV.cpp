@@ -26,9 +26,9 @@ public:
     int maxProfit(int k, vector<int> &prices) {
         int n = prices.size();
         if (k >= n/2) {
-            return maxProfit_all(prices);    
+            return maxProfit_all(prices);
         }
-        
+
         // x: x txns used already. dp[i][] only depends on dp[i-1][], so only use two.
         // y: days. actually here we can also cut down variable size.
         vector<vector<int>> dp(2, vector<int>(n+1, 0));
@@ -36,7 +36,7 @@ public:
         for (int t = 1; t <= k; t++) {
             int cur_max = INT_MIN;
             for (int i = 0; i < n; i++) {
-                // calculating dp[t%2][] based on dp[(t-1)%2][] 
+                // calculating dp[t%2][] based on dp[(t-1)%2][]
                 dp[t%2][i+1] = max(dp[(t+1)%2][i+1], max(dp[t%2][i], prices[i] + cur_max));
                 cur_max = max(cur_max, dp[(t+1)%2][i] - prices[i]);
             }

@@ -25,7 +25,7 @@ public:
         int result = 0;
         vector<int> buy(n, 0), sell(n, 0);
         // buy[i]:  the max profit when you buy the stock at day i.
-        // sell[i]: the max profit when you sell the stock at day i. 
+        // sell[i]: the max profit when you sell the stock at day i.
         buy[0] = -prices[0];
         for (i = 1; i < n; ++i) {
             sell[i] = max(buy[i - 1] + prices[i], sell[i - 1] - prices[i - 1] + prices[i]);
@@ -39,5 +39,5 @@ public:
                 //   sold it before cooldown, buy it    reverse the buy yesterday, buy it today
         }
         return result;
-    }   
+    }
 };
