@@ -7,7 +7,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp) [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
 
-- [ ] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Locked
+- [ ] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Premium
 
 - [x] [189](189_Rotate_Array.cpp) [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 
@@ -29,11 +29,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Binary Search
 
-- [ ] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Locked
+- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium
 
-- [ ] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Locked
+- [x] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Premium
 
-- [ ] [245](245_Shortest_Word_Distance_III.cpp) [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/) Locked
+- [x] [245](245_Shortest_Word_Distance_III.cpp) [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/) Premium
 
 - [x] [217](217_Contains_Duplicate.cpp) [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 
@@ -83,25 +83,25 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Interval
 
-- [ ] [057](057_Insert_Interval.cpp) [Insert Interval](https://leetcode.com/problems/insert-interval/description/)
+- [x] [057](057_Insert_Interval.cpp) [Insert Interval](https://leetcode.com/problems/insert-interval/description/)
 
 - [x] [056](056_Merge_Intervals.cpp) [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 
-- [ ] [252](252_Meeting_Rooms.cpp) [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/) Locked
+- [x] [252](252_Meeting_Rooms.cpp) [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/) Premium
 
-- [ ] [253](253_Meeting_Rooms_II.cpp) [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) Locked
+- [x] [253](253_Meeting_Rooms_II.cpp) [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) Premium
 
-- [ ] [352](352_Data_Stream_as_Disjoint_Intervals.cpp) [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/) TreeMap
+- [ ] [352](352_Data_Stream_as_Disjoint_Intervals.cpp) [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/)
 
 ## Counter
 
-- [ ] [239](239_Sliding_Window_Maximum.cpp) [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
+- [x] [239](239_Sliding_Window_Maximum.cpp) [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
 
 - [ ] [295](295_Find_Median_from_Data_Stream.cpp) [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)
 
 - [x] [053](053_Maximum_Subarray.cpp) [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
-- [ ] [325](325_Maximum_Size_Subarray_Sum_Equals_k.cpp) [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+- [x] [325](325_Maximum_Size_Subarray_Sum_Equals_k.cpp) [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) Premium
 
 - [ ] [209](209_Minimum_Size_Subarray_Sum.cpp) [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
@@ -119,7 +119,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [075](075_Sort_Colors.cpp) [Sort Colors](https://leetcode.com/problems/sort-colors/description/)
 
-- [ ] [283](283_Move_Zeroes.cpp) [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+- [x] [283](283_Move_Zeroes.cpp) [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 
 - [ ] [376](376_Wiggle_Subsequence.cpp) [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)
 
@@ -165,7 +165,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [073](073_Set_Matrix_Zeroes.cpp) [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
 
-- [ ] [311](311_Sparse_Matrix_Multiplication.cpp) [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/description/) Locked
+- [ ] [311](311_Sparse_Matrix_Multiplication.cpp) [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/description/) Premium
 
 - [ ] [329](329_Longest_Increasing_Path_in_a_Matrix.cpp) [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
 

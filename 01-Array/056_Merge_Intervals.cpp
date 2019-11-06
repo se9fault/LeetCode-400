@@ -38,8 +38,6 @@ public:
     }
 
     static bool cmp(const Interval &v1, const Interval &v2) {
-        if (v1.start < v2.start)
-            return true;
-        return false;
+        return v1.start < v2.start;
     }
 };
