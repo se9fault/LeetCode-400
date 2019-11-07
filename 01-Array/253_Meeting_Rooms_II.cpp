@@ -14,7 +14,7 @@ room2: (5,10),(15,20)
 Example2
 Input: intervals = [(2,7)]
 Output: 1
-Explanation: 
+Explanation:
 Only need one meeting room
 */
 

@@ -2,43 +2,43 @@
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## Basic
 
-- [ ] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
+- [x] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
 
-- [ ] [014](014_Longest_Common_Prefix.cpp) [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
+- [x] [014](014_Longest_Common_Prefix.cpp) [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
-- [ ] [058](058_Length_of_Last_Word.cpp) [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
+- [x] [058](058_Length_of_Last_Word.cpp) [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
-- [ ] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+- [x] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
 
-- [ ] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
+- [x] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 
-- [ ] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
+- [x] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
 
-- [ ] [151](151_Reverse_Words_in_a_String.cpp) [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+- [x] [151](151_Reverse_Words_in_a_String.cpp) [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 
-- [ ] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/)
+- [x] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/) Premium
 
-- [ ] [345](345_Reverse_Vowels_of_a_String.cpp) [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
+- [x] [345](345_Reverse_Vowels_of_a_String.cpp) [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
 
-- [ ] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
+- [x] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 
-- [ ] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/)
+- [ ] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
 
-- [ ] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/)
+- [ ] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium
 
-- [ ] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+- [x]] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 
-- [ ] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+- [x] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 
-- [ ] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+- [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 
-- [ ] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/)
+- [ ] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
 
 - [ ] [087](087_Scramble_String.cpp) [Scramble String](https://leetcode.com/problems/scramble-string/description/)
 
-- [ ] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
+- [x] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
 
-- [ ] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
+- [x] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
 
 - [ ] [161](161_One_Edit_Distance.cpp) [One Edit Distance](https://leetcode.com/problems/one-edit-distance/)
 

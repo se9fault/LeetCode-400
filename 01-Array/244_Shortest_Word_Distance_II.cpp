@@ -16,7 +16,7 @@ Note:
 You may assume that word1 does not equal to word2, and word1 and word2 are both in the
 list.
 
-Solution: maintain hash table for multiple times of query. Time complexity is O(M+N), 
+Solution: maintain hash table for multiple times of query. Time complexity is O(M+N),
 in which M, N is the time two word appeared.
 */
 
@@ -39,7 +39,7 @@ public:
         }
         return res;
     }
-    
+
 private:
     unordered_map<string, vector<int>> m; // stores (word, [all appeared index])
 };
