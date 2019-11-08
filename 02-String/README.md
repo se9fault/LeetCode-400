@@ -40,23 +40,23 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
 
-- [ ] [161](161_One_Edit_Distance.cpp) [One Edit Distance](https://leetcode.com/problems/one-edit-distance/)
+- [ ] [161](161_One_Edit_Distance.cpp) [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) Premium
 
-- [ ] [038](038_Count_and_Say.cpp) [Count and Say](https://leetcode.com/problems/count-and-say/description/)
+- [x] [038](038_Count_and_Say.cpp) [Count and Say](https://leetcode.com/problems/count-and-say/description/)
 
-- [ ] [358](358_Rearrange_String_k_Distance_Apart.cpp) [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/description/)
+- [ ] [358](358_Rearrange_String_k_Distance_Apart.cpp) [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/description/) Premium
 
 - [ ] [316](316_Remove_Duplicate_Letters.cpp) [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
 
-- [ ] [271](271_Encode_and_Decode_Strings.cpp) [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/)
+- [ ] [271](271_Encode_and_Decode_Strings.cpp) [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) Premium
 
-- [ ] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
+- [x] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
 
-- [ ] [171](171_Excel_Sheet_Column_Number.cpp) [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
+- [x] [171](171_Excel_Sheet_Column_Number.cpp) [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
 
-- [ ] [013](013_Roman_to_Integer.cpp) [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
+- [x] [013](013_Roman_to_Integer.cpp) [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 
-- [ ] [012](012_Integer_to_Roman.cpp) [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
+- [x] [012](012_Integer_to_Roman.cpp) [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
 
 - [ ] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
 
@@ -72,7 +72,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [158](158_Read_N_Characters_Given_Read4_II_-_Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read04-ii-call-multiple-times/description/)
 
-- [ ] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
+- [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
 
 - [ ] [065](065_Valid_Number.cpp) [Valid Number](https://leetcode.com/problems/valid-number/description/)
 
@@ -92,11 +92,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Palindrome
 
-- [ ] [125](125_Valid_Palindrome.cpp) [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
+- [x] [125](125_Valid_Palindrome.cpp) [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 
 - [ ] [266](266_Palindrome_Permutation.cpp) [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/description/)
 
-- [ ] [005](005_Longest_Palindromic_Substring.cpp) [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
+- [x] [005](005_Longest_Palindromic_Substring.cpp) [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
 - [ ] [009](009_Palindrome_Number.cpp) [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 
