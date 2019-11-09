@@ -1,25 +1,25 @@
 # 03-Linked_List
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
-- [ ] [206](206_Reverse_Linked_List.cpp) [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+- [x] [206](206_Reverse_Linked_List.cpp) [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
-- [ ] [141](141_Linked_List_Cycle.cpp) [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+- [x] [141](141_Linked_List_Cycle.cpp) [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 
-- [ ] [024](024_Swap_Nodes_in_Pairs.cpp) [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+- [x] [024](024_Swap_Nodes_in_Pairs.cpp) [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 
-- [ ] [328](328_Odd_Even_Linked_List.cpp) [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
+- [x] [328](328_Odd_Even_Linked_List.cpp) [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
 
-- [ ] [092](092_Reverse_Linked_List_II.cpp) [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
+- [x] [092](092_Reverse_Linked_List_II.cpp) [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
 
-- [ ] [237](237_Delete_Node_in_a_Linked_List.cpp) [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+- [x] [237](237_Delete_Node_in_a_Linked_List.cpp) [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
 
-- [ ] [019](019_Remove_Nth_Node_From_End_of_List.cpp) [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+- [x] [019](019_Remove_Nth_Node_From_End_of_List.cpp) [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 
-- [ ] [083](083_Remove_Duplicates_from_Sorted_List.cpp) [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+- [x] [083](083_Remove_Duplicates_from_Sorted_List.cpp) [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 
-- [ ] [203](203_Remove_Linked_List_Elements.cpp) [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
+- [x] [203](203_Remove_Linked_List_Elements.cpp) [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
 
-- [ ] [082](082_Remove_Duplicates_from_Sorted_List_II.cpp) [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
+- [x] [082](082_Remove_Duplicates_from_Sorted_List_II.cpp) [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
 
 - [ ] [369](369_Plus_One_Linked_List.cpp) [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/)
 

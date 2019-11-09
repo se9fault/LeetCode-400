@@ -26,7 +26,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium
 
-- [x]] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+- [x] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 
 - [x] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 
