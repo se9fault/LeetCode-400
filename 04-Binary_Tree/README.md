@@ -2,23 +2,23 @@
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## Basic
 
-- [ ] [144](144_Binary_Tree_Preorder_Traversal.cpp) [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+- [x] [144](144_Binary_Tree_Preorder_Traversal.cpp) [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
 
-- [ ] [094](094_Binary_Tree_Inorder_Traversal.cpp) [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+- [x] [094](094_Binary_Tree_Inorder_Traversal.cpp) [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 
-- [ ] [145](145_Binary_Tree_Postorder_Traversal.cpp) [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
+- [x] [145](145_Binary_Tree_Postorder_Traversal.cpp) [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 
-- [ ] [102](102_Binary_Tree_Level_Order_Traversal.cpp) [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+- [x] [102](102_Binary_Tree_Level_Order_Traversal.cpp) [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 
 ## Preorder
 
-- [ ] [100](100_Same_Tree.cpp) [Same Tree](https://leetcode.com/problems/same-tree/description/)
+- [x] [100](100_Same_Tree.cpp) [Same Tree](https://leetcode.com/problems/same-tree/description/)
 
-- [ ] [101](101_Symmetric_Tree.cpp) [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
+- [x] [101](101_Symmetric_Tree.cpp) [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 
-- [ ] [226](226_Invert_Binary_Tree.cpp) [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) preorder + BFS
+- [x] [226](226_Invert_Binary_Tree.cpp) [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) preorder + BFS
 
-- [ ] [257](257_Binary_Tree_Paths.cpp) [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
+- [x] [257](257_Binary_Tree_Paths.cpp) [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
 
 - [ ] [112](112_Path_Sum.cpp) [Path Sum](https://leetcode.com/problems/path-sum/description/)
 
