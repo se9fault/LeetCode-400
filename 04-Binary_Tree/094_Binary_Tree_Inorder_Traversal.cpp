@@ -40,7 +40,7 @@ public:
         inorderTraversalStep(node->right);
     }
 #endif
-    
+
 #ifdef iterative
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -49,7 +49,7 @@ public:
             return result;
         stack<TreeNode*> s;
         TreeNode *cur = root;
-        while (cur || !s.empty()) {            
+        while (cur || !s.empty()) {
             if (cur) {
                 s.push(cur);
                 cur = cur -> left;
@@ -58,7 +58,7 @@ public:
                 s.pop();
                 result.push_back(cur->val);
                 cur = cur->right;
-            }            
+            }
         }
         return result;
     }

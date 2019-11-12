@@ -20,27 +20,27 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [257](257_Binary_Tree_Paths.cpp) [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
 
-- [ ] [112](112_Path_Sum.cpp) [Path Sum](https://leetcode.com/problems/path-sum/description/)
+- [x] [112](112_Path_Sum.cpp) [Path Sum](https://leetcode.com/problems/path-sum/description/)
 
-- [ ] [113](113_Path_Sum_II.cpp) [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)
+- [x] [113](113_Path_Sum_II.cpp) [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/) Backtracking
 
-- [ ] [129](129_Sum_Root_to_Leaf_Numbers.cpp) [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+- [x] [129](129_Sum_Root_to_Leaf_Numbers.cpp) [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
 
-- [ ] [298](298_Binary_Tree_Longest_Consecutive_Sequence.cpp) [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/)
+- [ ] [298](298_Binary_Tree_Longest_Consecutive_Sequence.cpp) [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/) Premium
 
-- [ ] [111](111_Minimum_Depth_of_Binary_Tree.cpp) [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
+- [x] [111](111_Minimum_Depth_of_Binary_Tree.cpp) [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
 
 ## Preorder
 
-- [ ] [104](104_Maximum_Depth_of_Binary_Tree.cpp) [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+- [x] [104](104_Maximum_Depth_of_Binary_Tree.cpp) [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
-- [ ] [110](110_Balanced_Binary_Tree.cpp) [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
+- [x] [110](110_Balanced_Binary_Tree.cpp) [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
 
-- [ ] [124](124_Binary_Tree_Maximum_Path_Sum.cpp) [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+- [x] [124](124_Binary_Tree_Maximum_Path_Sum.cpp) [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 
-- [ ] [250](250_Count_Univalue_Subtrees.cpp) [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/)
+- [ ] [250](250_Count_Univalue_Subtrees.cpp) [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/) Premium
 
-- [ ] [366](366_Find_Leaves_of_Binary_Tree.cpp) [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/)
+- [ ] [366](366_Find_Leaves_of_Binary_Tree.cpp) [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) Premium
 
 - [ ] [337](337_House_Robber_III.cpp) [House Robber III](https://leetcode.com/problems/house-robber-iii/description/) postorder + preorder
 
@@ -48,19 +48,19 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [107](107_Binary_Tree_Level_Order_Traversal_II.cpp) [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)
 
-- [ ] [103](103_Binary_Tree_Zigzag_Level_Order_Traversal.cpp) [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+- [x] [103](103_Binary_Tree_Zigzag_Level_Order_Traversal.cpp) [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
 
-- [ ] [199](199_Binary_Tree_Right_Side_View.cpp) [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) BFS + preorder
+- [x] [199](199_Binary_Tree_Right_Side_View.cpp) [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) BFS + preorder
 
 ## BST
 
-- [ ] [098](098_Validate_Binary_Search_Tree.cpp) [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) preorder
+- [x] [098](098_Validate_Binary_Search_Tree.cpp) [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) preorder
 
-- [ ] [235](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) preorder
+- [x] [235](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) preorder
 
 - [ ] [236](236_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp) [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) postorder
 
-- [ ] [108](108_Convert_Sorted_Array_to_Binary_Search_Tree.cpp) [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) binary search
+- [x] [108](108_Convert_Sorted_Array_to_Binary_Search_Tree.cpp) [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) Recursion
 
 - [ ] [109](109_Convert_Sorted_List_to_Binary_Search_Tree.cpp) [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) binary search
 
