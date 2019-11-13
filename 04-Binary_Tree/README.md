@@ -80,13 +80,13 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Important
 
-- [ ] [116](116_Populating_Next_Right_Pointers_in_Each_Node.cpp) [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
+- [x] [116](116_Populating_Next_Right_Pointers_in_Each_Node.cpp) [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
 
-- [ ] [117](117_Populating_Next_Right_Pointers_in_Each_Node_II.cpp) [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)
+- [x] [117](117_Populating_Next_Right_Pointers_in_Each_Node_II.cpp) [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)
 
 - [ ] [314](314_Binary_Tree_Vertical_Order_Traversal.cpp) [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)
 
-- [ ] [096](096_Unique_Binary_Search_Trees.cpp) [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
+- [x] [096](096_Unique_Binary_Search_Trees.cpp) [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
 
 ## Infrequent
 

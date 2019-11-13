@@ -3,7 +3,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [007](007_Reverse_Integer.cpp) [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 
-- [ ] [165](165_Compare_Version_Numbers.cpp) [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)
+- [x] [165](165_Compare_Version_Numbers.cpp) [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)
 
 - [ ] [066](066_Plus_One.cpp) [Plus One](https://leetcode.com/problems/plus-one/description/)
 

@@ -41,10 +41,10 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [025](025_Reverse_Nodes_in_k-Group.cpp) [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 
-- [ ] [061](061_Rotate_List.cpp) [Rotate List](https://leetcode.com/problems/rotate-list/description/)
+- [x] [061](061_Rotate_List.cpp) [Rotate List](https://leetcode.com/problems/rotate-list/description/)
 
-- [ ] [086](086_Partition_List.cpp) [Partition List](https://leetcode.com/problems/partition-list/description/)
+- [x] [086](086_Partition_List.cpp) [Partition List](https://leetcode.com/problems/partition-list/description/)
 
-- [ ] [023](023_Merge_k_Sorted_Lists.cpp) [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
+- [x] [023](023_Merge_k_Sorted_Lists.cpp) [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
 
-- [ ] [147](147_Insertion_Sort_List.cpp) [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)
+- [x] [147](147_Insertion_Sort_List.cpp) [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)
