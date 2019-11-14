@@ -2,11 +2,11 @@
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 ## One-Dimension
 
-- [ ] [070](070_Climbing_Stairs.cpp) [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
+- [x] [070](070_Climbing_Stairs.cpp) [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
 
-- [ ] [062](062_Unique_Paths.cpp) [Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+- [x] [062](062_Unique_Paths.cpp) [Unique Paths](https://leetcode.com/problems/unique-paths/description/)
 
-- [ ] [063](063_Unique_Paths_II.cpp) [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)
+- [x] [063](063_Unique_Paths_II.cpp) [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)
 
 - [ ] [120](120_Triangle.cpp) [Triangle](https://leetcode.com/problems/triangle/description/) Infrequent
 

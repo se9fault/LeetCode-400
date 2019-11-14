@@ -5,7 +5,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [165](165_Compare_Version_Numbers.cpp) [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)
 
-- [ ] [066](066_Plus_One.cpp) [Plus One](https://leetcode.com/problems/plus-one/description/)
+- [x] [066](066_Plus_One.cpp) [Plus One](https://leetcode.com/problems/plus-one/description/)
 
 - [ ] [008](008_String_to_Integer_(atoi).cpp) [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
@@ -15,9 +15,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [043](043_Multiply_Strings.cpp) [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
 
-- [ ] [029](029_Divide_Two_Integers.cpp) [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)
+- [x] [029](029_Divide_Two_Integers.cpp) [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)
 
-- [ ] [069](069_Sqrt(x).cpp) [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
+- [x] [069](069_Sqrt(x).cpp) [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
 
 - [ ] [050](050_Pow(x,_n).cpp) [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
 
@@ -31,9 +31,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [001](001_Two_Sum.cpp) [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
-- [ ] [167](167_Two_Sum_II_-_Input_array_is_sorted.cpp) [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+- [ ] [167](167_Two_Sum_II-Input_array_is_sorted.cpp) [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
-- [ ] [015](015_3Sum.cpp) [3Sum](https://leetcode.com/problems/3sum/description/)
+- [x] [015](015_3Sum.cpp) [3Sum](https://leetcode.com/problems/3sum/description/)
 
 - [ ] [016](016_3Sum_Closest.cpp) [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) Infrequent
 
@@ -59,7 +59,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [400](400_Nth_Digit.cpp) [Nth Digit](https://leetcode.com/problems/nth-digit/description/)
 
-- [ ] [263](263_Ugly_Number.cpp) [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
+- [x] [263](263_Ugly_Number.cpp) [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
 
 - [ ] [264](264_Ugly_Number_II.cpp) [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)
 
