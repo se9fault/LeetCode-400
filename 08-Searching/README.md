@@ -4,9 +4,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [278](278_First_Bad_Version.cpp) [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)
 
-- [ ] [035](035_Search_Insert_Position.cpp) [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+- [x] [035](035_Search_Insert_Position.cpp) [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 
-- [ ] [033](033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+- [x] [033](033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 
 - [ ] [081](081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
 
