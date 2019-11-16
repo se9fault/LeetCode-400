@@ -31,7 +31,7 @@ public:
                 else
                     sum[i][j] = std::min(sum[i][j-1], sum[i-1][j]) + grid[i][j];
             }
-        
+
         return sum[m-1][n-1];
     }
 };

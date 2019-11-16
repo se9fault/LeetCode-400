@@ -9,7 +9,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [150](150_Evaluate_Reverse_Polish_Notation.cpp) [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
-- [ ] [071](071_Simplify_Path.cpp) [Simplify Path](https://leetcode.com/problems/simplify-path/description/)
+- [x] [071](071_Simplify_Path.cpp) [Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 
 - [ ] [388](388_Longest_Absolute_File_Path.cpp) [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/description/)
 
@@ -21,4 +21,4 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [385](385_Mini_Parser.cpp) [Mini Parser](https://leetcode.com/problems/mini-parser/description/)
 
-- [ ] [084](084_Largest_Rectangle_in_Histogram.cpp) [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
+- [x] [084](084_Largest_Rectangle_in_Histogram.cpp) [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)

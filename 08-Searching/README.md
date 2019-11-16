@@ -14,11 +14,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [154](154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
 
-- [ ] [162](162_Find_Peak_Element.cpp) [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
+- [x] [162](162_Find_Peak_Element.cpp) [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
 
 - [ ] [374](374_Guess_Number_Higher_or_Lower.cpp) [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 
-- [ ] [034](034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+- [x] [034](034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
 - [ ] [349](349_Intersection_of_Two_Arrays.cpp) [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
 
@@ -26,26 +26,26 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [315](315_Count_of_Smaller_Numbers_After_Self.cpp) [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)
 
-- [ ] [300](300_Longest_Increasing_Subsequence.cpp) [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
+- [x] [300](300_Longest_Increasing_Subsequence.cpp) [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 
 - [ ] [354](354_Russian_Doll_Envelopes.cpp) [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 
 ## BFS/DFS
 
-- [ ] [200](200_Number_of_Islands.cpp) [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] [200](200_Number_of_Islands.cpp) [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
-- [ ] [286](286_Walls_and_Gates.cpp) [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/)
+- [ ] [286](286_Walls_and_Gates.cpp) [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) Premium
 
 - [ ] [130](130_Surrounded_Regions.cpp) [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)
 
-- [ ] [339](339_Nested_List_Weight_Sum.cpp) [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/)
+- [ ] [339](339_Nested_List_Weight_Sum.cpp) [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/) Premium
 
-- [ ] [364](364_Nested_List_Weight_Sum_II.cpp) [Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/description/)
+- [ ] [364](364_Nested_List_Weight_Sum_II.cpp) [Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/description/) Premium
 
-- [ ] [127](127_Word_Ladder.cpp) [Word Ladder](https://leetcode.com/problems/word-ladder/description/)
+- [x] [127](127_Word_Ladder.cpp) [Word Ladder](https://leetcode.com/problems/word-ladder/description/)
 
 - [ ] [051](051_N-Queens.cpp) [N-Queens](https://leetcode.com/problems/n-queens/)
 
 - [ ] [052](052_N-Queens_II.cpp) [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)
 
-- [ ] [126](126_Word_Ladder_II.cpp) [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)
+- [x] [126](126_Word_Ladder_II.cpp) [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)

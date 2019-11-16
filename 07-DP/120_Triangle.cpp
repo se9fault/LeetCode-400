@@ -24,7 +24,7 @@ public:
         return minimumTotal(0, 0, n, triangle, mem);
     }
 private:
-    int minimumTotal(int layer, int i, int n, 
+    int minimumTotal(int layer, int i, int n,
                      const vector<vector<int>>& triangle,
                      vector<vector<int>>& mem) {
         if (mem[layer][i] != 0) {
@@ -37,9 +37,9 @@ private:
             mem[layer][i] = triangle[layer][i];
             return mem[layer][i];
         }
-            
-        mem[layer][i] = triangle[layer][i] + 
-                        min(minimumTotal(layer + 1, i, n, triangle, mem), 
+
+        mem[layer][i] = triangle[layer][i] +
+                        min(minimumTotal(layer + 1, i, n, triangle, mem),
                             minimumTotal(layer + 1, i + 1, n, triangle, mem));
         return mem[layer][i];
     }

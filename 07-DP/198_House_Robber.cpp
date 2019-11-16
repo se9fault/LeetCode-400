@@ -29,7 +29,7 @@ public:
         vector<int> dp(nums.size(), -1);
         return MaxRob(nums, dp, 0);
     }
-    
+
     int MaxRob(vector<int>& nums, vector<int>& dp, int i) {
         if (i >= nums.size())
             return 0;

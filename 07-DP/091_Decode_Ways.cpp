@@ -27,7 +27,7 @@ public:
         mem[n] = 1;
         return s.empty() ? 0 : num(0, s, mem);
     }
-    
+
     int num(int i, string &s, vector<int> &mem) {
         if (mem[i] > -1)
             return mem[i];

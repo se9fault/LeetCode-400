@@ -35,7 +35,7 @@ public:
             dict.insert(str);
             maxWordLength = max((int)str.size(), maxWordLength);
         }
-        
+
         vector<bool> dp(s.size() + 1, false);
         dp[0] = true;
 
