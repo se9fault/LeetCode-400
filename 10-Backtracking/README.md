@@ -1,25 +1,25 @@
 # 10-Backtracking
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
-- [ ] [078](078_Subsets.cpp) [Subsets](https://leetcode.com/problems/subsets/description/)
+- [x] [078](078_Subsets.cpp) [Subsets](https://leetcode.com/problems/subsets/description/)
 
-- [ ] [090](090_Subsets_II.cpp) [Subsets II](https://leetcode.com/problems/subsets-ii/description/)
+- [x] [090](090_Subsets_II.cpp) [Subsets II](https://leetcode.com/problems/subsets-ii/description/)
 
 - [ ] [077](077_Combinations.cpp) [Combinations](https://leetcode.com/problems/combinations/description/)
 
-- [ ] [039](039_Combination_Sum.cpp) [Combination Sum](https://leetcode.com/problems/combination-sum/description/)
+- [x] [039](039_Combination_Sum.cpp) [Combination Sum](https://leetcode.com/problems/combination-sum/description/)
 
-- [ ] [040](040_Combination_Sum_II.cpp) [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+- [x] [040](040_Combination_Sum_II.cpp) [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
 
-- [ ] [216](216_Combination_Sum_III.cpp) [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
+- [x] [216](216_Combination_Sum_III.cpp) [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 
 - [ ] [377](377_Combination_Sum_IV.cpp) [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/) Dynamic Programming
 
 - [ ] [254](254_Factor_Combinations.cpp) [Factor Combinations](https://leetcode.com/problems/factor-combinations/description/)
 
-- [ ] [046](046_Permutations.cpp) [Permutations](https://leetcode.com/problems/permutations/description/)
+- [x] [046](046_Permutations.cpp) [Permutations](https://leetcode.com/problems/permutations/description/)
 
-- [ ] [047](047_Permutations_II.cpp) [Permutations II](https://leetcode.com/problems/permutations-ii/description/)
+- [x] [047](047_Permutations_II.cpp) [Permutations II](https://leetcode.com/problems/permutations-ii/description/)
 
 - [ ] [031](031_Next_Permutation.cpp) [Next Permutation](https://leetcode.com/problems/next-permutation/description/) String
 
