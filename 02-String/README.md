@@ -32,7 +32,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 
-- [ ] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
+- [x] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
 
 - [ ] [087](087_Scramble_String.cpp) [Scramble String](https://leetcode.com/problems/scramble-string/description/)
 
@@ -58,23 +58,23 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [012](012_Integer_to_Roman.cpp) [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
 
-- [ ] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
+- [x] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
 
-- [ ] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/)
+- [ ] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) Premium
 
-- [ ] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/)
+- [ ] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) Premium
 
-- [ ] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Infrequent
+- [ ] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Premium
 
 ## Advanced
 
-- [ ] [157](157_Read_N_Characters_Given_Read4.cpp) [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/description/)
+- [ ] [157](157_Read_N_Characters_Given_Read4.cpp) [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/description/) Premium
 
-- [ ] [158](158_Read_N_Characters_Given_Read4_II_-_Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read04-ii-call-multiple-times/description/)
+- [ ] [158](158_Read_N_Characters_Given_Read4_II_-_Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/) Premium
 
 - [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
 
-- [ ] [065](065_Valid_Number.cpp) [Valid Number](https://leetcode.com/problems/valid-number/description/)
+- [x] [065](065_Valid_Number.cpp) [Valid Number](https://leetcode.com/problems/valid-number/description/)
 
 ## Substring - Sliding Window
 
@@ -112,11 +112,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Parentheses
 
-- [ ] [020](020_Valid_Parentheses.cpp) [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+- [x] [020](020_Valid_Parentheses.cpp) [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 
-- [ ] [022](022_Generate_Parentheses.cpp) [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
+- [x] [022](022_Generate_Parentheses.cpp) [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) backtracking
 
-- [ ] [032](032_Longest_Valid_Parentheses.cpp) [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
+- [x] [032](032_Longest_Valid_Parentheses.cpp) [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
 
 - [ ] [241](241_Different_Ways_to_Add_Parentheses.cpp) [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/)
 
@@ -124,8 +124,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Subsequence
 
-- [ ] [392](392_Is_Subsequence.cpp) [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
+- [x] [392](392_Is_Subsequence.cpp) [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
 
 - [ ] [115](115_Distinct_Subsequences.cpp) [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
 
-- [ ] [187](187_Repeated_DNA_Sequences.cpp) [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/) Infrequent
+- [x] [187](187_Repeated_DNA_Sequences.cpp) [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/) Infrequent
