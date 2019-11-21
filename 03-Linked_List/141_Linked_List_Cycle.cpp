@@ -25,7 +25,6 @@ first node.
 |-----|
 
 Example 3:
-
 Input: head = [1], pos = -1
 Output: false
 Explanation: There is no cycle in the linked list.

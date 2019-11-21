@@ -21,21 +21,21 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [082](082_Remove_Duplicates_from_Sorted_List_II.cpp) [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
 
-- [ ] [369](369_Plus_One_Linked_List.cpp) [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/)
+- [x] [369](369_Plus_One_Linked_List.cpp) [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/) Premium
 
-- [ ] [002](002_Add_Two_Numbers.cpp) [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+- [x] [002](002_Add_Two_Numbers.cpp) [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
-- [ ] [160](160_Intersection_of_Two_Linked_Lists.cpp) [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
+- [x] [160](160_Intersection_of_Two_Linked_Lists.cpp) [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
-- [ ] [021](021_Merge_Two_Sorted_Lists.cpp) [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+- [x] [021](021_Merge_Two_Sorted_Lists.cpp) [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 
 ## Advanced
 
-- [ ] [234](234_Palindrome_Linked_List.cpp) [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+- [x] [234](234_Palindrome_Linked_List.cpp) [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 
-- [ ] [143](143_Reorder_List.cpp) [Reorder List](https://leetcode.com/problems/reorder-list/description/)
+- [x] [143](143_Reorder_List.cpp) [Reorder List](https://leetcode.com/problems/reorder-list/description/)
 
-- [ ] [142](142_Linked_List_Cycle_II.cpp) [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
+- [x] [142](142_Linked_List_Cycle_II.cpp) [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 
 - [ ] [148](148_Sort_List.cpp) [Sort List](https://leetcode.com/problems/sort-list/description/)
 
