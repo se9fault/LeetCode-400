@@ -82,7 +82,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [030](030_Substring_with_Concatenation_of_All_Words.cpp) [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
 
-- [ ] [003](003_Longest_Substring_Without_Repeating_Characters.cpp) [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- [x] [003](003_Longest_Substring_Without_Repeating_Characters.cpp) [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
 - [ ] [340](340_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp) [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
 

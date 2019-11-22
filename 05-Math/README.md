@@ -1,13 +1,13 @@
 # 05-Math
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
-- [ ] [007](007_Reverse_Integer.cpp) [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+- [x] [007](007_Reverse_Integer.cpp) [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
 
 - [x] [165](165_Compare_Version_Numbers.cpp) [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/)
 
 - [x] [066](066_Plus_One.cpp) [Plus One](https://leetcode.com/problems/plus-one/description/)
 
-- [ ] [008](008_String_to_Integer_(atoi).cpp) [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
+- [x] [008](008_String_to_Integer_(atoi).cpp) [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
 - [ ] [258](258_Add_Digits.cpp) [Add Digits](https://leetcode.com/problems/add-digits/description/)
 
@@ -35,7 +35,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [015](015_3Sum.cpp) [3Sum](https://leetcode.com/problems/3sum/description/)
 
-- [ ] [016](016_3Sum_Closest.cpp) [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) Infrequent
+- [x] [016](016_3Sum_Closest.cpp) [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) Infrequent
 
 - [ ] [259](259_3Sum_Smaller.cpp) [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/) Infrequent
 

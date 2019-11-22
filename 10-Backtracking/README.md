@@ -27,7 +27,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [291](291_Word_Pattern_II.cpp) [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/description/)
 
-- [ ] [017](017_Letter_Combinations_of_a_Phone_Number.cpp) [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
+- [x] [017](017_Letter_Combinations_of_a_Phone_Number.cpp) [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 
 - [ ] [320](320_Generalized_Abbreviation.cpp) [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/description/)
 

@@ -37,7 +37,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [142](142_Linked_List_Cycle_II.cpp) [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 
-- [ ] [148](148_Sort_List.cpp) [Sort List](https://leetcode.com/problems/sort-list/description/)
+- [x] [148](148_Sort_List.cpp) [Sort List](https://leetcode.com/problems/sort-list/description/)
 
 - [ ] [025](025_Reverse_Nodes_in_k-Group.cpp) [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 
