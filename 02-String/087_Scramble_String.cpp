@@ -34,7 +34,8 @@ r   g  ta  e
        / \
       t   a
 We say that "rgtae" is a scrambled string of "great".
-Given two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.
+Given two strings s1 and s2 of the same length, determine if s2 is a scrambled
+string of s1.
 
 Example 1:
 Input: s1 = "great", s2 = "rgeat"
