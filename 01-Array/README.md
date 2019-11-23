@@ -173,19 +173,19 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [074](074_Search_a_2D_Matrix.cpp) [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
 
-- [ ] [240](240_Search_a_2D_Matrix_II.cpp) [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)
+- [x] [240](240_Search_a_2D_Matrix_II.cpp) [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)
 
-- [ ] [370](370_Range_Addition.cpp) [Range Addition](https://leetcode.com/problems/range-addition/description/)
+- [ ] [370](370_Range_Addition.cpp) [Range Addition](https://leetcode.com/problems/range-addition/description/) Premium
 
-- [x] [079](079_Word_Search.cpp) [Word Search](https://leetcode.com/problems/word-search/description/)
+- [x] [079](079_Word_Search.cpp) [Word Search](https://leetcode.com/problems/word-search/description/) dfs
 
-- [ ] [296](296_Best_Meeting_Point.cpp) [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/)
+- [ ] [296](296_Best_Meeting_Point.cpp) [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/) Premium
 
-- [ ] [361](361_Bomb_Enemy.cpp) [Bomb Enemy](https://leetcode.com/problems/bomb-enemy/description/)
+- [ ] [361](361_Bomb_Enemy.cpp) [Bomb Enemy](https://leetcode.com/problems/bomb-enemy/description/) Premium
 
-- [ ] [317](317_Shortest_Distance_from_All_Buildings.cpp) [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/description/)
+- [ ] [317](317_Shortest_Distance_from_All_Buildings.cpp) [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/description/) Premium
 
-- [ ] [302](302_Smallest_Rectangle_Enclosing_Black_Pixels.cpp) [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/description/)
+- [ ] [302](302_Smallest_Rectangle_Enclosing_Black_Pixels.cpp) [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/description/) Premium
 
 - [x] [036](036_Valid_Sudoku.cpp) [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 

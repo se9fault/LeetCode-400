@@ -39,7 +39,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [148](148_Sort_List.cpp) [Sort List](https://leetcode.com/problems/sort-list/description/)
 
-- [ ] [025](025_Reverse_Nodes_in_k-Group.cpp) [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
+- [x] [025](025_Reverse_Nodes_in_k-Group.cpp) [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 
 - [x] [061](061_Rotate_List.cpp) [Rotate List](https://leetcode.com/problems/rotate-list/description/)
 
