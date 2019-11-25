@@ -22,6 +22,6 @@ n is a 32-bit signed integer, within the range [−2^31, 2^31 − 1]
 class Solution {
 public:
     double myPow(double x, int n) {
-        
+
     }
 };

@@ -1,3 +1,8 @@
+/*
+Given a non-negative integer numRows, generate the first numRows of Pascal's
+triangle.
+*/
+
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {

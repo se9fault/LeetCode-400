@@ -22,7 +22,7 @@ public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode dummy(0), *prev = &dummy, *last;
         dummy.next = head;
-        
+
         // 0       -> 1 -> 2      -> 3 -> 4 -> 5, k = 2, swapping 1->2
         // ^prev           ^last
         while (prev->next != nullptr) {

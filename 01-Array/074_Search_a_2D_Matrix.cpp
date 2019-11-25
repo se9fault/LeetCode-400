@@ -38,7 +38,7 @@ public:
             return false;
         int m = matrix.size(), n = matrix[0].size();
         int start = 0, end = m * n - 1;
-        
+
         while (start <= end) {
             int mid = start + (end - start)/2;
             int e = matrix[mid/n][mid%n];
