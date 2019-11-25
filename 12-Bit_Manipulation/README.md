@@ -1,9 +1,9 @@
 # 12-Bit_Manipulation
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
-- [ ] [389](389_Find_the_Difference.cpp) [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
+- [x] [136](136_Single_Number.cpp) [Single Number](https://leetcode.com/problems/single-number/description/)
 
-- [ ] [136](136_Single_Number.cpp) [Single Number](https://leetcode.com/problems/single-number/description/)
+- [x] [389](389_Find_the_Difference.cpp) [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)
 
 - [ ] [318](318_Maximum_Product_of_Word_Lengths.cpp) [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/) Infrequent
 
@@ -19,7 +19,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [268](268_Missing_Number.cpp) [Missing Number](https://leetcode.com/problems/missing-number/description/)
 
-- [ ] [191](191_Number_of_1_Bits.cpp) [Number of 1 Bits](https://leetcode.com/problems/number-of-01-bits/description/)
+- [x] [191](191_Number_of_1_Bits.cpp) [Number of 1 Bits](https://leetcode.com/problems/number-of-01-bits/description/)
 
 - [ ] [190](190_Reverse_Bits.cpp) [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)
 

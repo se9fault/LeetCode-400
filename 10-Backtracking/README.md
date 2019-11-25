@@ -31,7 +31,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [320](320_Generalized_Abbreviation.cpp) [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/description/)
 
-- [ ] [093](093_Restore_IP_Addresses.cpp) [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/) Infrequent
+- [x] [093](093_Restore_IP_Addresses.cpp) [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/) Infrequent
 
 - [ ] [282](282_Expression_Add_Operators.cpp) [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)
 

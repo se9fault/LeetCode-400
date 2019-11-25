@@ -167,7 +167,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [311](311_Sparse_Matrix_Multiplication.cpp) [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/description/) Premium
 
-- [ ] [329](329_Longest_Increasing_Path_in_a_Matrix.cpp) [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
+- [x] [329](329_Longest_Increasing_Path_in_a_Matrix.cpp) [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)
 
 - [ ] [378](378_Kth_Smallest_Element_in_a_Sorted_Matrix.cpp) [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
 

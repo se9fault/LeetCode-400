@@ -43,9 +43,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [231](231_Power_of_Two.cpp) [Power of Two](https://leetcode.com/problems/power-of-two/description/)
 
-- [ ] [326](326_Power_of_Three.cpp) [Power of Three](https://leetcode.com/problems/power-of-three/description/)
+- [x] [326](326_Power_of_Three.cpp) [Power of Three](https://leetcode.com/problems/power-of-three/description/)
 
-- [ ] [342](342_Power_of_Four.cpp) [Power of Four](https://leetcode.com/problems/power-of-four/description/)
+- [x] [342](342_Power_of_Four.cpp) [Power of Four](https://leetcode.com/problems/power-of-four/description/)
 
 - [ ] [372](372_Super_Pow.cpp) [Super Pow](https://leetcode.com/problems/super-pow/description/)
 
