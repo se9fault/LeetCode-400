@@ -55,7 +55,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [292](292_Nim_Game.cpp) [Nim Game](https://leetcode.com/problems/nim-game/description/)
 
-- [ ] [202](202_Happy_Number.cpp) [Happy Number](https://leetcode.com/problems/happy-number/description/)
+- [x] [202](202_Happy_Number.cpp) [Happy Number](https://leetcode.com/problems/happy-number/description/)
 
 - [ ] [400](400_Nth_Digit.cpp) [Nth Digit](https://leetcode.com/problems/nth-digit/description/)
 

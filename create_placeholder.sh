@@ -399,7 +399,7 @@ touch 136_Single_Number.cpp
 touch 318_Maximum_Product_of_Word_Lengths.cpp
 touch 393_UTF-8_Validation.cpp
 touch 201_Bitwise_AND_of_Numbers_Range.cpp
-touch 371_Sum_of_Two_Integers_emove_Element.cpp
+touch 371_Sum_of_Two_Integers.cpp
 touch 338_Counting_Bits.cpp
 touch 089_Gray_Code.cpp
 touch 268_Missing_Number.cpp
