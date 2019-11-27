@@ -14,7 +14,7 @@ private:
 public:
     /** initialize your data structure here. */
     MinStack() {}
-    
+
     void push(int x) {
         oriStack.push(x);
         if (minStack.empty()) {
@@ -24,16 +24,16 @@ public:
             minStack.push(min(x, top));
         }
     }
-    
+
     void pop() {
         oriStack.pop();
         minStack.pop();
     }
-    
+
     int top() {
         return oriStack.top();
     }
-    
+
     int getMin() {
         return minStack.top();
     }

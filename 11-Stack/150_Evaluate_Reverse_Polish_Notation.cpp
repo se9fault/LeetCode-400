@@ -21,7 +21,7 @@ Explanation: (4 + (13 / 5)) = 6
 Example 3:
 Input: ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
 Output: 22
-Explanation: 
+Explanation:
   ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 = ((10 * (6 / (12 * -11))) + 17) + 5
 = ((10 * (6 / -132)) + 17) + 5
@@ -34,6 +34,6 @@ Explanation:
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        
+
     }
 };

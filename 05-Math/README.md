@@ -29,9 +29,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Sum
 
-- [ ] [001](001_Two_Sum.cpp) [Two Sum](https://leetcode.com/problems/two-sum/description/)
+- [x] [001](001_Two_Sum.cpp) [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
-- [ ] [167](167_Two_Sum_II-Input_array_is_sorted.cpp) [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+- [x] [167](167_Two_Sum_II-Input_array_is_sorted.cpp) [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
 - [x] [015](015_3Sum.cpp) [3Sum](https://leetcode.com/problems/3sum/description/)
 
@@ -41,19 +41,19 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [018](018_4Sum.cpp) [4Sum](https://leetcode.com/problems/4sum/description/) Infrequent
 
-- [ ] [231](231_Power_of_Two.cpp) [Power of Two](https://leetcode.com/problems/power-of-two/description/)
+- [x] [231](231_Power_of_Two.cpp) [Power of Two](https://leetcode.com/problems/power-of-two/description/)
 
 - [x] [326](326_Power_of_Three.cpp) [Power of Three](https://leetcode.com/problems/power-of-three/description/)
 
 - [x] [342](342_Power_of_Four.cpp) [Power of Four](https://leetcode.com/problems/power-of-four/description/)
 
-- [ ] [372](372_Super_Pow.cpp) [Super Pow](https://leetcode.com/problems/super-pow/description/)
+- [x] [372](372_Super_Pow.cpp) [Super Pow](https://leetcode.com/problems/super-pow/description/)
 
-- [ ] [233](233_Number_of_Digit_One.cpp) [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/description/)
+- [x] [233](233_Number_of_Digit_One.cpp) [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/description/) Infrequent
 
-- [ ] [319](319_Bulb_Switcher.cpp) [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)
+- [x] [319](319_Bulb_Switcher.cpp) [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)
 
-- [ ] [292](292_Nim_Game.cpp) [Nim Game](https://leetcode.com/problems/nim-game/description/)
+- [x] [292](292_Nim_Game.cpp) [Nim Game](https://leetcode.com/problems/nim-game/description/)
 
 - [x] [202](202_Happy_Number.cpp) [Happy Number](https://leetcode.com/problems/happy-number/description/)
 
@@ -65,7 +65,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [306](306_Additive_Number.cpp) [Additive Number](https://leetcode.com/problems/additive-number/description/)
 
-- [ ] [172](172_Factorial_Trailing_Zeroes.cpp) [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
+- [x] [172](172_Factorial_Trailing_Zeroes.cpp) [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
 
 - [ ] [343](343_Integer_Break.cpp) [Integer Break](https://leetcode.com/problems/integer-break/description/)
 
@@ -77,7 +77,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [357](357_Count_Numbers_with_Unique_Digits.cpp) [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
 
-- [ ] [360](360_Sort_Transformed_Array.cpp) [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/description/)
+- [ ] [360](360_Sort_Transformed_Array.cpp) [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/description/) Premium
 
 - [ ] [397](397_Integer_Replacement.cpp) [Integer Replacement](https://leetcode.com/problems/integer-replacement/description/)
 

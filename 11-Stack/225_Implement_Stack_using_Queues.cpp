@@ -28,12 +28,12 @@ public:
         data = &q1;
         help = &q2;
     }
-    
+
     /** Push element x onto stack. */
     void push(int x) {
         data->push(x);
     }
-    
+
     /** Removes the element on top of the stack and returns that element. */
     int pop() {
         int n = data->size();
@@ -47,7 +47,7 @@ public:
         swap(data, help);
         return ans;
     }
-    
+
     /** Get the top element. */
     int top() {
         int n = data->size();
@@ -60,7 +60,7 @@ public:
         swap(data, help);
         return ans;
     }
-    
+
     /** Returns whether the stack is empty. */
     bool empty() {
         return data->empty();

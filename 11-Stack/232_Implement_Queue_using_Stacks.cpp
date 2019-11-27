@@ -24,12 +24,12 @@ private:
 public:
     /** Initialize your data structure here. */
     MyQueue() {}
-    
+
     /** Push element x to the back of queue. */
     void push(int x) {
         pushStack.push(x);
     }
-    
+
     /** Removes the element from in front of queue and returns that element. */
     int pop() {
         if (popStack.empty()) {
@@ -43,7 +43,7 @@ public:
         popStack.pop();
         return temp;
     }
-    
+
     /** Get the front element. */
     int peek() {
         if (popStack.empty()) {
@@ -56,7 +56,7 @@ public:
         int temp = popStack.top();
         return temp;
     }
-    
+
     /** Returns whether the queue is empty. */
     bool empty() {
         return (pushStack.empty() && popStack.empty());
