@@ -7,7 +7,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp) [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
 
-- [ ] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Premium
+- [x] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Premium
 
 - [x] [189](189_Rotate_Array.cpp) [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
 
@@ -67,9 +67,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [287](287_Find_the_Duplicate_Number.cpp) [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
 
-- [ ] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/) Infrequent
+- [x] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/) Infrequent
 
-- [ ] [330](330_Patching_Array.cpp) [Patching Array](https://leetcode.com/problems/patching-array/description/) Infrequent
+- [x] [330](330_Patching_Array.cpp) [Patching Array](https://leetcode.com/problems/patching-array/description/) Infrequent
 
 ## Advanced
 
@@ -111,7 +111,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [228](228_Summary_Ranges.cpp) [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
 
-- [ ] [163](163_Missing_Ranges.cpp) [Missing Ranges](https://leetcode.com/problems/missing-ranges/description/)
+- [ ] [163](163_Missing_Ranges.cpp) [Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) Premium
 
 ## Counter
 
@@ -123,13 +123,13 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [376](376_Wiggle_Subsequence.cpp) [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)
 
-- [ ] [280](280_Wiggle_Sort.cpp) [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/)
+- [ ] [280](280_Wiggle_Sort.cpp) [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/) Premium
 
 - [ ] [324](324_Wiggle_Sort_II.cpp) [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)
 
-- [ ] [278](278_First_Bad_Version.cpp) [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)
+- [x] [278](278_First_Bad_Version.cpp) [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) binary search
 
-- [ ] [035](035_Search_Insert_Position.cpp) [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+- [x] [035](035_Search_Insert_Position.cpp) [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) binary search
 
 - [x] [033](033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 
@@ -141,7 +141,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [162](162_Find_Peak_Element.cpp) [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
 
-- [ ] [374](374_Guess_Number_Higher_or_Lower.cpp) [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
+- [x] [374](374_Guess_Number_Higher_or_Lower.cpp) [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
 
 - [x] [034](034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
