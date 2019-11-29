@@ -84,21 +84,21 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [003](003_Longest_Substring_Without_Repeating_Characters.cpp) [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
-- [ ] [340](340_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp) [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)
+- [ ] [340](340_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp) [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) Premium
 
 - [ ] [395](395_Longest_Substring_with_At_Least_K_Repeating_Characters.cpp) [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)
 
-- [ ] [159](159_Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/)
+- [ ] [159](159_Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/) Premium
 
 ## Palindrome
 
 - [x] [125](125_Valid_Palindrome.cpp) [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 
-- [ ] [266](266_Palindrome_Permutation.cpp) [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/description/)
+- [x] [266](266_Palindrome_Permutation.cpp) [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/description/) Premium
 
 - [x] [005](005_Longest_Palindromic_Substring.cpp) [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
-- [ ] [009](009_Palindrome_Number.cpp) [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+- [x] [009](009_Palindrome_Number.cpp) [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 
 - [ ] [214](214_Shortest_Palindrome.cpp) [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/)
 
@@ -108,7 +108,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [132](132_Palindrome_Partitioning_II.cpp) [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
 
-- [ ] [267](267_Palindrome_Permutation_II.cpp) [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/description/)
+- [ ] [267](267_Palindrome_Permutation_II.cpp) [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/description/) Premium
 
 ## Parentheses
 

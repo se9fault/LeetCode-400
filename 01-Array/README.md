@@ -145,13 +145,13 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [034](034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
-- [ ] [349](349_Intersection_of_Two_Arrays.cpp) [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
+- [x] [349](349_Intersection_of_Two_Arrays.cpp) [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
 
-- [ ] [350](350_Intersection_of_Two_Arrays_II.cpp) [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)
+- [x] [350](350_Intersection_of_Two_Arrays_II.cpp) [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)
 
 - [ ] [315](315_Count_of_Smaller_Numbers_After_Self.cpp) [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)
 
-- [ ] [300](300_Longest_Increasing_Subsequence.cpp) [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
+- [x] [300](300_Longest_Increasing_Subsequence.cpp) [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 
 - [ ] [354](354_Russian_Doll_Envelopes.cpp) [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 
