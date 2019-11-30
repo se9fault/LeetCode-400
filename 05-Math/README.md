@@ -57,21 +57,21 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [202](202_Happy_Number.cpp) [Happy Number](https://leetcode.com/problems/happy-number/description/)
 
-- [ ] [400](400_Nth_Digit.cpp) [Nth Digit](https://leetcode.com/problems/nth-digit/description/)
+- [x] [400](400_Nth_Digit.cpp) [Nth Digit](https://leetcode.com/problems/nth-digit/description/)
 
 - [x] [263](263_Ugly_Number.cpp) [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
 
-- [ ] [264](264_Ugly_Number_II.cpp) [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)
+- [x] [264](264_Ugly_Number_II.cpp) [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)
 
-- [ ] [306](306_Additive_Number.cpp) [Additive Number](https://leetcode.com/problems/additive-number/description/)
+- [x] [306](306_Additive_Number.cpp) [Additive Number](https://leetcode.com/problems/additive-number/description/)
 
 - [x] [172](172_Factorial_Trailing_Zeroes.cpp) [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
 
-- [ ] [343](343_Integer_Break.cpp) [Integer Break](https://leetcode.com/problems/integer-break/description/)
+- [x] [343](343_Integer_Break.cpp) [Integer Break](https://leetcode.com/problems/integer-break/description/)
 
-- [ ] [396](396_Rotate_Function.cpp) [Rotate Function](https://leetcode.com/problems/rotate-function/description/)
+- [x] [396](396_Rotate_Function.cpp) [Rotate Function](https://leetcode.com/problems/rotate-function/description/)
 
-- [ ] [390](390_Elimination_Game.cpp) [Elimination Game](https://leetcode.com/problems/elimination-game/description/)
+- [x] [390](390_Elimination_Game.cpp) [Elimination Game](https://leetcode.com/problems/elimination-game/description/)
 
 - [ ] [386](386_Lexicographical_Numbers.cpp) [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)
 

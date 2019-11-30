@@ -70,7 +70,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [297](297_Serialize_and_Deserialize_Binary_Tree.cpp) [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) BFS
 
-- [ ] [285](285_Inorder_Successor_in_BST.cpp) [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) inorder
+- [ ] [285](285_Inorder_Successor_in_BST.cpp) [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) inorder Premium
 
 - [x] [270](270_Closest_Binary_Search_Tree_Value.cpp) [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/description/) preorder Premium
 
@@ -84,19 +84,19 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [117](117_Populating_Next_Right_Pointers_in_Each_Node_II.cpp) [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)
 
-- [ ] [314](314_Binary_Tree_Vertical_Order_Traversal.cpp) [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)
+- [ ] [314](314_Binary_Tree_Vertical_Order_Traversal.cpp) [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/) Premium
 
 - [x] [096](096_Unique_Binary_Search_Trees.cpp) [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
 
 ## Infrequent
 
-- [ ] [156](156_Binary_Tree_Upside_Down.cpp) [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/description/)
+- [ ] [156](156_Binary_Tree_Upside_Down.cpp) [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/description/) Premium
 
 - [ ] [114](114_Flatten_Binary_Tree_to_Linked_List.cpp) [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)
 
-- [ ] [255](255_Verify_Preorder_Sequence_in_Binary_Search_Tree.cpp) [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/description/)
+- [ ] [255](255_Verify_Preorder_Sequence_in_Binary_Search_Tree.cpp) [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/description/) Premium
 
-- [ ] [333](333_Largest_BST_Subtree.cpp) [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/description/)
+- [ ] [333](333_Largest_BST_Subtree.cpp) [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/description/) Premium
 
 - [ ] [222](222_Count_Complete_Tree_Nodes.cpp) [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)
 
