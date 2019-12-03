@@ -9,9 +9,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [008](008_String_to_Integer_(atoi).cpp) [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
-- [ ] [258](258_Add_Digits.cpp) [Add Digits](https://leetcode.com/problems/add-digits/description/)
+- [x] [258](258_Add_Digits.cpp) [Add Digits](https://leetcode.com/problems/add-digits/description/)
 
-- [ ] [067](067_Add_Binary.cpp) [Add Binary](https://leetcode.com/problems/add-binary/description/)
+- [x] [067](067_Add_Binary.cpp) [Add Binary](https://leetcode.com/problems/add-binary/description/)
 
 - [ ] [043](043_Multiply_Strings.cpp) [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
 
@@ -19,13 +19,13 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [069](069_Sqrt(x).cpp) [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
 
-- [ ] [050](050_Pow(x,_n).cpp) [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
+- [x] [050](050_Pow(x,_n).cpp) [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
 
 - [ ] [367](367_Valid_Perfect_Square.cpp) [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)
 
 - [ ] [365](365_Water_and_Jug_Problem.cpp) [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)
 
-- [ ] [204](204_Count_Primes.cpp) [Count Primes](https://leetcode.com/problems/count-primes/description/)
+- [x] [204](204_Count_Primes.cpp) [Count Primes](https://leetcode.com/problems/count-primes/description/)
 
 ## Sum
 
@@ -73,12 +73,12 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [390](390_Elimination_Game.cpp) [Elimination Game](https://leetcode.com/problems/elimination-game/description/)
 
-- [ ] [386](386_Lexicographical_Numbers.cpp) [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)
+- [x] [386](386_Lexicographical_Numbers.cpp) [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)
 
-- [ ] [357](357_Count_Numbers_with_Unique_Digits.cpp) [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
+- [x] [357](357_Count_Numbers_with_Unique_Digits.cpp) [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/)
 
-- [ ] [360](360_Sort_Transformed_Array.cpp) [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/description/) Premium
+- [x] [360](360_Sort_Transformed_Array.cpp) [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/description/) Premium
 
-- [ ] [397](397_Integer_Replacement.cpp) [Integer Replacement](https://leetcode.com/problems/integer-replacement/description/)
+- [x] [397](397_Integer_Replacement.cpp) [Integer Replacement](https://leetcode.com/problems/integer-replacement/description/)
 
 - [ ] [368](368_Largest_Divisible_Subset.cpp) [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
