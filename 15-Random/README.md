@@ -3,7 +3,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [384](384_Shuffle_an_Array.cpp) [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
 
-- [ ] [398](398_Random_Pick_Index.cpp) [Random Pick Index](https://leetcode.com/problems/random-pick-index/)
+- [x] [398](398_Random_Pick_Index.cpp) [Random Pick Index](https://leetcode.com/problems/random-pick-index/)
 
 - [ ] [382](382_Linked_List_Random_Node.cpp) [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
 
