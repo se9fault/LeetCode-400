@@ -1,5 +1,5 @@
 # LeetCode-400
-C++11 Solution for LeetCode 400, by Zhiqi He
+C++11 Solution for LeetCode 400
 
 
 ## Classification
