@@ -22,9 +22,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 
-- [ ] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
+- [x] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
 
-- [ ] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium
+- [x] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium
 
 - [x] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 
@@ -40,7 +40,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
 
-- [ ] [161](161_One_Edit_Distance.cpp) [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) Premium
+- [x] [161](161_One_Edit_Distance.cpp) [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) Premium
 
 - [x] [038](038_Count_and_Say.cpp) [Count and Say](https://leetcode.com/problems/count-and-say/description/)
 
@@ -60,17 +60,17 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
 
-- [ ] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) Premium
+- [x] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) Premium
 
-- [ ] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) Premium
+- [x] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) Premium
 
-- [ ] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Premium
+- [x] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Premium
 
 ## Advanced
 
-- [ ] [157](157_Read_N_Characters_Given_Read4.cpp) [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/description/) Premium
+- [x] [157](157_Read_N_Characters_Given_Read4.cpp) [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/description/) Premium
 
-- [ ] [158](158_Read_N_Characters_Given_Read4_II_-_Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/) Premium
+- [x] [158](158_Read_N_Characters_Given_Read4_II-Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/) Premium
 
 - [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
 
