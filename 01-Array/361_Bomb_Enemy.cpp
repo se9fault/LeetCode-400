@@ -16,7 +16,8 @@ return 3. (Placing a bomb at (1,1) kills 3 enemies)
 class Solution {
 public:
     int maxKilledEnemies(vector<vector<char>>& grid) {
-        if (grid.empty() || grid[0].empty()) return 0;
+        if (grid.empty() || grid[0].empty())
+            return 0;
         int m = grid.size(), n = grid[0].size(), res = 0;
         vector<vector<int>> v1(m, vector<int>(n, 0)), v2 = v1, v3 = v1, v4 = v1;
         for (int i = 0; i < m; ++i) {

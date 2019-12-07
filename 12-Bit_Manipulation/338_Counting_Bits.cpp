@@ -18,7 +18,8 @@ __builtin_popcount in c++ or in any other language.
 class Solution {
 public:
     vector<int> countBits(int num) {
-        if (num == 0) return {0};
+        if (num == 0)
+	        return {0};
         vector<int> ans{0, 1};
         int k = 2, i = 2;
         while (i <= num) {

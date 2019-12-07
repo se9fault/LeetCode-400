@@ -59,7 +59,8 @@ public:
             paths.pop();
             if (path.size() > level) {
                 // reach a new level
-                for (string w : visited) wordList.erase(w);
+                for (string w : visited)
+                    wordList.erase(w);
                 visited.clear();
                 if (path.size() > minLevel)
                     break;
