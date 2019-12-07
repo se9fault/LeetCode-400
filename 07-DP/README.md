@@ -10,7 +10,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [120](120_Triangle.cpp) [Triangle](https://leetcode.com/problems/triangle/description/) Infrequent
 
-- [ ] [279](279_Perfect_Squares.cpp) [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)
+- [x] [279](279_Perfect_Squares.cpp) [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)
 
 - [x] [139](139_Word_Break.cpp) [Word Break](https://leetcode.com/problems/word-break/)
 
@@ -50,6 +50,6 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [091](091_Decode_Ways.cpp) [Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 
-- [ ] [010](010_Regular_Expression_Matching.cpp) [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
+- [x] [010](010_Regular_Expression_Matching.cpp) [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 
 - [ ] [044](044_Wildcard_Matching.cpp) [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)

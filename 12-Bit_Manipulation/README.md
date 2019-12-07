@@ -13,7 +13,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [371](371_Sum_of_Two_Integers.cpp) [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)
 
-- [ ] [338](338_Counting_Bits.cpp) [Counting Bits](https://leetcode.com/problems/counting-bits/description/)
+- [x] [338](338_Counting_Bits.cpp) [Counting Bits](https://leetcode.com/problems/counting-bits/description/)
 
 - [ ] [089](089_Gray_Code.cpp) [Gray Code](https://leetcode.com/problems/gray-code/description/)
 

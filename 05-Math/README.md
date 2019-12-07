@@ -21,9 +21,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [050](050_Pow(x,_n).cpp) [Pow(x, n)](https://leetcode.com/problems/powx-n/description/)
 
-- [ ] [367](367_Valid_Perfect_Square.cpp) [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)
+- [x] [367](367_Valid_Perfect_Square.cpp) [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)
 
-- [ ] [365](365_Water_and_Jug_Problem.cpp) [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)
+- [x] [365](365_Water_and_Jug_Problem.cpp) [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)
 
 - [x] [204](204_Count_Primes.cpp) [Count Primes](https://leetcode.com/problems/count-primes/description/)
 

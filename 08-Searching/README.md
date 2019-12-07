@@ -34,7 +34,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [200](200_Number_of_Islands.cpp) [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
-- [ ] [286](286_Walls_and_Gates.cpp) [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) Premium
+- [x] [286](286_Walls_and_Gates.cpp) [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) Premium
 
 - [ ] [130](130_Surrounded_Regions.cpp) [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)
 
