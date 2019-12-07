@@ -24,7 +24,7 @@ Output: -1->0->3->4->5
 class Solution {
 public:
     ListNode* insertionSortList(ListNode* head) {
-        if (!head || head->next == nullptr) {
+        if (head == nullptr || head->next == nullptr) {
             return head;
         }
         ListNode *dummy = new ListNode(0);

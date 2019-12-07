@@ -36,7 +36,7 @@ public:
 class Solution {
 public:
     Node* cloneGraph(Node* node) {
-        if (!node)
+        if (node == nullptr)
             return nullptr;
         Node* copy = new Node(node->val, {}); // 遍历的节点都是已经分配好的
         unordered_map<Node*, Node*> mapping;

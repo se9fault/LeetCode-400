@@ -34,7 +34,7 @@ and j?
 Update only the first and end element is sufficient.
 The optimal time complexity is O(k+n) and uses O(1) extra space.
 */
- 
+
 class Solution {
 public:
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) {

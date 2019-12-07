@@ -37,7 +37,7 @@ public:
 class Solution {
 public:
     Node* connect(Node* root) {
-        if (!root)
+        if (root == nullptr)
             return root;
         Node *prevLayer = root;
 

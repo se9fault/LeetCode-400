@@ -12,7 +12,8 @@ public:
         int res = 0;
         vector<bool> prime(n, true);
         for (int i = 2; i < n; ++i) {
-            if (!prime[i]) continue;
+            if (!prime[i])
+                continue;
             ++res; // combined sift and count
             for (int j = 2; i * j < n; ++j) {
                 prime[i * j] = false;

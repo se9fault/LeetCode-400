@@ -27,7 +27,7 @@ class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         vector<vector<int>> result;
-        if (!root)
+        if (root == nullptr)
             return result;
         std::queue<TreeNode*> q;
         q.push(root);

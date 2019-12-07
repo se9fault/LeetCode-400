@@ -44,7 +44,7 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 class Solution {
 public:
     int sumNumbers(TreeNode* root) {
-        if (!root)
+        if (root == nullptr)
             return 0;
         constructToLeaf(root, 0);
         return sum;

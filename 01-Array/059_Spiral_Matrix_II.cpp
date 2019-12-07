@@ -13,7 +13,7 @@ Output:
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
-        vector<vector<int>> res(n, vector<int> (n, 0));
+        vector<vector<int>> ans(n, vector<int> (n, 0));
         int left, right, top, down, index;
         left = top = index = 0, right = down = n-1;
         // 1,2,3
@@ -21,19 +21,19 @@ public:
         // 7,6,5
         while (left <= right && top <= down) {
             for (int j = left; j <= right; j++)
-                res[top][j] = ++index;   // 1,2,3
+                ans[top][j] = ++index;   // 1,2,3
             top++;
             for (int i = top; i <= down; i++)
-                res[i][right] = ++index; // 4,5
+                ans[i][right] = ++index; // 4,5
             right--;
             for (int j = right; j >= left; j--)
-                res[down][j] = ++index;  // 6,7
+                ans[down][j] = ++index;  // 6,7
             down--;
             for (int i = down; i >= top; i--)
-                res[i][left] = ++index;  // 8
+                ans[i][left] = ++index;  // 8
             left++;
         }
-        return res;
+        return ans;
     }
 
 private:

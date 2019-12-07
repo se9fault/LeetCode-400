@@ -46,7 +46,7 @@ public:
         while (slow != nullptr && fast != nullptr) {
             slow = slow->next;
             fast = fast->next;
-            if (!fast)
+            if (fast == nullptr)
                 return false;
             fast = fast->next;
             if (slow == fast)

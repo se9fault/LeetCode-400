@@ -35,7 +35,7 @@ public:
     }
 private:
     void pathSum(TreeNode* root, int sum, vector<vector<int>> &paths, vector<int> &path) {
-        if (!root)
+        if (root == nullptr)
             return;
         path.push_back(root->val);
         if (!root->left && !root->right && sum == root->val)

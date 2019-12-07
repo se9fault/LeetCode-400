@@ -36,7 +36,7 @@ public:
 
 private:
     ListNode* reverse(ListNode *head) {
-        if (!head || !head->next)
+        if (head == nullptr || head->next == nullptr)
             return head;
         ListNode *cur = head, *newHead = nullptr;
         while (cur != nullptr) {
