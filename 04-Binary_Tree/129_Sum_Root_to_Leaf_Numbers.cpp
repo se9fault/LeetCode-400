@@ -53,7 +53,7 @@ private:
     int sum = 0;
     void constructToLeaf(TreeNode *node, int num) {
         num = num * 10 + node->val;
-        if (!node->left && !node->right) {
+        if (node->left == nullptr && node->right == nullptr) {
             sum += num;
             return;
         }

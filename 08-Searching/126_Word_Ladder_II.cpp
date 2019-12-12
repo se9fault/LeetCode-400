@@ -35,8 +35,8 @@ transformation.
 
 class Solution {
 public:
- vector<vector<string>> findLadders(string beginWord, string endWord,
-                                    unordered_set<string> &wordList) {
+    vector<vector<string>> findLadders(string beginWord, string endWord,
+                                       unordered_set<string> &wordList) {
         // very interesting problem
         // It can be solved with standard BFS. The tricky idea is doing BFS of
         // paths instead of words!

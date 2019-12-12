@@ -38,9 +38,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [124](124_Binary_Tree_Maximum_Path_Sum.cpp) [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 
-- [ ] [250](250_Count_Univalue_Subtrees.cpp) [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/) Premium
+- [x] [250](250_Count_Univalue_Subtrees.cpp) [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/) Premium
 
-- [ ] [366](366_Find_Leaves_of_Binary_Tree.cpp) [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) Premium
+- [x] [366](366_Find_Leaves_of_Binary_Tree.cpp) [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) Premium
 
 - [ ] [337](337_House_Robber_III.cpp) [House Robber III](https://leetcode.com/problems/house-robber-iii/description/) postorder + preorder
 
@@ -64,7 +64,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [109](109_Convert_Sorted_List_to_Binary_Search_Tree.cpp) [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) binary search
 
-- [ ] [173](173_Binary_Search_Tree_Iterator.cpp) [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/) inorder
+- [ ] [173](173_Binary_Search_Tree_Iterator.cpp) [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/) literally inorder traverse
 
 - [ ] [230](230_Kth_Smallest_Element_in_a_BST.cpp) [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) inorder
 

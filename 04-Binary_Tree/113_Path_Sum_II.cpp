@@ -38,7 +38,7 @@ private:
         if (root == nullptr)
             return;
         path.push_back(root->val);
-        if (!root->left && !root->right && sum == root->val)
+        if (root->left == nullptr && root->right == nullptr && sum == root->val)
             paths.push_back(path);
         pathSum(root->left, sum - root->val, paths, path);
         pathSum(root->right, sum - root->val, paths, path);
