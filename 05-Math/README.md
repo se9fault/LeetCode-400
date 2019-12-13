@@ -13,7 +13,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [067](067_Add_Binary.cpp) [Add Binary](https://leetcode.com/problems/add-binary/description/)
 
-- [ ] [043](043_Multiply_Strings.cpp) [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
+- [x] [043](043_Multiply_Strings.cpp) [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
 
 - [x] [029](029_Divide_Two_Integers.cpp) [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/)
 
@@ -37,9 +37,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [016](016_3Sum_Closest.cpp) [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) Infrequent
 
-- [ ] [259](259_3Sum_Smaller.cpp) [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/) Infrequent
+- [x] [259](259_3Sum_Smaller.cpp) [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/description/) Infrequent
 
-- [ ] [018](018_4Sum.cpp) [4Sum](https://leetcode.com/problems/4sum/description/) Infrequent
+- [x] [018](018_4Sum.cpp) [4Sum](https://leetcode.com/problems/4sum/description/) Infrequent
 
 - [x] [231](231_Power_of_Two.cpp) [Power of Two](https://leetcode.com/problems/power-of-two/description/)
 
