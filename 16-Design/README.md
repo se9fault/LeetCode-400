@@ -5,7 +5,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [346](346_Moving_Average_from_Data_Stream.cpp) [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/description/) Sliding Window
 
-- [ ] [362](362_Design_Hit_Counter.cpp) [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/)
+- [ ] [362](362_Design_Hit_Counter.cpp) [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/) Premium
 
 - [ ] [281](281_Zigzag_Iterator.cpp) [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/description/)
 
@@ -15,7 +15,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [288](288_Unique_Word_Abbreviation.cpp) [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/)
 
-- [ ] [170](170_Two_Sum_III_-_Data_structure_design.cpp) [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/description/)
+- [ ] [170](170_Two_Sum_III-Data_structure_design.cpp) [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/description/)
 
 - [ ] [348](348_Design_Tic-Tac-Toe.cpp) [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/)
 
@@ -25,7 +25,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [146](146_LRU_Cache.cpp) [LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 
-- [ ] [355](355_Design_Twitter.cpp) [Design Twitter](https://leetcode.com/problems/design-twitter/description/s)
+- [ ] [355](355_Design_Twitter.cpp) [Design Twitter](https://leetcode.com/problems/design-twitter/description/)
 
 - [ ] [303](303_Range_Sum_Query_-_Immutable.cpp) [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
 
