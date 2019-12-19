@@ -27,10 +27,10 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [355](355_Design_Twitter.cpp) [Design Twitter](https://leetcode.com/problems/design-twitter/description/)
 
-- [ ] [303](303_Range_Sum_Query_-_Immutable.cpp) [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
+- [ ] [303](303_Range_Sum_Query-Immutable.cpp) [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
 
-- [ ] [304](304_Range_Sum_Query_2D_-_Immutable.cpp) [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)
+- [ ] [304](304_Range_Sum_Query_2D-Immutable.cpp) [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)
 
-- [ ] [307](307_Range_Sum_Query_-_Mutable.cpp) [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/) BIT & ST
+- [ ] [307](307_Range_Sum_Query-Mutable.cpp) [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/) BIT & ST
 
-- [ ] [308](308_Range_Sum_Query_2D_-_Mutable.cpp) [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) BIT & ST
+- [ ] [308](308_Range_Sum_Query_2D-Muxtable.cpp) [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/description/) BIT & ST
