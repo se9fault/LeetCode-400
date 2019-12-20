@@ -7,17 +7,17 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [362](362_Design_Hit_Counter.cpp) [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/) Premium
 
-- [ ] [281](281_Zigzag_Iterator.cpp) [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/description/)
+- [ ] [281](281_Zigzag_Iterator.cpp) [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/description/) Premium
 
 - [ ] [284](284_Peeking_Iterator.cpp) [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/)
 
-- [ ] [251](251_Flatten_2D_Vector.cpp) [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/s)
+- [ ] [251](251_Flatten_2D_Vector.cpp) [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) Premium
 
-- [ ] [288](288_Unique_Word_Abbreviation.cpp) [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/)
+- [ ] [288](288_Unique_Word_Abbreviation.cpp) [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/) Premium
 
 - [ ] [170](170_Two_Sum_III-Data_structure_design.cpp) [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/description/)
 
-- [ ] [348](348_Design_Tic-Tac-Toe.cpp) [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/)
+- [ ] [348](348_Design_Tic-Tac-Toe.cpp) [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/) Premium
 
 - [ ] [379](379_Design_Phone_Directory.cpp) [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/description/)
 
