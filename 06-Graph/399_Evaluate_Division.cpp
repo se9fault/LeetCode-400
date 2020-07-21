@@ -61,7 +61,7 @@ private:
     struct Node {
         Node* parent;
         double value = 0.0;
-        Node()  {parent = this;}
+        Node() { parent = this; }
     };
 
     void unionNodes(Node* node1, Node* node2, double num, unordered_map<string, Node*>& map) {

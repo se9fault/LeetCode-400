@@ -14,14 +14,14 @@ For example, given n = 3, a solution set is:
 
 class Solution {
 public:
-    vector<string> generateParenthesis(int n){
+    vector<string> generateParenthesis(int n) {
         vector<string> ans;
         backtrack(ans, "", 0, 0, n);
         return ans;
     }
 
 private:
-    void backtrack(vector<string>& ans, string cur, int open, int close, int max){
+    void backtrack(vector<string>& ans, string cur, int open, int close, int max) {
         if (cur.length() == max * 2) {
             ans.add(cur);
             return;

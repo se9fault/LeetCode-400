@@ -16,7 +16,7 @@ class Solution {
 public:
     int maxEnvelopes(vector<pair<int, int>>& envelopes) {
         vector<int> dp;
-        auto cmp = [](const pair<int, int> &a, const pair<int, int> &b){
+        auto cmp = [](const pair<int, int> &a, const pair<int, int> &b) {
             if (a.first == b.first)
                 return a.second > b.second;
             return a.first < b.first;

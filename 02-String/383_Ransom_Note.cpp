@@ -13,7 +13,6 @@ canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 
 Solution: count characters on both strings, and do comparision.
-
 */
 
 class Solution {

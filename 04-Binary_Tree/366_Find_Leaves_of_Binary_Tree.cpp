@@ -36,9 +36,10 @@ private:
     int helper(TreeNode* node, vector<vector<int>>& ans) {
         if (node == nullptr)
             return -1;
+        // leaf node depth will be 0, because nullptr is -1
         int depth = 1 + max(helper(node->left, ans), helper(node->right, ans));
         if (depth >= ans.size())
-            ans.ansize(depth + 1);
+            ans.resize(depth + 1);
         ans[depth].push_back(node->val);
         return depth;
     }

@@ -43,7 +43,7 @@ public:
         int n = matrix.size();
         int a = 0;
         int b = n - 1;
-        while (a < b){
+        while (a < b) {
             for (int i = 0; i < (b - a); ++i) {
                 swap(matrix[a][a+i], matrix[a+i][b]); // 1234 -> 2134 (in rotate, the order)
                 swap(matrix[a][a+i], matrix[b][b-i]); // 2134 -> 3124

@@ -18,15 +18,15 @@ private:
     int depth(TreeNode *root) {
         if (root == nullptr)
             return 0;
-        return max(depth(root->left), depth(root->right))+1;
+        return max(depth(root->left), depth(root->right)) + 1;
     }
 
     void levelOrder(vector<vector<int>> &ans, TreeNode *node, int level) {
         if (node == nullptr)
             return;
         ans[level].push_back(node->val);
-        levelOrder(ans,node->left, level - 1);
-        levelOrder(ans,node->right, level - 1);
+        levelOrder(ans, node->left, level - 1);
+        levelOrder(ans, node->right, level - 1);
     }
 
 public:

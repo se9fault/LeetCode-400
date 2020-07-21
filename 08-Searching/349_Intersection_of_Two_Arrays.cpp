@@ -12,13 +12,13 @@ The result can be in any order.
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        if (nums1.empty() || nums2.empty()){
+        if (nums1.empty() || nums2.empty()) {
             return vector<int>();
         }
         unordered_set<int> set{nums1.cbegin(), nums1.cend()};
         vector<int> res;
-        for (auto n: nums2){
-            if (set.erase(n) > 0){
+        for (auto n: nums2) {
+            if (set.erase(n) > 0) {
             // if n exists in set, then 1 is returned and n is erased; otherwise, 0.
                 res.push_back(n);
             }

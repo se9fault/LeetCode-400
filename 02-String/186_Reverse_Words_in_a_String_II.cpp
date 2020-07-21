@@ -47,7 +47,7 @@ public:
         return s;
     }
 private:
-    void reverseString(vector<char> &s, int i, int j){
+    void reverseString(vector<char> &s, int i, int j) {
         while (i < j) {
           char t = s[i];
           s[i++] = s[j];

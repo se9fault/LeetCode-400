@@ -51,7 +51,7 @@ public:
         int mask2 = 1 << 6;
 
         // For each integer in the data array.
-        for(int i = 0; i < data.size(); i++) {
+        for (int i = 0; i < data.size(); i++) {
             // If this is the case then we are to start processing a new UTF-8 character.
             if (numberOfBytesToProcess == 0) {
                 int mask = 1 << 7;

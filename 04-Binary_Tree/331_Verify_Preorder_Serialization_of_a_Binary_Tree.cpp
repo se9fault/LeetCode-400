@@ -34,7 +34,7 @@ public:
         istringstream in(preorder);
         string t = "";
         int degree = 1;
-        bool degree_is_zero = false;;
+        bool degree_is_zero = false;
         while (getline(in, t, ',')) {
             if (degree_is_zero)
                 return false;

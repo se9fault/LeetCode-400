@@ -27,7 +27,7 @@ public:
 
     int pick(int target) {
         int n = 0, ans = -1;
-        for(int i = 0 ; i < _nums.size(); i++) {
+        for (int i = 0 ; i < _nums.size(); i++) {
             if (_nums[i] != target)
                 continue;
             if (n == 0) {

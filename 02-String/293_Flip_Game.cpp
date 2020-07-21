@@ -26,6 +26,7 @@ public:
         for (int i = 0; i < n - 1; ++i) {
             if (s[i] == '+' && s[i + 1] == '+') {
                 string temp = s.substr(0, i) + "--" + s.substr(i + 2);
+                ans.push_back(temp);
             }
         }
         return ans;

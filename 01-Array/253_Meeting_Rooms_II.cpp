@@ -3,19 +3,17 @@ Given an array of meeting time intervals consisting of start and end times
 [[s1,e1],[s2,e2],...] (si < ei), find the minimum number of conference rooms
 required.
 
-Example1
+Example 1
 Input: intervals = [(0,30),(5,10),(15,20),(30,60)]
 Output: 2
-Explanation:
-We need two meeting rooms
+Explanation: We need two meeting rooms:
 room1: (0,30),(30,60)
 room2: (5,10),(15,20)
 
 Example2
 Input: intervals = [(2,7)]
 Output: 1
-Explanation:
-Only need one meeting room
+Explanation: We only need one meeting room.
 */
 
 /**
@@ -36,8 +34,8 @@ public:
             return 1;
         map<int, int> m;
         for (auto interval : intervals) {
-            ++m[interval.start];
-            --m[interval.end];
+            ++m[interval.start]; // at start time, we need one room
+            --m[interval.end];   // at end time, we release one room
         }
         // [(0,30),(5,10),(15,20),(30,60)]
         // m: (0,1) (5,1) (10,-1) (15,1) (20,-1) (30,0) (60,-1)

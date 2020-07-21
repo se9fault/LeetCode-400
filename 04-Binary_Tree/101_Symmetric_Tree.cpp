@@ -32,19 +32,19 @@ public:
     bool isSymmetric(TreeNode* root) {
         if (root == nullptr)
             return true;
-        return isEqual(root->left, root->right);
+        return isMirror(root->left, root->right);
     }
 private:
-    bool isEqual(TreeNode* left, TreeNode *right) {
+    bool isMirror(TreeNode* left, TreeNode *right) {
         if (left == nullptr && right == nullptr)
             return true;
         if (left == nullptr || right == nullptr)
             return false;
         if (left->val != right->val)
             return false;
-        if (!isEqual(left->left, right->right))
+        if (!isMirror(left->left, right->right))
             return false;
-        if (!isEqual(left->right, right->left))
+        if (!isMirror(left->right, right->left))
             return false;
         return true;
     }

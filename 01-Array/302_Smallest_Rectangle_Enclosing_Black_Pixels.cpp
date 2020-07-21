@@ -26,7 +26,14 @@ public:
         return (right - left) * (down - up);
     }
 private:
-    int binary_search(vector<vector<char>> &image, bool h, int i, int j, int low, int high, bool opt) {
+    // int i, j: range of the target
+    // int low, high: range to check when checking the vector
+    //     e.g. when you are searching for the up border, you need to check the
+    //     entire row, and see if any black appeared. the range applys here.
+    // bool h: true - horizontal traverse (search for up/down border)
+    // bool opt: how did binary serach update border (true - up/right border)
+    int binary_search(vector<vector<char>> &image, bool h, int i, int j,
+                      int low, int high, bool opt) {
         while (i < j) {
             int k = low, mid = (i + j) / 2;
             while (k < high && (h ? image[mid][k] : image[k][mid]) == '0')

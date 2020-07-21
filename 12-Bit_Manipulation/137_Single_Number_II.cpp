@@ -19,16 +19,16 @@ class Solution {
 public:
     int singleNumber(vector<int>& nums)
     {
-    	vector<int> arr(32); // Made a array contain 32 elements.
-    	int n = nums.size(), num;
-    	for (int i = 0; i < n; ++i) {
-    		num = nums[i];
-    		for (int j = 31; j >= 0; --j) {
-    			arr[j] += num & 1; // Find the last digit.
-    			num >>= 1;
-    			if (!num)
-    				break;
-    	    }
+        vector<int> arr(32); // Made a array contain 32 elements.
+        int n = nums.size(), num;
+        for (int i = 0; i < n; ++i) {
+            num = nums[i];
+            for (int j = 31; j >= 0; --j) {
+                arr[j] += num & 1; // Find the last digit.
+                num >>= 1;
+                if (!num)
+                    break;
+            }
         }
         int ans = 0;
         for (int j = 31; j >= 0; --j)

@@ -35,31 +35,31 @@ public:
 class Solution {
 public:
     Node *connect(Node *root) {
-
-        Node *head = nullptr; // head of the next level
-        Node *prev = nullptr; // the leading node on the next level
+        // Use current level to connect next level
         Node *cur = root;     // current node of current level
+        Node *head = nullptr; // head of the next level
+        Node *pred = nullptr; // the predecessor node on the next level
 
         while (cur != nullptr) {
 
             while (cur != nullptr) { // iterate on the current level
                 // left child
                 if (cur->left != nullptr) {
-                    if (prev != nullptr) {
-                        prev->next = cur->left;
+                    if (pred != nullptr) {
+                        pred->next = cur->left;
                     } else {
                         head = cur->left;
                     }
-                    prev = cur->left;
+                    pred = cur->left;
                 }
                 // right child
                 if (cur->right != nullptr) {
-                    if (prev != nullptr) {
-                        prev->next = cur->right;
+                    if (pred != nullptr) {
+                        pred->next = cur->right;
                     } else {
                         head = cur->right;
                     }
-                    prev = cur->right;
+                    pred = cur->right;
                 }
                 // move to next node
                 cur = cur->next;
@@ -68,7 +68,7 @@ public:
             // move to next level
             cur = head;
             head = nullptr;
-            prev = nullptr;
+            pred = nullptr;
         }
         return root;
     }

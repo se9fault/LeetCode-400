@@ -29,7 +29,7 @@ class Solution {
 public:
     string countAndSay(int n) {
         if (n == 0)
-	        return "";
+            return "";
         string res = "1";
         while (--n) {
             string cur = "";

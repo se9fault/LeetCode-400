@@ -21,7 +21,7 @@ Output: true
 Note:
 You may assume both s and t have the same length.
 
-Solution: again, count for both strings, then compare.
+Solution: same with LC383, count for both strings, then compare.
 */
 
 class Solution {
@@ -32,7 +32,7 @@ public:
         int m1[256] = {0}, m2[256] = {0}, n = s.size();
         for (int i = 0; i < n; ++i) {
             if (m1[s[i]] != m2[t[i]])
-	            return false;
+                return false;
             m1[s[i]] = i+1;
             m2[t[i]] = i+1;
         }

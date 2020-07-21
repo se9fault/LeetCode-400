@@ -8,8 +8,8 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n = height.size();
-	    if (n == 0)
-		    return 0;
+        if (n == 0)
+            return 0;
         int ans = 0;
         vector<int> left_max(n), right_max(n);
         left_max[0] = height[0];

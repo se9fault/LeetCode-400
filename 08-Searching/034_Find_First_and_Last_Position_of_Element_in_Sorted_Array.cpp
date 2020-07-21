@@ -33,7 +33,7 @@ public:
     }
 
 private:
-    int extremeInsertionIndex(vector<int>& nums, int target, bool left){
+    int extremeInsertionIndex(vector<int>& nums, int target, bool left) {
         int high = nums.size(), low = 0;
 
         while (high > low) {

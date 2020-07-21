@@ -47,7 +47,7 @@ public:
                 p->left->next = p->right;
                 if (p->next) {
                     // use previous layer's next to connect this layer
-                    p->right->next = p->next->left;
+                    p->right->next = p->next->left; // only works in perfect BT
                 }
                 p = p->next;
             }

@@ -25,7 +25,7 @@ public:
             int result = guess(mid);
             if (result == -1) {
                 right = mid;
-            } else if (result == 1 ){
+            } else if (result == 1) {
                 left = mid + 1;
             } else {
                 return mid;

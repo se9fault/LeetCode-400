@@ -27,7 +27,7 @@ public:
         if (head == nullptr || head->next == nullptr)
             return true;
         ListNode *slow = head, *fast = head;
-        while (fast->next != nullptr && fast->next->next != nullptr){
+        while (fast->next != nullptr && fast->next->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
         }

@@ -51,10 +51,10 @@ private:
             return result{true, 0};
         }
         auto left = isItBalanced(root->left);
-        if (left.b == nullptr)
+        if (!left.b)
             return result{false, 0};
         auto right = isItBalanced(root->right);
-        if (right.b == nullptr)
+        if (!right.b)
             return result{false, 0};
         if (abs(left.height - right.height) > 1)
             return result{false, 0};

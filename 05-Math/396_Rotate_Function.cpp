@@ -22,7 +22,7 @@ class Solution {
 public:
     int maxRotateFunction(vector<int>& A) {
         long F = 0, sum = 0, n = A.size();
-        for (int i = 0; i < n; ++i){
+        for (int i = 0; i < n; ++i) {
             F += i * A[i];
             sum += A[i];
         }
