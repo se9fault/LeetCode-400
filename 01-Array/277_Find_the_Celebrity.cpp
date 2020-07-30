@@ -40,7 +40,12 @@ public:
     int findCelebrity(int n) {
         int candidate = 0;
         for (int i = 0; i < n; ++i) {
-            // find one candidate first
+            // this candidate is the only possible candidate, because
+            // 1. if celebrity is 0, then knows(0, i) is always false,
+            //    candidate is never changed
+            // 2. if celebrity is m (0 < m < n),
+            //    then when i == m, knows(cand, m) is true, candidate = m
+            //    then for i in [m+1, n), knows(m, i) false, candidate still m
             if (knows(candidate, i))
                 candidate = i;
         }

@@ -33,7 +33,7 @@ private:
 public:
     WordDictionary() : root(new TrieNode()) {}
     ~WordDictionary() { clean(root); }
-  
+
     /** Adds a word into the data structure. */
     void addWord(string word) {
         TrieNode *p = root;
@@ -45,7 +45,7 @@ public:
         }
         p->is_word = true;
     }
-  
+
     /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
     bool search(string word) {
         return search(word.c_str(), root);

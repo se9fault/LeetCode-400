@@ -88,13 +88,13 @@ public:
         }
         p->is_word = true;
     }
-  
+
     /** Returns if the word is in the trie. */
     bool search(string word) {
         TrieNode *p = find(word);
         return p != nullptr && p->is_word;
     }
-  
+
     /** Returns if there is any word in the trie that starts with the given prefix. */
     bool startsWith(string prefix) {
         return find(prefix) != nullptr;

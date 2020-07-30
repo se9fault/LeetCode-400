@@ -18,7 +18,7 @@ public:
                 candidate = num;
             }
             count += (num == candidate) ? 1 : -1;
-            // even in [1, 2 ,1, 3, 1, 4, 1], the candidate is set to the last 1
+            // even in [1, 2, 1, 3, 1, 4, 1], the candidate is set to the last 1
         }
         return candidate;
     }

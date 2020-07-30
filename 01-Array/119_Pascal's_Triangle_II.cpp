@@ -7,8 +7,8 @@ Note that the row index starts from 0.
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
-        vector<int> vi(rowIndex + 1);
-           vi[0] = 1;
+        vector<int> vi(rowIndex + 1, 0);
+        vi[0] = 1;
         for (int i = 0; i <= rowIndex; ++i) {
             for (int j = i; j > 0; --j) {
                 // update a row from right to left

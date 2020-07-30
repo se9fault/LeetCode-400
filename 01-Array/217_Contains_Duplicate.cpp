@@ -16,6 +16,9 @@ Input: [1,1,1,3,3,4,3,2,4,2]
 Output: true
 */
 
+// Solution:
+// Sort it. Another interesting idea is to create a unordered_set, and count the
+// size of that set and compare it with the original vector.
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {

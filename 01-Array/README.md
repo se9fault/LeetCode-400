@@ -19,41 +19,27 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [118](118_Pascal's_Triangle.cpp) [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) Infrequent
 
-- [x] [119](119_Pascal's_Triangle_II.cpp) [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent
+- [x] [119](119_Pascal's_Triangle_II.cpp) [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent - 仅存储一行，从右往左计算
 
-- [x] [169](169_Majority_Element.cpp) [Majority Element](https://leetcode.com/problems/majority-element/description/) Infrequent
+- [x] [169](169_Majority_Element.cpp) [Majority Element](https://leetcode.com/problems/majority-element/description/) Infrequent - 出现多n/2的元素，记录一个candidate以及其count
 
-- [X] [229](229_Majority_Element_II.cpp) [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Infrequent
+- [X] [229](229_Majority_Element_II.cpp) [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Infrequent - 出现多于n/3的元素集合，记录两个candidate以及其count
 
 - [x] [274](274_H-Index.cpp) [H-Index](https://leetcode.com/problems/h-index/description/)
 
 - [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Binary Search
 
-- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium
+- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium - 储存idx，情况成立时比较更新ans
 
-- [x] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Premium
+- [x] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Premium - 多次查询，hash table
 
 - [x] [245](245_Shortest_Word_Distance_III.cpp) [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/) Premium
 
-- [x] [217](217_Contains_Duplicate.cpp) [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+- [x] [217](217_Contains_Duplicate.cpp) [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) Sort
 
 - [x] [219](219_Contains_Duplicate_II.cpp) [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) Infrequent
 
 - [x] [220](220_Contains_Duplicate_III.cpp) [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent
-
-- [x] [055](055_Jump_Game.cpp) [Jump Game](https://leetcode.com/problems/jump-game/description/)
-
-- [x] [045](045_Jump_Game_II.cpp) [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) greedy
-
-- [x] [121](121_Best_Time_to_Buy_and_Sell_Stock.cpp) [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
-
-- [x] [122](122_Best_Time_to_Buy_and_Sell_Stock_II.cpp) [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) Greedy
-
-- [x] [123](123_Best_Time_to_Buy_and_Sell_Stock_III.cpp) [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) DP
-
-- [x] [188](188_Best_Time_to_Buy_and_Sell_Stock_IV.cpp) [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) DP
-
-- [x] [309](309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp) [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)
 
 - [x] [011](011_Container_With_Most_Water.cpp) [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 

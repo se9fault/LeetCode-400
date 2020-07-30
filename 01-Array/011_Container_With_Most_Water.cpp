@@ -5,11 +5,10 @@ of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis
 forms a container, such that the container contains the most water.
 
 Note: You may not slant the container and n is at least 2.
-
-Solution: two pointer, starting from two sides.
 */
 
 
+// Solution: two pointer, starting from two sides.
 class Solution {
 public:
     int maxArea(vector<int>& height) {
