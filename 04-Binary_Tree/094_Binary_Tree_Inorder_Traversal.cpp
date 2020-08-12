@@ -52,7 +52,7 @@ public:
         while (cur || !s.empty()) {
             if (cur) {
                 s.push(cur);
-                cur = cur -> left;
+                cur = cur->left;
             } else {
                 cur = s.top();
                 s.pop();

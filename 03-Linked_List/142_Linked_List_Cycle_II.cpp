@@ -35,13 +35,11 @@ Follow-up:
 Can you solve it without using extra space?
 */
 
+#define HASHTABLE
 class Solution {
 public:
+#ifdef HASHTABLE
     ListNode *detectCycle(ListNode *head) {
-        return detectCycle_hash_table(head);
-    }
-
-    ListNode *detectCycle_hash_table(ListNode *head) {
         unordered_set<ListNode*> set;
         ListNode *cur = head;
         while (cur != nullptr) {
@@ -52,8 +50,10 @@ public:
         }
         return nullptr;
     }
+#endif
 
-    ListNode *detectCycle_fast_slow_ptrs(ListNode *head) {
+#ifdef FAST_SLOW_PTRS
+    ListNode *detectCycle(ListNode *head) {
         ListNode *slow = head, *fast = head;
         while (slow != nullptr && fast != nullptr) {
             slow = slow->next;
@@ -72,4 +72,5 @@ public:
         }
         return nullptr;
     }
+#endif
 };

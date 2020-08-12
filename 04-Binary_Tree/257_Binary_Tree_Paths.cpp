@@ -24,6 +24,8 @@ Explanation: All root-to-leaf paths are: 1->2->5, 1->3
  * };
  */
 
+// Solution:
+// Recursion to the fullest; not backtracking because didn't undo any step
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {

@@ -14,11 +14,12 @@ Note:
 You may assume the string contains only lowercase alphabets.
 
 Follow up:
-What if the inputs contain unicode characters? How would you adapt your solution to such case?
-
-Solution: also count for both strings, but can count in the same array.
+What if the inputs contain unicode characters? How would you adapt your solution
+to such case?
 */
 
+// Solution:
+// Still count both of the strings, but we can count them in the same array.
 class Solution {
 public:
     bool isAnagram(string s, string t) {

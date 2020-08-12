@@ -29,7 +29,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Binary Search
 
-- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium - 储存idx，情况成立时比较更新ans
+- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium - store current, update min/max
 
 - [x] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Premium - 多次查询，hash table
 

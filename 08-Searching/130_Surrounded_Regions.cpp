@@ -23,6 +23,9 @@ cells are connected if they are adjacent cells connected horizontally or
 vertically.
 */
 
+// Solution:
+// start DFS from borders; Os connected to the border should not be flipped;
+// all the other Os need to be flipped.
 class Solution {
 public:
     void solve(vector<vector<char>>& board) {
@@ -33,7 +36,7 @@ public:
             for (int j = 0; j < n; ++j) {
                 if (i == 0 || i == m - 1 || j == 0 || j == n - 1) {
                     if (board[i][j] == 'O')
-                        dfs(board, i , j);
+                        dfs(board, i , j); // mark border 'O' as '$'
                 }
             }
         }

@@ -1,6 +1,7 @@
 # 04-Binary_Tree
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
-## Basic
+
+## Traversal
 
 - [x] [144](144_Binary_Tree_Preorder_Traversal.cpp) [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
 
@@ -10,31 +11,35 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [102](102_Binary_Tree_Level_Order_Traversal.cpp) [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 
-## Preorder
+
+## Simple Recursion
 
 - [x] [100](100_Same_Tree.cpp) [Same Tree](https://leetcode.com/problems/same-tree/description/)
 
 - [x] [101](101_Symmetric_Tree.cpp) [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 
-- [x] [226](226_Invert_Binary_Tree.cpp) [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) preorder + BFS
+- [x] [226](226_Invert_Binary_Tree.cpp) [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 
 - [x] [257](257_Binary_Tree_Paths.cpp) [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
 
 - [x] [112](112_Path_Sum.cpp) [Path Sum](https://leetcode.com/problems/path-sum/description/)
 
-- [x] [113](113_Path_Sum_II.cpp) [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/) Backtracking
-
 - [x] [129](129_Sum_Root_to_Leaf_Numbers.cpp) [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
-
-- [ ] [298](298_Binary_Tree_Longest_Consecutive_Sequence.cpp) [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/) Premium
-
-- [x] [111](111_Minimum_Depth_of_Binary_Tree.cpp) [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
-
-## Preorder
 
 - [x] [104](104_Maximum_Depth_of_Binary_Tree.cpp) [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
+- [x] [111](111_Minimum_Depth_of_Binary_Tree.cpp) [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
+
+
+
+- [x] [113](113_Path_Sum_II.cpp) [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/) Backtracking
+
+- [x] [298](298_Binary_Tree_Longest_Consecutive_Sequence.cpp) [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/) Premium - store current, update min/max
+
 - [x] [110](110_Balanced_Binary_Tree.cpp) [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
+
+
+## Preorder
 
 - [x] [124](124_Binary_Tree_Maximum_Path_Sum.cpp) [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 
@@ -44,6 +49,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [337](337_House_Robber_III.cpp) [House Robber III](https://leetcode.com/problems/house-robber-iii/description/) postorder + preorder
 
+
 ## BFS
 
 - [x] [107](107_Binary_Tree_Level_Order_Traversal_II.cpp) [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)
@@ -52,17 +58,21 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [199](199_Binary_Tree_Right_Side_View.cpp) [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) BFS + preorder
 
-## BST
 
-- [x] [098](098_Validate_Binary_Search_Tree.cpp) [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) preorder
+## LCA problems
 
 - [x] [235](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.cpp) [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) preorder
 
 - [ ] [236](236_Lowest_Common_Ancestor_of_a_Binary_Tree.cpp) [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) postorder
 
+
+## BST
+
+- [x] [098](098_Validate_Binary_Search_Tree.cpp) [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) preorder
+
 - [x] [108](108_Convert_Sorted_Array_to_Binary_Search_Tree.cpp) [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) Recursion
 
-- [ ] [109](109_Convert_Sorted_List_to_Binary_Search_Tree.cpp) [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) binary search
+- [ ] [109](109_Convert_Sorted_List_to_Binary_Search_Tree.cpp) [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) Recursion, fast/slow ptr
 
 - [ ] [173](173_Binary_Search_Tree_Iterator.cpp) [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/) literally inorder traverse
 
@@ -78,6 +88,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [099](099_Recover_Binary_Search_Tree.cpp) [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) inorder
 
+
 ## Important
 
 - [x] [116](116_Populating_Next_Right_Pointers_in_Each_Node.cpp) [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
@@ -87,6 +98,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [314](314_Binary_Tree_Vertical_Order_Traversal.cpp) [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/) Premium
 
 - [x] [096](096_Unique_Binary_Search_Trees.cpp) [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/)
+
 
 ## Infrequent
 

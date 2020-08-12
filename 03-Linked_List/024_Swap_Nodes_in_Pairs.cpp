@@ -22,8 +22,7 @@ public:
         if (head == nullptr || head->next == nullptr) {
             return head;
         }
-        ListNode dummy(-1);
-        dummy.next = head;
+        ListNode dummy{-1, head};
         ListNode *cur = &dummy;
         // cur always points to the element before pairs, like (dummy)->1->2->3, d->2->(1)->3
         while (cur->next != nullptr && cur->next->next != nullptr) {
@@ -33,7 +32,6 @@ public:
             cur->next->next = temp;
             cur = temp;
         }
-
         return dummy.next;
     }
 };

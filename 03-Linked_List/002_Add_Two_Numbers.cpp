@@ -10,9 +10,6 @@ Example:
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
-
-Solution: remember two linked list can be of different length, so need separate
-check for nullptr
 */
 
 /**
@@ -23,6 +20,11 @@ check for nullptr
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+
+// Solution:
+// Number is already reversed. Remember two linked list can be of different
+// length, so need separate check for nullptr
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

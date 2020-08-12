@@ -29,14 +29,13 @@ All of the nodes' values will be unique.
 p and q are different and both values will exist in the binary tree.
 */
 
+// https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/03.03.html
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if (root == nullptr || p == root || q == root)
             return root;
         TreeNode *left = lowestCommonAncestor(root->left, p, q);
-        if (left && left != p && left != q)
-            return left;
         TreeNode *right = lowestCommonAncestor(root->right, p, q);
         if (left && right)
             return root;
