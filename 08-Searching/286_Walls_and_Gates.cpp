@@ -3,7 +3,7 @@ You are given a m x n 2D grid initialized with these three possible values.
 
 -1 - A wall or an obstacle.
 0 - A gate.
-INF - Infinity means an empty room. We use the value 2 31 - 1 = 2147483647 to
+INF - Infinity means an empty room. We use the value 2^31 - 1 = 2147483647 to
 represent INF as you may assume that the distance to a gate is less than
 2147483647.
 
@@ -23,24 +23,33 @@ After running your function, the 2D grid should be:
   0  -1   3   4
 */
 
+// Solution:
+// start DFS searching at each of the gates.
 class Solution {
 public:
     void wallsAndGates(vector<vector<int>>& rooms) {
-        for (int i = 0; i < rooms.size(); ++i) {
-            for (int j = 0; j < rooms[i].size(); ++j) {
+        if (room.empty() || rooms[0].empty())
+            return;
+        m = rooms.size();
+        n = rooms[0].size();
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
                 if (rooms[i][j] == 0)
                     dfs(rooms, i, j, 0);
             }
         }
     }
 private:
-    void dfs(vector<vector<int>>& rooms, int i, int j, int val) {
-        if (i < 0 || i >= rooms.size() || j < 0 || j >= rooms[i].size() || rooms[i][j] < val)
+    int m, n;
+    void dfs(vector<vector<int>>& rooms, int i, int j, int steps) {
+        if (i < 0 || i >= m || j < 0 || j >= n)
             return;
-        rooms[i][j] = val;
-        dfs(rooms, i + 1, j, val + 1);
-        dfs(rooms, i - 1, j, val + 1);
-        dfs(rooms, i, j + 1, val + 1);
-        dfs(rooms, i, j - 1, val + 1);
+        if (rooms[i][j] < steps)
+            return;
+        rooms[i][j] = steps;
+        dfs(rooms, i + 1, j, steps + 1);
+        dfs(rooms, i - 1, j, steps + 1);
+        dfs(rooms, i, j + 1, steps + 1);
+        dfs(rooms, i, j - 1, steps + 1);
     }
 };

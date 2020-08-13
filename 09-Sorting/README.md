@@ -1,5 +1,8 @@
 # 09-Sorting
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
+
+- [x] [088](088_Merge_Sorted_Array.cpp) [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) merge 2 arrays
+
 ## Priority Queue
 
 - [x] [215](215_Kth_Largest_Element_in_an_Array.cpp) [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)

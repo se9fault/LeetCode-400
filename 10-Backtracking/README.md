@@ -41,3 +41,6 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [113](../04-Binary_Tree/113_Path_Sum_II.cpp) [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/) Cross-listed
 
+- [ ] [051](051_N-Queens.cpp) [N-Queens](https://leetcode.com/problems/n-queens/)
+
+- [ ] [052](052_N-Queens_II.cpp) [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)

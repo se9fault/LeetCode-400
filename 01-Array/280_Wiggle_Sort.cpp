@@ -9,11 +9,11 @@ For example, given nums = [3, 5, 2, 1, 6, 4], one possible answer is
 class Solution {
 public:
     void wiggleSort(vector<int> &nums) {
-        sort(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end()); // [1, 2, 3, 4, 5, 6, 7]
         if (nums.size() <= 2)
             return;
         for (int i = 2; i < nums.size(); i += 2) {
-            swap(nums[i], nums[i - 1]);
+            swap(nums[i], nums[i - 1]); // [2, 1, 4, 3, 6, 5, 7]
         }
     }
 };

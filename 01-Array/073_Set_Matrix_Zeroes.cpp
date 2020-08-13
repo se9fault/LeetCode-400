@@ -26,10 +26,11 @@ Follow up:
 A straight forward solution using O(mn) space is probably a bad idea.
 A simple improvement uses O(m + n) space, but still not the best solution.
 Could you devise a constant space solution?
-
-Solution: derived from solution 3 in LeetCode solution, if a row(column)'s head
-is 0 after the first scan, then that row/column should be put to all 0
 */
+
+// Solution:
+// derived from solution 3 in LeetCode solution, if a row(column)'s head is 0
+// after the first scan, then that row/column should be put to all 0
 
 class Solution {
 public:
@@ -38,6 +39,7 @@ public:
         int n = matrix[0].size();
         bool isCol = false;
 
+        // pass 1: check 0; if so, set row head/column head to 0
         for (int i = 0; i < m; i++) {
             if (matrix[i][0] == 0)
                 isCol = true;
@@ -48,6 +50,7 @@ public:
                 }
         }
 
+        // pass 2: set 0
         for (int i = 1; i < m; i++)
             for (int j = 1; j < n; j++)
                 if (matrix[i][0] == 0 || matrix[0][j] == 0)

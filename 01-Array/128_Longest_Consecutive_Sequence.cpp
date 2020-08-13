@@ -5,12 +5,13 @@ consecutive elements sequence.
 Your algorithm should run in O(n) complexity.
 
 Example:
-
 Input: [100, 4, 200, 1, 3, 2]
 Output: 4
 Explanation: The longest consecutive elements sequence is [1, 2, 3, 4].
 Therefore its length is 4.
 */
+
+
 class Solution {
 public:
     int longestConsecutive(vector<int> &num) {
@@ -19,6 +20,7 @@ public:
         int result = 0;
         for (int i : num) {
             if (m[i])
+            // if m[i] exist, then it's possible that it's an old value, skip
                 continue;
             int len = m[i + 1] + m[i - 1] + 1;
             m[i - m[i - 1]] = len;

@@ -26,7 +26,6 @@ public:
                 i++;
                 j--;
             }
-
         }
         return s;
     }

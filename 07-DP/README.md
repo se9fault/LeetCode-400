@@ -37,6 +37,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Two-Dimension
 
+- [x] [329](329_Longest_Increasing_Path_in_a_Matrix.cpp) [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) DP
+
 - [ ] [256](256_Paint_House.cpp) [Paint House](https://leetcode.com/problems/paint-house/description/) Premium
 
 - [ ] [265](265_Paint_House_II.cpp) [Paint House II](https://leetcode.com/problems/paint-house-ii/description/) Premium

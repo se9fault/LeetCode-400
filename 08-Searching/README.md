@@ -1,5 +1,6 @@
 # 08-Searching
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
+
 ## Binary Search
 
 - [x] [278](278_First_Bad_Version.cpp) [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)
@@ -30,22 +31,25 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [354](354_Russian_Doll_Envelopes.cpp) [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)
 
+- [x] [275](../01-Array/275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/)
+
+- [x] [074](074_Search_a_2D_Matrix.cpp) [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) array in the form of a matrix
+
+
 ## BFS/DFS
 
 - [x] [200](200_Number_of_Islands.cpp) [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 - [x] [286](286_Walls_and_Gates.cpp) [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) Premium
 
-- [ ] [130](130_Surrounded_Regions.cpp) [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)
+- [x] [130](130_Surrounded_Regions.cpp) [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)
+
+- [x] [127](127_Word_Ladder.cpp) [Word Ladder](https://leetcode.com/problems/word-ladder/description/)
+
+- [x] [126](126_Word_Ladder_II.cpp) [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)
+
+- [x] [079](079_Word_Search.cpp) [Word Search](https://leetcode.com/problems/word-search/description/) backtracing
 
 - [ ] [339](339_Nested_List_Weight_Sum.cpp) [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/) Premium
 
 - [ ] [364](364_Nested_List_Weight_Sum_II.cpp) [Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/description/) Premium
-
-- [x] [127](127_Word_Ladder.cpp) [Word Ladder](https://leetcode.com/problems/word-ladder/description/)
-
-- [ ] [051](051_N-Queens.cpp) [N-Queens](https://leetcode.com/problems/n-queens/)
-
-- [ ] [052](052_N-Queens_II.cpp) [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)
-
-- [x] [126](126_Word_Ladder_II.cpp) [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)

@@ -26,7 +26,7 @@ public:
         // satisfy left to right first: ratings[i] > ratings[i - 1]
         for (int i = 1; i < n; ++i) {
             if (ratings[i] > ratings[i - 1])
-                candy[i] = candy[i - 1] + 1;
+                candies[i] = candies[i - 1] + 1;
         }
         int sum = candies[n - 1]; // add the last one
         // satisfy right to left: ratings[i] > ratings[i + 1]

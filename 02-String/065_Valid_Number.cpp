@@ -25,11 +25,11 @@ Exponent - "e"
 Positive/negative sign - "+"/"-"
 Decimal point - "."
 Of course, the context of these characters also matters in the input.
-
-Solution: Deterministic Finite Automaton!
-https://leetcode.com/problems/valid-number/discuss/23725/C%2B%2B-My-thought-with-DFA
 */
 
+// Solution:
+// Deterministic Finite Automaton!
+// https://leetcode.com/problems/valid-number/discuss/23725/C%2B%2B-My-thought-with-DFA
 class Solution {
 public:
     bool isNumber(string s) {

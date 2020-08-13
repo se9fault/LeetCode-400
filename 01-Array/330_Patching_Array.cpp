@@ -32,8 +32,8 @@ public:
                 // since we can build [0, miss), adding nums[i] allow us
                 // to build [nums[i], miss + nums[i])
             } else {
-                // nums[i] > miss, miss is actually missed, we need to pad
-                // padding miss itself is the greedy way
+                // nums[i] > miss, miss is actually missed, we need to pad.
+                // Pad miss itself is the greedy way
                 miss += miss;
                 added++;
             }

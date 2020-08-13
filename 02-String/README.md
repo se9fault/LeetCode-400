@@ -1,16 +1,12 @@
 # 02-String
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
-## Basic
 
+## Basic
 - [x] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
 
 - [x] [014](014_Longest_Common_Prefix.cpp) [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 - [x] [058](058_Length_of_Last_Word.cpp) [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
-
-- [x] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
-
-- [x] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 
 - [x] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
 
@@ -20,19 +16,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [345](345_Reverse_Vowels_of_a_String.cpp) [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
 
-- [x] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
-
 - [x] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
 
-- [x] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium
-
-- [x] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
-
-- [x] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
-
-- [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
-
-- [x] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
+- [x] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium, Recursion
 
 - [ ] [087](087_Scramble_String.cpp) [Scramble String](https://leetcode.com/problems/scramble-string/description/)
 
@@ -50,6 +36,15 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [271](271_Encode_and_Decode_Strings.cpp) [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) Premium
 
+- [x] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) Premium
+
+- [x] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) Premium
+
+- [x] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Premium
+
+
+# Implement Details
+
 - [x] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
 
 - [x] [171](171_Excel_Sheet_Column_Number.cpp) [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
@@ -60,11 +55,25 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
 
-- [x] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) Premium
+- [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
 
-- [x] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) Premium
 
-- [x] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Premium
+## Mapping
+
+- [x] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+
+- [x] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
+
+- [x] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
+
+- [x] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+
+- [x] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+
+- [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+
+- [x] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
+
 
 ## Advanced
 
@@ -72,9 +81,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [158](158_Read_N_Characters_Given_Read4_II-Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/) Premium
 
-- [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
-
 - [x] [065](065_Valid_Number.cpp) [Valid Number](https://leetcode.com/problems/valid-number/description/)
+
 
 ## Substring - Sliding Window
 
@@ -89,6 +97,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [395](395_Longest_Substring_with_At_Least_K_Repeating_Characters.cpp) [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)
 
 - [ ] [159](159_Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/) Premium
+
 
 ## Palindrome
 
@@ -110,6 +119,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [267](267_Palindrome_Permutation_II.cpp) [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/description/) Premium
 
+
 ## Parentheses
 
 - [x] [020](020_Valid_Parentheses.cpp) [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
@@ -121,6 +131,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [241](241_Different_Ways_to_Add_Parentheses.cpp) [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/)
 
 - [ ] [301](301_Remove_Invalid_Parentheses.cpp) [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)
+
 
 ## Subsequence
 
