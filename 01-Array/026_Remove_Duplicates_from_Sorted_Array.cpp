@@ -16,13 +16,16 @@ Given nums = [0,0,1,1,1,2,2,3,3,4],
 Your function should return length = 5, with the first five elements of nums
 being modified to 0, 1, 2, 3, and 4 respectively.
 It doesn't matter what values are set beyond the returned length.
+
+Constraints:
+    1 <= nums.length <= 3 * 10^4
+    -100 <= nums[i] <= 100
+    nums is sorted in non-decreasing order.
 */
 
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        if (nums.size() == 0)
-            return 0;
         int i = 0;
         for (int n : nums) {
             if (n != nums[i]) {

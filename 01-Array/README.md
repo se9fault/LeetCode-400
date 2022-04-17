@@ -1,20 +1,17 @@
 # 01-Array
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
-## in-place deletion
-
-- [x] [027](027_Remove_Element.cpp) [Remove Element](https://leetcode.com/problems/remove-element/)
-
-- [x] [026](026_Remove_Duplicates_from_Sorted_Array.cpp) [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
-
-- [x] [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp) [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
-
-
 - [x] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Premium
 
-- [x] [189](189_Rotate_Array.cpp) [Rotate Array](https://leetcode.com/problems/rotate-array/description/) move array by k = flip the array 3 times
+    All the nodes points to the celebrity, so use a celebrity candidate and validate the candidate through 3 passes of the array.
+
+- [x] [189](189_Rotate_Array.cpp) [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+
+    Move array by k = flip the array 3 times.
 
 - [x] [041](041_First_Missing_Positive.cpp) [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+
+    Swap the numbers by the order "x should be at `nums[x-1]`", and the first misplaced location is the answer.
 
 - [x] [299](299_Bulls_and_Cows.cpp) [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
 
@@ -23,6 +20,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [x] [118](118_Pascal's_Triangle.cpp) [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) Infrequent
 
 - [x] [119](119_Pascal's_Triangle_II.cpp) [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent - 仅存储一行，从右往左计算
+
 
 ## Boyer-Moore majority vote algorithm
 
@@ -59,6 +57,18 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [330](330_Patching_Array.cpp) [Patching Array](https://leetcode.com/problems/patching-array/description/) Infrequent
 
+
+## In-place Deletion
+
+- [x] [027](027_Remove_Element.cpp) [Remove Element](https://leetcode.com/problems/remove-element/)
+
+- [x] [026](026_Remove_Duplicates_from_Sorted_Array.cpp) [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+
+- [x] [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp) [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
+
+    The solution is essentially "double pointer": the fast pointer (iterator n) access all the elements, and the slow pointer (i) records the location of stored `nums` which satisfy the condition.
+
+    Only when the fast pointer's element satisfy the condition will it be stored into the location of the slow pointer (`nums[i++] = n`, [027](027_Remove_Element.cpp) & [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp)), or the next location of the slow pointer (`nums[++i] = n`, [026](026_Remove_Duplicates_from_Sorted_Array.cpp))。
 
 ## Left to Right, Right to Left
 

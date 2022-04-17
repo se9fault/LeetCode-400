@@ -35,6 +35,11 @@ Remember that you won't have direct access to the adjacency matrix.
 
 bool knows(int a, int b); /// a knows b
 
+// Solution:
+//   All the nodes points to the celebrity, so use a celebrity candidate and
+//   validate the candidate through 3 passes.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int findCelebrity(int n) {
@@ -44,20 +49,21 @@ public:
             // 1. if celebrity is 0, then knows(0, i) is always false,
             //    candidate is never changed
             // 2. if celebrity is m (0 < m < n),
-            //    then when i == m, knows(cand, m) is true, candidate = m
-            //    then for i in [m+1, n), knows(m, i) false, candidate still m
+            //    then when i == m, knows(cand, m) is true, candidate = m,
+            //    and candidate stays m iff for i in [m+1, n), knows(m, i) are
+            //    all false (meaning candidate doesn't know anyone behind)
             if (knows(candidate, i))
                 candidate = i;
         }
         for (int i = 0; i < candidate; ++i) {
-            // verify this candidate, verify will fail if:
+            // verify this candidate; verification will fail if:
             // (1) if candidate knows anyone before candidate
             // (2) if anyone before candidate doesn't know the candiate
             if (knows(candidate, i) || !knows(i, candidate))
                 return -1;
         }
         for (int i = candidate + 1; i < n; ++i) {
-            // verify this candidate, verify will fail if:
+            // verify this candidate; verification will fail if:
             // (1) if anyone after candidate doesn't know the candiate
             if (!knows(i, candidate))
                 return -1;

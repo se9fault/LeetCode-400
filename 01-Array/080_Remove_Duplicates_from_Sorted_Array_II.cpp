@@ -14,6 +14,11 @@ Example 2:
 Given nums = [0,0,1,1,1,1,2,3,3],
 Your function should return length = 7, with the first seven elements of nums
 being modified to 0, 0, 1, 1, 2, 3 and 3 respectively.
+
+Constraints:
+    1 <= nums.length <= 3 * 10^4
+    -100 <= nums[i] <= 100
+    nums is sorted in non-decreasing order.
 */
 
 class Solution {
