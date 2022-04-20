@@ -11,23 +11,17 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [041](041_First_Missing_Positive.cpp) [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
 
-    Swap the numbers by the order "x should be at `nums[x-1]`", and the first misplaced location is the answer.
-
-- [x] [299](299_Bulls_and_Cows.cpp) [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
+    Swap the numbers by the rule "x should be at `nums[x-1]`". Search again, and the first misplaced location is the answer.
 
 - [x] [134](134_Gas_Station.cpp) [Gas Station](https://leetcode.com/problems/gas-station/description/)
 
+    If out of gas at station `i`, start at `i+1`, but record current deficit. When all stations are finished, check if tank can cover all the deficit.
+
 - [x] [118](118_Pascal's_Triangle.cpp) [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) Infrequent
 
-- [x] [119](119_Pascal's_Triangle_II.cpp) [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent - 仅存储一行，从右往左计算
+- [x] [119](119_Pascal's_Triangle_II.cpp) [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) Infrequent
 
-
-## Boyer-Moore majority vote algorithm
-
-- [x] [169](169_Majority_Element.cpp) [Majority Element](https://leetcode.com/problems/majority-element/description/) Infrequent - 出现多n/2的元素，记录一个candidate以及其count
-
-- [X] [229](229_Majority_Element_II.cpp) [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Infrequent - 出现多于n/3的元素集合，记录两个candidate以及其count
-
+    Use O(N) space by calculating from right to left.
 
 - [x] [274](274_H-Index.cpp) [H-Index](https://leetcode.com/problems/h-index/description/) sort it first, O(NlogN)
 
@@ -66,9 +60,25 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp) [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
 
-    The solution is essentially "double pointer": the fast pointer (iterator n) access all the elements, and the slow pointer (i) records the location of stored `nums` which satisfy the condition.
+    The solutions are essentially "double pointer": the fast pointer (iterator n) access all the elements, and the slow pointer (i) records the location of stored `nums` which satisfy the condition.
 
     Only when the fast pointer's element satisfy the condition will it be stored into the location of the slow pointer (`nums[i++] = n`, [027](027_Remove_Element.cpp) & [080](080_Remove_Duplicates_from_Sorted_Array_II.cpp)), or the next location of the slow pointer (`nums[++i] = n`, [026](026_Remove_Duplicates_from_Sorted_Array.cpp))。
+
+
+## Boyer-Moore majority vote algorithm
+
+- [x] [169](169_Majority_Element.cpp) [Majority Element](https://leetcode.com/problems/majority-element/description/) Infrequent
+
+    To log the element appears more than `⌊n/2⌋` times, record 1 candidate and its count.
+
+- [X] [229](229_Majority_Element_II.cpp) [Majority Element II](https://leetcode.com/problems/majority-element-ii/description/) Infrequent
+
+    To log the elements appear more than `⌊n/3⌋` times, record 2 candidates and their count. Count the array again to see if they truly appears more than `⌊n/3⌋` times.
+
+- [x] [299](299_Bulls_and_Cows.cpp) [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) Similar counting technique
+
+    Use an array of 10 digits (0~9) to count the secret(+) and guess(-). When the count reaches 0, they cancelled out and that's a cow.
+
 
 ## Left to Right, Right to Left
 

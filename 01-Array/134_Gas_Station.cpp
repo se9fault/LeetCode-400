@@ -45,6 +45,8 @@ have 3.
 Therefore, you can't travel around the circuit once no matter where you start.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int canCompleteCircuit(vector<int> &gas, vector<int> &cost) {

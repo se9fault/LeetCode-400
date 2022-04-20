@@ -8,6 +8,8 @@ Example 3:    Input: [7,8,9,11,12]    Output: 1
 Note: Your algorithm should run in O(n) time and uses constant extra space.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {

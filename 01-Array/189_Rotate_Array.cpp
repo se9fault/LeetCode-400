@@ -23,6 +23,8 @@ to solve this problem.
 Could you do it in-place with O(1) extra space?
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {

@@ -28,6 +28,12 @@ digits, and their lengths are always equal.
 
 // bulls: correct in both digit and position
 // cows:  correct in digit, but not in correct position
+
+// Solution:
+//   Use an array of 10 digits (0~9) to count the secret(+) and guess(-). When
+//   the count reaches 0, they cancelled out and that's a cow.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     string getHint(string secret, string guess) {

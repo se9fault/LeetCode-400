@@ -21,6 +21,8 @@ Constraints:
     nums is sorted in non-decreasing order.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {

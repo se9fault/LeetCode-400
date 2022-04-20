@@ -3,6 +3,8 @@ Given a non-negative integer numRows, generate the first numRows of Pascal's
 triangle.
 */
 
+// Time Complexity: O(N^2)
+// Space Complexity: O(N^2)
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {

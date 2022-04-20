@@ -8,6 +8,11 @@ Example 1: Input: [3,2,3]          Output: 3
 Example 2: Input: [2,2,1,1,1,2,2]  Output: 2
 */
 
+// Solution:
+//    Record 1 candidate and its count. If current number matchs the candidate,
+//    ++count; else --count. if count == 0, make current number candidate.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {

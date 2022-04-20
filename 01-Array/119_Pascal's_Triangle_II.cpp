@@ -4,6 +4,8 @@ Pascal's triangle.
 Note that the row index starts from 0.
 */
 
+// Time Complexity: O(N^2)
+// Space Complexity: O(N)
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {

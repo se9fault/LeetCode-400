@@ -25,6 +25,8 @@ Constraints:
     0 <= val <= 100
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
