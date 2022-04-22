@@ -82,9 +82,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Left to Right, Right to Left
 
-- [x] [042](042_Trapping_Rain_Water.cpp) [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) L2R R2L
+- [x] [042](042_Trapping_Rain_Water.cpp) [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 
-- [x] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/) Premium, L2R R2L
+- [x] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/) Premium
 
 
 ## Advanced
