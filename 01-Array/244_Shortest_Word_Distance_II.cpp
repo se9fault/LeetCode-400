@@ -19,8 +19,9 @@ in the list.
 
 
 // Solution:
-// create hash table to store the words and the index where they appeared.
-// Time complexity is O(M+N), in which M, N is the time two words appeared.
+//   Use a hash table of <words, vector<index where the word appears>>.
+// Time Complexity: O(P+Q), in which P, Q is the time two words appeared.
+// Space Complexity: O(N)
 class WordDistance {
 public:
     // initialize, add all words into the map
@@ -36,7 +37,9 @@ public:
         while (i < m[word1].size() && j < m[word2].size()) {
             res = min(res, abs(m[word1][i] - m[word2][j]));
             m[word1][i] < m[word2][j] ? ++i : ++j;
-            // every time only moves the smaller one, so diff could be smaller
+            // Each index vector is natually in ascending order.
+            // After each iteration, we only increase one loop variable (the one
+            // with smaller index), as this could make the distance smaller
         }
         return res;
     }

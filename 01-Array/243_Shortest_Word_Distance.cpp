@@ -17,8 +17,10 @@ Explanation：index("makes") - index("coding") = 1
 
 
 // Solution:
-// use one extra variable /idx/ to store the idx of either words' last apperance
-// in the vector, and calculate and compare diff when another word appears.
+//   Use an variable `idx` to store the idx of either words' last apperance in
+//   the vector, and calculate and compare diff when another word appears.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int shortestDistance(vector<string> &words, string &word1, string &word2) {

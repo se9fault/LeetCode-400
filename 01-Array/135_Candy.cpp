@@ -18,11 +18,13 @@ candies respectively. The third child gets 1 candy because it satisfies the
 above two conditions.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     int candy(vector<int>& ratings) {
         int n = ratings.size()
-        vector<int> candies(n, 1);
+        vector<int> candies(n, 1); // each child must have at lease 1 candy
         // satisfy left to right first: ratings[i] > ratings[i - 1]
         for (int i = 1; i < n; ++i) {
             if (ratings[i] > ratings[i - 1])

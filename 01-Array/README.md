@@ -5,10 +5,6 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     All the nodes points to the celebrity, so use a celebrity candidate and validate the candidate through 3 passes of the array.
 
-- [x] [189](189_Rotate_Array.cpp) [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
-
-    Move array by k = flip the array 3 times.
-
 - [x] [041](041_First_Missing_Positive.cpp) [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
 
     Swap the numbers by the rule "x should be at `nums[x-1]`". Search again, and the first misplaced location is the answer.
@@ -23,21 +19,37 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     Use O(N) space by calculating from right to left.
 
-- [x] [274](274_H-Index.cpp) [H-Index](https://leetcode.com/problems/h-index/description/) sort it first, O(NlogN)
+- [x] [274](274_H-Index.cpp) [H-Index](https://leetcode.com/problems/h-index/description/)
 
-- [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Binary Search, O(logN)
+    First sort the array in ascending order. Then if the i-th citation ≥ N-i, the remaining N-i citations must all be ≥ N-i, hence the H-index is N-i.
 
-- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium - store current, update min/max
+- [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Co-listed with 08
 
-- [x] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Premium - 多次查询，hash table
+    The given citation is already in ascending order, therefore we use binary search.
+
+- [x] [243](243_Shortest_Word_Distance.cpp) [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) Premium
+
+    Use an variable `idx` to store the idx of either words' last apperance in the vector, and calculate and compare diff when another word appears.
+
+- [x] [244](244_Shortest_Word_Distance_II.cpp) [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) Premium
+
+    As the method will be called multiple times, we use a hash table of `<words, vector<index where the word appears>>`, and check the two vectors of the two words upon each call to see the shortest distance. In implementation we use one while loop, and only increase one of the loop variables in each iteration.
 
 - [x] [245](245_Shortest_Word_Distance_III.cpp) [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/) Premium
 
-- [x] [217](217_Contains_Duplicate.cpp) [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) Sort/count unordered_map
+    The same as [243](243_Shortest_Word_Distance.cpp) except that `word1` may be the same with `word2`. The original solution still works with a small modification.
+
+- [x] [217](217_Contains_Duplicate.cpp) [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+
+    One solution would be sort it and check. Another is to put all the elements into an unordered_set, and check whether the element is already in during the process.
 
 - [x] [219](219_Contains_Duplicate_II.cpp) [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) Infrequent
 
-- [x] [220](220_Contains_Duplicate_III.cpp) [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent
+    Use an unordered_map to store the last location of an element, and when the element exists check whether `distance ≤ k`.
+
+- [x] [220](220_Contains_Duplicate_III.cpp) [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent, Co-listed with 09
+
+    Use bucket sort
 
 - [x] [011](011_Container_With_Most_Water.cpp) [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) Two sides moving towards middle
 
@@ -84,7 +96,22 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [042](042_Trapping_Rain_Water.cpp) [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 
-- [x] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/) Premium
+- [x] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/)
+
+
+## Rotate Array
+
+- [x] [189](189_Rotate_Array.cpp) [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+
+    Move array by k = flip the array 3 times.
+
+- [x] [033](../08-Searching/033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) Co-listed with 08
+
+- [ ] [081](../08-Searching/081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+
+- [ ] [153](../08-Searching/153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+
+- [ ] [154](../08-Searching/154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
 
 
 ## Advanced
@@ -94,6 +121,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [321](321_Create_Maximum_Number.cpp) [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/description/) Infrequent
 
 - [ ] [327](327_Count_of_Range_Sum.cpp) [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/description/)
+
 
 ## Interval
 
@@ -106,6 +134,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [x] [253](253_Meeting_Rooms_II.cpp) [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) Premium
 
 - [ ] [352](352_Data_Stream_as_Disjoint_Intervals.cpp) [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/)
+
 
 ## Counter
 
@@ -127,8 +156,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [163](163_Missing_Ranges.cpp) [Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) Premium
 
-## Counter
 
+## Counter
 
 - [x] [075](075_Sort_Colors.cpp) [Sort Colors](https://leetcode.com/problems/sort-colors/description/) Dutch flag
 

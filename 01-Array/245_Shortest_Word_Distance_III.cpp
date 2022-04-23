@@ -16,8 +16,12 @@ You may assume word1 and word2 are both in the list.
 */
 
 
+
+
 // Solution:
-// code in LC243 Word Distance I still works, with one modification on line 26.
+//   The solution in LC243 still works, with one modification.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int shortestDistance(vector<string> &words, string &word1, string &word2) {

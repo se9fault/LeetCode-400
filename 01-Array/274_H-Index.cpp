@@ -8,6 +8,8 @@ e.g. [0, 1, 3, 5, 6] has 3 papers with citations ≥ 3, and other papers has
 citations ≤ 3.
 */
 
+// Time Complexity: O(NlogN)
+// Space Complexity: O(1)
 class Solution {
 public:
     int hIndex(vector<int>& citations) {

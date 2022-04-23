@@ -16,6 +16,8 @@ Input: nums = [1,2,3,1,2,3], k = 2
 Output: false
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {

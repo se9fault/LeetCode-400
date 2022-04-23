@@ -25,13 +25,14 @@ sorted in ascending order.
 Could you solve it in logarithmic time complexity?
 */
 
-// vector citations is given in ascending order, find h-index in O(logN)
+// Time Complexity: O(logN)
+// Space Complexity: O(1)
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
-        int len = citations.size(), left = 0, right = len - 1,  mid;
+        int len = citations.size(), left = 0, right = len - 1;
         while (left <= right) {
-            mid = left + (right - left) / 2;
+            int mid = left + (right - left) / 2;
             if (citations[mid] >= (len - mid))
                 right = mid - 1;
             else

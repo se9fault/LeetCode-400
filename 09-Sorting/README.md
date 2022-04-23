@@ -3,6 +3,10 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [088](088_Merge_Sorted_Array.cpp) [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) merge 2 arrays
 
+- [x] [220](../01-Array/220_Contains_Duplicate_III.cpp) [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Co-listed with 01
+
+    Bucket sort
+
 ## Priority Queue
 
 - [x] [215](215_Kth_Largest_Element_in_an_Array.cpp) [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)

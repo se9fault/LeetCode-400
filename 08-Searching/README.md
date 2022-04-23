@@ -3,17 +3,19 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Binary Search
 
+- [x] [278](../01-Array/275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Co-listed with 01
+
 - [x] [278](278_First_Bad_Version.cpp) [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)
 
 - [x] [035](035_Search_Insert_Position.cpp) [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 
-- [x] [033](033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+- [x] [033](033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) Co-listed with 01
 
-- [ ] [081](081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+- [ ] [081](081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) Co-listed with 01
 
-- [ ] [153](153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+- [ ] [153](153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) Co-listed with 01
 
-- [ ] [154](154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
+- [ ] [154](154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) Co-listed with 01
 
 - [x] [162](162_Find_Peak_Element.cpp) [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
 
