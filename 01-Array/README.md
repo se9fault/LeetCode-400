@@ -51,9 +51,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     Use bucket sort
 
-- [x] [011](011_Container_With_Most_Water.cpp) [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) Two sides moving towards middle
+- [x] [011](011_Container_With_Most_Water.cpp) [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 
-- [x] [334](334_Increasing_Triplet_Subsequence.cpp) [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) LIS
+    Use two pointers on both sides moving towards middle, criteria being always finding a longer side for the shorter pointer.
 
 - [x] [128](128_Longest_Consecutive_Sequence.cpp) [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
@@ -112,6 +112,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [153](../08-Searching/153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
 - [ ] [154](../08-Searching/154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
+
+
+## Longest Increasing Subsequence
+
+- [x] [334](334_Increasing_Triplet_Subsequence.cpp) [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)
 
 
 ## Advanced

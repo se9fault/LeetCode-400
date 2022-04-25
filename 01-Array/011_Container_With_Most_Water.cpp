@@ -9,6 +9,8 @@ Note: You may not slant the container and n is at least 2.
 
 
 // Solution: two pointer, starting from two sides.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -17,11 +19,12 @@ public:
         while (i < j) {
             int h = min(height[i], height[j]); // lower of the two
             water = max(water, (j - i) * h);
-            // going towards middle means loss of width, so we need to get higher
-            // to possibly hold more water. therefore we move until we get the
-            // shorter side a higher edge
+            // Going towards middle means loss of width, so we need to get
+            // higher to possibly hold more water. Therefore we move until we
+            // get the shorter side a higher edge
             while (height[i] <= h && i < j) i++;
             while (height[j] <= h && i < j) j--;
+            // only one of two whiles will be executed
         }
         return water;
     }
