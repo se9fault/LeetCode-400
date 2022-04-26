@@ -1,5 +1,5 @@
 /*
-Given an input string , reverse the string word by word.
+Given an input string, reverse the string word by word.
 
 Example:
 
@@ -16,6 +16,8 @@ Solution: exactly the same in-place solution from LC151.
 */
 
 // Note: method signature may not be accurate.
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     vector<char> reverseWords(const vector<char>& str) {

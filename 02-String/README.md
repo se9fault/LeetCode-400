@@ -2,19 +2,27 @@
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 ## Basic
-- [x] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)
+- [x] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) KMP algorithm
 
 - [x] [014](014_Longest_Common_Prefix.cpp) [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 - [x] [058](058_Length_of_Last_Word.cpp) [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
+    Use std::stringstream to get the last word.
+
 - [x] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
 
 - [x] [151](151_Reverse_Words_in_a_String.cpp) [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 
+    To reverse the string word by word in-place, first reverse each word, then revert the entire string.
+
 - [x] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/) Premium
 
+    The same as [151](151_Reverse_Words_in_a_String.cpp) except the input is an array of char.
+
 - [x] [345](345_Reverse_Vowels_of_a_String.cpp) [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
+
+    Use double pointers to find vowels and swap them.
 
 - [x] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
 

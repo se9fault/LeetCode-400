@@ -35,6 +35,7 @@ public:
         int n = height.size();
         if (n == 0)
             return 0;
+
         int ans = 0;
         vector<int> left_max(n), right_max(n);
         left_max[0] = height[0];
@@ -42,12 +43,12 @@ public:
         for (int i = 1; i < n; i++) {
             left_max[i] = max(height[i], left_max[i - 1]);
             // The maximum height when viewing from the left.
-            // Increase monotically when i++
+            // Increase monotonically when i++
         }
         for (int i = n - 2; i >= 0; i--) {
             right_max[i] = max(height[i], right_max[i + 1]);
             // The maximum height when viewing from the right.
-            // Increase monotically when i--
+            // Increase monotonically when i--
         }
 
         for (int i = 1; i < n - 1; i++) {

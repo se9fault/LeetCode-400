@@ -12,6 +12,8 @@ Input: "Hello World"
 Output: 5
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     int lengthOfLastWord(string s) {

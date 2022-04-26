@@ -1,6 +1,7 @@
 # 01-Array
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
+## Basic
 - [x] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Premium
 
     All the nodes points to the celebrity, so use a celebrity candidate and validate the candidate through 3 passes of the array.
@@ -23,7 +24,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     First sort the array in ascending order. Then if the i-th citation ≥ N-i, the remaining N-i citations must all be ≥ N-i, hence the H-index is N-i.
 
-- [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Co-listed with 08
+- [x] [275](275_H-Index_II.cpp) [H-Index II](https://leetcode.com/problems/h-index-ii/description/) Co-listed with [08](../08-Searching/README.md), Binary Search
 
     The given citation is already in ascending order, therefore we use binary search.
 
@@ -47,7 +48,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     Use an unordered_map to store the last location of an element, and when the element exists check whether `distance ≤ k`.
 
-- [x] [220](220_Contains_Duplicate_III.cpp) [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent, Co-listed with 09
+- [x] [220](220_Contains_Duplicate_III.cpp) [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) Infrequent, Co-listed with [09](../09-Sorting/README.md)
 
     Use bucket sort
 
@@ -96,6 +97,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [042](042_Trapping_Rain_Water.cpp) [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)
 
+    Solving logic: for every grid, the water it can hold = min (left boundary, right boundary) - the height of this grid. Get left boundary by going from left to right, and right boundary by going from right to left.
+
 - [x] [135](135_Candy.cpp) [Candy](https://leetcode.com/problems/candy/description/)
 
 
@@ -105,13 +108,13 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     Move array by k = flip the array 3 times.
 
-- [x] [033](../08-Searching/033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) Co-listed with 08
+- [x] [033](../08-Searching/033_Search_in_Rotated_Sorted_Array.cpp) [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) Co-listed with [08](../08-Searching/README.md), Binary Search
 
-- [ ] [081](../08-Searching/081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+- [ ] [081](../08-Searching/081_Search_in_Rotated_Sorted_Array_II.cpp) [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) Co-listed with [08](../08-Searching/README.md), Binary Search
 
-- [ ] [153](../08-Searching/153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+- [ ] [153](../08-Searching/153_Find_Minimum_in_Rotated_Sorted_Array.cpp) [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) Co-listed with [08](../08-Searching/README.md), Binary Search
 
-- [ ] [154](../08-Searching/154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
+- [ ] [154](../08-Searching/154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp) [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) Co-listed with [08](../08-Searching/README.md), Binary Search
 
 
 ## Longest Increasing Subsequence
@@ -132,11 +135,19 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [056](056_Merge_Intervals.cpp) [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 
-- [x] [057](057_Insert_Interval.cpp) [Insert Interval](https://leetcode.com/problems/insert-interval/description/) simplified 056
+    Sort the intervals by start time, and merge two adjacent intervals if they overlap.
+
+- [x] [057](057_Insert_Interval.cpp) [Insert Interval](https://leetcode.com/problems/insert-interval/description/)
+
+    Simplified [056](056_Merge_Intervals.cpp).
 
 - [x] [252](252_Meeting_Rooms.cpp) [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/) Premium
 
+    Sort the intervals by start time, and return false if two adjacent intervals overlap.
+
 - [x] [253](253_Meeting_Rooms_II.cpp) [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) Premium
+
+    To determine how many meeting rooms do we need, use a map to store the room change (start time, +1) (end time, -1), and go through time to see the maximum rooms needed.
 
 - [ ] [352](352_Data_Stream_as_Disjoint_Intervals.cpp) [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/)
 
@@ -195,6 +206,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [378](378_Kth_Smallest_Element_in_a_Sorted_Matrix.cpp) [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
 
 - [x] [240](240_Search_a_2D_Matrix_II.cpp) [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)
+
 - [ ] [370](370_Range_Addition.cpp) [Range Addition](https://leetcode.com/problems/range-addition/description/) Premium
 
 - [ ] [296](296_Best_Meeting_Point.cpp) [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/) Premium

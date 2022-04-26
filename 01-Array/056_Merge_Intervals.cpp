@@ -12,32 +12,25 @@ Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 */
 
-/**
- * Definition for an interval.
- * struct Interval {
- *     int start;
- *     int end;
- *     Interval() : start(0), end(0) {}
- *     Interval(int s, int e) : start(s), end(e) {}
- * };
- */
-
+// Time Complexity: O(NlogN)
+// Space Complexity: O(N)
 class Solution {
 public:
-    vector<Interval> merge(vector<Interval>& intervals) {
-        std::sort(intervals.begin(), intervals.end(), &cmp);
-        vector<Interval> results;
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        auto cmp = [](const vector<int> &v1, const vector<int> &v2) {
+            return v1[0] < v2[0];
+        };
+        std::sort(intervals.begin(), intervals.end(), cmp);
+        vector<vector<int>> res;
 
         for (auto interval : intervals) {
-            if (results.empty() || results.back().end < interval.start)
-                results.push_back(interval);
-            else
-                results.back().end = std::max(results.back().end, interval.end);
+            if (res.empty() || res.back()[1] < interval[0]) {
+                res.push_back(interval);
+            } else {
+                res.back()[1] = max(res.back()[1], interval[1]);
+            }
         }
-        return results;
-    }
 
-    static bool cmp(const Interval &v1, const Interval &v2) {
-        return v1.start < v2.start;
+        return res;
     }
 };

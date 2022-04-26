@@ -20,6 +20,8 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 This is consistent to C's strstr() and Java's indexOf().
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     int strStr(string str1, string str2) { // KMP

@@ -25,6 +25,8 @@ Output: true
  */
 
 // Note: method signature may not be accurate.
+// Time Complexity: O(NlogN)
+// Space Complexity: O(1)
 class Solution {
 public:
     bool canAttendMeetings(vector<Interval>& intervals) {
@@ -34,8 +36,9 @@ public:
             return left.end < right.end;
         };
         sort(intervals.begin(), intervals.end(), cmp);
+
         for (int i = 0; i < intervals.size() - 1; ++i) {
-            if (intervals[i].end > intervals[i+1].start)
+            if (intervals[i].end > intervals[i + 1].start)
                 return false;
         }
         return true;

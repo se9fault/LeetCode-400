@@ -24,12 +24,12 @@ reversed string.
 
 Follow up:
 For C programmers, try to solve it in-place in O(1) extra space.
-
-Solution:
-first reverse each word, then reverse the whole string.
 */
 
-
+// Solution:
+//   To do this in-place, first reverse each word then reverse the whole string.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     // O(1) space, in place

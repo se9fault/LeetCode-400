@@ -1,6 +1,6 @@
 /*
-Write a function that takes a string as input and reverse only the vowels of a
-string.
+Given a string s, reverse only all the vowels in the string and return it.
+The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both cases.
 
 Example 1:
 Input: "hello"
@@ -14,6 +14,8 @@ Note:
 The vowels does not include the letter "y".
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     string reverseVowels(string s) {

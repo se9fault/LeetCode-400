@@ -17,6 +17,8 @@ Note:
 All given inputs are in lowercase letters a-z.
 */
 
+// Time Complexity: O(M * N)
+// Space Complexity: O(1)
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
