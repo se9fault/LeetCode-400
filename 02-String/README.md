@@ -14,7 +14,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [151](151_Reverse_Words_in_a_String.cpp) [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 
-    To reverse the string word by word in-place, first reverse each word, then revert the entire string.
+    To reverse the string word by word in-place, first reverse each word, then reverse the entire string.
 
 - [x] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/) Premium
 
@@ -26,11 +26,13 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
 
-- [x] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium, Recursion
+- [x] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium, Co-listed with [10](../10-Backtracking/README.md)
 
 - [ ] [087](087_Scramble_String.cpp) [Scramble String](https://leetcode.com/problems/scramble-string/description/)
 
 - [x] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
+
+     To get the largest number concatnated from `nums` array, sort `nums` by using the concatenation of two comparing strings.
 
 - [x] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
 

@@ -14,12 +14,13 @@ Explanation: The starting player can guarantee a win by flipping the middle
 
 Follow up:
 Derive your algorithm's runtime complexity.
-
 */
 
 // Solution:
-// canWin() here means that given a string, if there is a move that will
-// guarantee that the other player cannot win.
+//   canWin() here means that given a string, if there is a move that will
+//   guarantee that the other player cannot win.
+// Time Complexity: O(N!)
+// Space Complexity: O(N!)
 class Solution {
 public:
     bool canWin(string s) {

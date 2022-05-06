@@ -21,8 +21,14 @@ P     I    N
 A   L S  I G
 Y A   H R
 P     I
+
+Example 3:
+Input: s = "A", numRows = 1
+Output: "A"
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     string convert(string s, int numRows) {

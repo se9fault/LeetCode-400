@@ -18,6 +18,8 @@ following states:
 If there is no valid move, return an empty list [].
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N^2)
 class Solution {
 public:
     vector<string> generatePossibleNextMoves(string s) {

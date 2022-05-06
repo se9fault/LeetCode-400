@@ -1,6 +1,8 @@
 # 10-Backtracking
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
+- [x] [294](294_Flip_Game_II.cpp) [Flip Game II](https://leetcode.com/problems/flip-game-ii/description/) Premium, Co-listed with [02](../02-String/README.md), Basic
+
 - [x] [078](078_Subsets.cpp) [Subsets](https://leetcode.com/problems/subsets/description/)
 
 - [x] [090](090_Subsets_II.cpp) [Subsets II](https://leetcode.com/problems/subsets-ii/description/)
