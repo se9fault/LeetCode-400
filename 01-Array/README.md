@@ -2,6 +2,7 @@
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
 ## Basic
+
 - [x] [277](277_Find_the_Celebrity.cpp) [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/description/) Premium
 
     All the nodes points to the celebrity, so use a celebrity candidate and validate the candidate through 3 passes of the array.

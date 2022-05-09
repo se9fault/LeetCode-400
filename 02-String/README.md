@@ -1,28 +1,24 @@
 # 02-String
 Note: Click on the number to go to the source code; click on the name to go to the LeetCode website.
 
-## Basic
-- [x] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) KMP algorithm
+## Vector of chars
+
+- [x] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
 
 - [x] [014](014_Longest_Common_Prefix.cpp) [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
+
+    K-way comparing K strings to check their common prefix.
+
+- [x] [038](038_Count_and_Say.cpp) [Count and Say](https://leetcode.com/problems/count-and-say/description/)
+
+
+## Basic
+
+- [x] [028](028_Implement_strStr().cpp) [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) KMP algorithm
 
 - [x] [058](058_Length_of_Last_Word.cpp) [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
     Use std::stringstream to get the last word.
-
-- [x] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
-
-- [x] [151](151_Reverse_Words_in_a_String.cpp) [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
-
-    To reverse the string word by word in-place, first reverse each word, then reverse the entire string.
-
-- [x] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/) Premium
-
-    The same as [151](151_Reverse_Words_in_a_String.cpp) except the input is an array of char.
-
-- [x] [345](345_Reverse_Vowels_of_a_String.cpp) [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
-
-    Use double pointers to find vowels and swap them.
 
 - [x] [293](293_Flip_Game.cpp) [Flip Game](https://leetcode.com/problems/flip-game/description/) Premium
 
@@ -30,30 +26,51 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [087](087_Scramble_String.cpp) [Scramble String](https://leetcode.com/problems/scramble-string/description/)
 
-- [x] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
-
-     To get the largest number concatnated from `nums` array, sort `nums` by using the concatenation of two comparing strings.
-
-- [x] [006](006_ZigZag_Conversion.cpp) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) Infrequent
-
 - [x] [161](161_One_Edit_Distance.cpp) [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) Premium
-
-- [x] [038](038_Count_and_Say.cpp) [Count and Say](https://leetcode.com/problems/count-and-say/description/)
 
 - [ ] [358](358_Rearrange_String_k_Distance_Apart.cpp) [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/description/) Premium
 
-- [ ] [316](316_Remove_Duplicate_Letters.cpp) [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
-
 - [ ] [271](271_Encode_and_Decode_Strings.cpp) [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) Premium
 
+
+## From both sizes to the middle
+
+- [x] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
+
+    Use double pointers moving from both sizes to the middle to swap every pair of char.
+
+- [x] [345](345_Reverse_Vowels_of_a_String.cpp) [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
+
+    Use double pointers moving from both sizes to the middle to find vowels and swap them.
+
 - [x] [246](246_Strobogrammatic_Number.cpp) [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) Premium
+
+    Use double pointers moving from both sizes to the middle to check if two digit are strobogrammatic (like 6 and 9).
 
 - [x] [247](247_Strobogrammatic_Number_II.cpp) [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) Premium
 
 - [x] [248](248_Strobogrammatic_Number_III.cpp) [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) Premium
 
+- [x] [151](151_Reverse_Words_in_a_String.cpp) [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 
-# Implement Details
+    To reverse the word order in a string in-place, first reverse each word, then reverse the entire string. (hello world -> olleh dleow -> world hello)
+
+- [x] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/) Premium
+
+    The question and solution is the same as [151](151_Reverse_Words_in_a_String.cpp). The only difference is that the input is an array of char instead of an string.
+
+
+## Lexicographic Ordering
+
+- [x] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
+
+     To get the largest number concatenated from `nums` array, sort `nums` by using the concatenation of two comparing strings. Comparing nums lexicographocally is not enough.
+
+- [ ] [316](316_Remove_Duplicate_Letters.cpp) [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
+
+    Requires smallest lexicographic order. similar to Boyer-Moore majority vote algorithm, use array to count
+
+## Implement Details
 
 - [x] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
 

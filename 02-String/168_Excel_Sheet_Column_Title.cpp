@@ -30,8 +30,8 @@ public:
         char tmp;
         while (n) {
             n -= 1;
-            tmp = 'A' + n % 26;
-            res = tmp + res;
+            char tmp = 'A' + n % 26;
+            res += tmp;
             n /= 26;
         }
         return res;
