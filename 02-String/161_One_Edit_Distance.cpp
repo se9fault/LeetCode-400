@@ -23,6 +23,8 @@ Output: true
 Explanation: We can replace '0' with '1' to get t.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     bool isOneEditDistance(string s, string t) {

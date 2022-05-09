@@ -8,6 +8,8 @@ For example,
 Given n = 2, return ["11","69","88","96"].
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     vector<string> findStrobogrammatic(int n) {

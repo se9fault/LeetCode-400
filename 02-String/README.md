@@ -70,7 +70,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
     Requires smallest lexicographic order. similar to Boyer-Moore majority vote algorithm, use array to count
 
-## Implement Details
+## Converting Stuff by Detailed Rules
 
 - [x] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
 
@@ -85,9 +85,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
 
 
-## Mapping
+## Map / `int[26]`
 
 - [x] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+
+    Scan the string twice: first count every character, then 
 
 - [x] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
 

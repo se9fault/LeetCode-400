@@ -25,6 +25,8 @@ Input: 4
 Output: "1211"
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     string countAndSay(int n) {

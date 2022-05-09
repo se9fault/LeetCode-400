@@ -15,6 +15,8 @@ Because the range might be a large number, the low and high numbers are
 represented as string.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     int strobogrammaticInRange(string low, string high) {

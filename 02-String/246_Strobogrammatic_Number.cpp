@@ -10,6 +10,8 @@ Example 2:    Input:  "88"    Output: true
 Example 3:    Input:  "962"   Output: false
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     bool isStrobogrammatic(string num) {

@@ -40,6 +40,8 @@ Input: 1994     Output: "MCMXCIV"
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     string intToRoman(int num) {
@@ -48,7 +50,7 @@ public:
                         "IX", "V", "IV", "I"};
         int val[] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
 
-        for (int i=0; num != 0; i++) {
+        for (int i = 0; num != 0; i++) {
             while (num >= val[i]) {
                 num -= val[i];
                 res += sym[i];

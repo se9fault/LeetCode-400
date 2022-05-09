@@ -21,6 +21,8 @@ Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven \
 Thousand Eight Hundred Ninety One"
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     string numberToWords(int n) {

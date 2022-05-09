@@ -22,6 +22,8 @@ Input: "ZY"
 Output: 701
 */
 
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     int titleToNumber(string s) {
