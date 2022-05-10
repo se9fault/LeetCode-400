@@ -24,6 +24,11 @@ You may assume pattern contains only lowercase letters, and str contains
 lowercase letters that may be separated by a single space.
 */
 
+// Solution:
+//   Use map <char, last idx> and map <word, last idx>; if stored value does not
+//   match, str does not follow the same pattern.
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {

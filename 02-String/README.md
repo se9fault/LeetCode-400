@@ -33,6 +33,67 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [271](271_Encode_and_Decode_Strings.cpp) [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) Premium
 
 
+## Lexicographic Ordering
+
+- [x] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
+
+     To get the largest number concatenated from `nums` array, sort `nums` by using the concatenation of two comparing strings. Comparing nums lexicographocally is not enough.
+
+- [ ] [316](316_Remove_Duplicate_Letters.cpp) [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
+
+    Requires smallest lexicographic order. similar to Boyer-Moore majority vote algorithm, use array to count
+
+
+## Converting Stuff by Detailed Rules
+
+- [x] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
+
+- [x] [171](171_Excel_Sheet_Column_Number.cpp) [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
+
+- [x] [013](013_Roman_to_Integer.cpp) [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
+
+- [x] [012](012_Integer_to_Roman.cpp) [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
+
+- [x] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
+
+- [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
+
+- [x] [065](065_Valid_Number.cpp) [Valid Number](https://leetcode.com/problems/valid-number/description/)
+
+    Deterministic Finite Automaton!
+
+
+## Map / `int[26]`
+
+- [x] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+
+    Use one map `<char, appear times>` to count the appearance of each letter.
+
+- [x] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
+
+    Use two maps of `<char, appear times>` to count the appearance of each letter. (Use only one map is also possible)
+
+- [x] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
+
+    Use two maps of `<char, last idx>` to determine if the two strings are isomorphic.
+
+- [x] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+
+    Similar to [205](205_Isomorphic_Strings.cpp); Use map `<char, last idx>` and `<word, last idx>` to see if the char string and the word string are isomophic.
+
+- [x] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+
+    Simplified [383](383_Ransom_Note.cpp); use two maps of `<char, appear times>` to count the appearance of each letter. (Use only one map is also possible)
+
+- [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+
+    (Not `int[26]`) Anagrams of the same group will have identical sorted output, therefore use it as key in `<sorted key, multiset<strings>>`.
+
+- [x] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
+
+    (Not `int[26]`) To group the shifted letters, note that group "abc" "bcd" "xyz" "yza" all share the key "0,1,2".
+
+
 ## From both sizes to the middle
 
 - [x] [344](344_Reverse_String.cpp) [Reverse String](https://leetcode.com/problems/reverse-string/description/)
@@ -58,74 +119,6 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [x] [186](186_Reverse_Words_in_a_String_II.cpp) [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/description/) Premium
 
     The question and solution is the same as [151](151_Reverse_Words_in_a_String.cpp). The only difference is that the input is an array of char instead of an string.
-
-
-## Lexicographic Ordering
-
-- [x] [179](179_Largest_Number.cpp) [Largest Number](https://leetcode.com/problems/largest-number/description/) Infrequent
-
-     To get the largest number concatenated from `nums` array, sort `nums` by using the concatenation of two comparing strings. Comparing nums lexicographocally is not enough.
-
-- [ ] [316](316_Remove_Duplicate_Letters.cpp) [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)
-
-    Requires smallest lexicographic order. similar to Boyer-Moore majority vote algorithm, use array to count
-
-## Converting Stuff by Detailed Rules
-
-- [x] [168](168_Excel_Sheet_Column_Title.cpp) [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
-
-- [x] [171](171_Excel_Sheet_Column_Number.cpp) [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
-
-- [x] [013](013_Roman_to_Integer.cpp) [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
-
-- [x] [012](012_Integer_to_Roman.cpp) [Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
-
-- [x] [273](273_Integer_to_English_Words.cpp) [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)
-
-- [x] [068](068_Text_Justification.cpp) [Text Justification](https://leetcode.com/problems/text-justification/description/)
-
-
-## Map / `int[26]`
-
-- [x] [387](387_First_Unique_Character_in_a_String.cpp) [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
-
-    Scan the string twice: first count every character, then 
-
-- [x] [383](383_Ransom_Note.cpp) [Ransom Note](https://leetcode.com/problems/ransom-note/description/)
-
-- [x] [205](205_Isomorphic_Strings.cpp) [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
-
-- [x] [290](290_Word_Pattern.cpp) [Word Pattern](https://leetcode.com/problems/word-pattern/description/)
-
-- [x] [242](242_Valid_Anagram.cpp) [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
-
-- [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
-
-- [x] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
-
-
-## Advanced
-
-- [x] [157](157_Read_N_Characters_Given_Read4.cpp) [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/description/) Premium
-
-- [x] [158](158_Read_N_Characters_Given_Read4_II-Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/) Premium
-
-- [x] [065](065_Valid_Number.cpp) [Valid Number](https://leetcode.com/problems/valid-number/description/)
-
-
-## Substring - Sliding Window
-
-- [ ] [076](076_Minimum_Window_Substring.cpp) [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
-
-- [ ] [030](030_Substring_with_Concatenation_of_All_Words.cpp) [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
-
-- [x] [003](003_Longest_Substring_Without_Repeating_Characters.cpp) [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
-
-- [ ] [340](340_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp) [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) Premium
-
-- [ ] [395](395_Longest_Substring_with_At_Least_K_Repeating_Characters.cpp) [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)
-
-- [ ] [159](159_Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/) Premium
 
 
 ## Palindrome
@@ -162,6 +155,21 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [301](301_Remove_Invalid_Parentheses.cpp) [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/)
 
 
+## Substring - Sliding Window
+
+- [ ] [076](076_Minimum_Window_Substring.cpp) [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
+
+- [ ] [030](030_Substring_with_Concatenation_of_All_Words.cpp) [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+
+- [x] [003](003_Longest_Substring_Without_Repeating_Characters.cpp) [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+
+- [ ] [340](340_Longest_Substring_with_At_Most_K_Distinct_Characters.cpp) [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) Premium
+
+- [ ] [395](395_Longest_Substring_with_At_Least_K_Repeating_Characters.cpp) [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)
+
+- [ ] [159](159_Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/) Premium
+
+
 ## Subsequence
 
 - [x] [392](392_Is_Subsequence.cpp) [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
@@ -169,3 +177,10 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [115](115_Distinct_Subsequences.cpp) [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
 
 - [x] [187](187_Repeated_DNA_Sequences.cpp) [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/) Infrequent
+
+
+## Mimicking API
+
+- [x] [157](157_Read_N_Characters_Given_Read4.cpp) [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/description/) Premium
+
+- [x] [158](158_Read_N_Characters_Given_Read4_II-Call_multiple_times.cpp) [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/) Premium

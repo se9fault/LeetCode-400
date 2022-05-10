@@ -19,14 +19,16 @@ to such case?
 */
 
 // Solution:
-// Still count both of the strings, but we can count them in the same array.
+//   Count characters on both strings, and do comparision. we can count them in
+//   the same array.
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     bool isAnagram(string s, string t) {
         if (s.size() != t.size())
             return false;
-        int counter[26];
-        memset(counter, 0, sizeof(counter));
+        int counter[26] = {0};
         for (int i = 0; i < s.size(); i++) {
             counter[s[i] - 'a']++;
             counter[t[i] - 'a']--;

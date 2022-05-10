@@ -11,10 +11,13 @@ You may assume that both strings contain only lowercase letters.
 canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
-
-Solution: count characters on both strings, and do comparision.
 */
 
+// Solution:
+//   Count characters on both strings, and do comparision.
+//   Note: using only one map is possible: for magazine ++, for ransome note --
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {

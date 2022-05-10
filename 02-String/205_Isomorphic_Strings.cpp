@@ -20,10 +20,13 @@ Output: true
 
 Note:
 You may assume both s and t have the same length.
-
-Solution: same with LC383, count for both strings, then compare.
 */
 
+// Solution:
+//   Use two maps of <char, last idx> to determine if the two strings are
+//   isomorphic.
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {

@@ -16,9 +16,12 @@ Output:
   ["a","z"]
 ]
 
-Solution: group "abc" "bcd" "xyz" "yza" all share the key "0,1,2".
 */
 
+// Solution:
+//   group "abc" "bcd" "xyz" "yza" all share the key "0,1,2".
+// Time Complexity: O(NlogN)
+// Space Complexity: O(N)
 class Solution {
 public:
     vector<vector<string>> groupStrings(vector<string>& strings) {

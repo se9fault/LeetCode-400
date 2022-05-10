@@ -15,6 +15,11 @@ All inputs will be in lowercase.
 The order of your output does not matter.
 */
 
+// Solution:
+//   Anagrams of the same group will have identical sorted output, therefore use
+//   it as key in <sorted key, multiset<strings>>.
+// Time Complexity: O(NlogN)
+// Space Complexity: O(N)
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {

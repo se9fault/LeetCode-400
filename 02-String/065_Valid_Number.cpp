@@ -28,8 +28,10 @@ Of course, the context of these characters also matters in the input.
 */
 
 // Solution:
-// Deterministic Finite Automaton!
-// https://leetcode.com/problems/valid-number/discuss/23725/C%2B%2B-My-thought-with-DFA
+//   Deterministic Finite Automaton!
+//   https://leetcode.com/problems/valid-number/discuss/23725/C%2B%2B-My-thought-with-DFA
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     bool isNumber(string s) {
