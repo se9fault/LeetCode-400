@@ -125,7 +125,11 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [125](125_Valid_Palindrome.cpp) [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 
+    Palindrome is typical "From both sizes to the middle".
+
 - [x] [266](266_Palindrome_Permutation.cpp) [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/description/) Premium
+
+    A permutation of a palindrome means only 0 or 1 character appeared odd number of times in the string. To save the most space, we use a `bitset` to store the odd/even times; we count by flip the bit, and use `bitset::count()` to check how many bits are set in the end.
 
 - [x] [005](005_Longest_Palindromic_Substring.cpp) [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 

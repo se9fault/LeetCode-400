@@ -32,7 +32,6 @@ For C programmers, try to solve it in-place in O(1) extra space.
 // Space Complexity: O(1)
 class Solution {
 public:
-    // O(1) space, in place
     string reverseWords(string s) {
         int i = 0; // the pointer idx that scan through the original string
         int j = 0; // the pointer idx to the new str with correct amount of space

@@ -20,17 +20,20 @@ Explanation: The answer is "wke", with the length of 3.
              subsequence and not a substring.
 */
 
+// Solution:
+//   Whenever there is a repeating char, move the left of the sliding window (i)
+//   to the next location of the character's last appearance
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int> hash;
+        unordered_map<char, int> hash; // <character, last appeared location>
         int i = 0, j = 0, ans = 0;
         for (i = 0; j < s.length(); ++j) {
             if (hash.find(s[j]) != hash.end()) {
-                i = max(i, hash[s[j]]);
+                i = max(i, hash[s[j]] + 1);
             }
             ans = max(ans, j - i + 1);
-            hash[s[j]] = j + 1;
+            hash[s[j]] = j;
         }
         return ans;
     }

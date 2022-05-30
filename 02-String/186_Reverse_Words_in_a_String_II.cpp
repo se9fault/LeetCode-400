@@ -11,13 +11,13 @@ A word is defined as a sequence of non-space characters.
 The input string does not contain leading or trailing spaces.
 The words are always separated by a single space.
 Follow up: Could you do it in-place without allocating extra space?
-
-Solution: exactly the same in-place solution from LC151.
 */
 
+// Solution:
+//   exactly the same in-place solution from LC151.
 // Note: method signature may not be accurate.
 // Time Complexity: O(N)
-// Space Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     vector<char> reverseWords(const vector<char>& str) {
