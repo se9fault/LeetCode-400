@@ -10,27 +10,32 @@ Example 2:
 Input: [9,6,4,2,3,5,7,0,1]
 Output: 8
 
-Note:
-Your algorithm should run in linear runtime complexity. Could you implement it
-using only constant extra space complexity?
+Constraints:
+  n == nums.length
+  1 <= n <= 10^4
+  0 <= nums[i] <= n
+  All the numbers of nums are unique.
 
-Solution:
-  Use the property of XOR. A number that got XORed twice will be canceled out.
-  Therefore we can XOR [0, n], and also XOR the array. Then the missing number
-  only got XORed once.
-
-Follow-up:
-  If the original array is sorted, then we can use binary search: if the value
-  is bigger than the index, then the missing value is on the left.
+Follow up: Could you implement a solution using only O(1) extra space complexity
+and O(n) runtime complexity?
 */
 
+
+// Solution:
+//   Use the property of XOR. XOR is its own inverse, so a number XORed twice
+//   would be canceled out. We XOR all nums and [0,n], then the missing number
+//   would be XORed only once.
+// Follow-up:
+//   If the original array is sorted, then we can use binary search: if the
+//   value is bigger than the index, then the missing value is on the left.
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        // XOR n first, because loop's exit condition is written this way
-        int n = nums.size(), missing = n;
+        int n = nums.size(), missing = n; // XOR n first
         for (int i = 0; i < n; i++) {
-            missing ^= i ^ nums[i];
+            missing ^= i ^ nums[i]; // XOR [0, n-1] and nums
         }
         return missing;
     }
