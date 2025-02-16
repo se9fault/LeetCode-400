@@ -39,3 +39,30 @@ public:
         return mem[i] = res;
     }
 };
+
+
+class Solution {
+public:
+    int numDecodings(string s) {
+        /* f(n) = 1, n ≤ 0
+                  f(n - 1) * isValid(s.substr(n, 1)) + f(n - 2) * isValid(s.substr(n - 1, 2))
+        */
+        int n = s.size(), prevprev = 1, prev = 1, ans = 0;
+        for (int i = 0; i < n; ++i) {
+            ans = prev * isValid(s, n, i, 1) +
+                  prevprev * isValid(s, n, i - 1, 2);
+            prevprev = prev;
+            prev = ans;
+        }
+        return ans;
+    }
+private:
+    bool isValid(string s, int n, int start, int length) {
+        return start >= 0 &&
+               start + length <= n &&
+               length > 0 &&
+               length <= 2 &&
+               s[start] != '0' &&
+               std::stoi(s.substr(start, length)) <= 26;
+    }
+};

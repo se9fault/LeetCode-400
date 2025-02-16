@@ -21,21 +21,23 @@ class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         vector<vector<int>> res;
-        int i = 0;
-
-        while (i < intervals.size() && intervals[i][1] < newInterval[0]) {
-            res.push_back(intervals[i++]);
+        bool pushed = false;
+        for (auto interval : intervals) {
+            if (interval[1] < newInterval[0]) {
+                res.push_back(interval);
+            } else if (interval[0] <= newInterval[1]) {
+                newInterval[0] = min(newInterval[0], interval[0]);
+                newInterval[1] = max(newInterval[1], interval[1]);
+            } else {
+                if (!pushed) {
+                    res.push_back(newInterval);
+                    pushed = true;
+                }
+                res.push_back(interval);
+            }
         }
-
-        while (i < intervals.size() && intervals[i][0] <= newInterval[1]) {
-            newInterval[0] = min(newInterval[0], intervals[i][0]);
-            newInterval[1] = max(newInterval[1], intervals[i][1]);
-            i++;
-        }
-        res.push_back(newInterval);
-
-        while (i < intervals.size()) {
-            res.push_back(intervals[i++]);
+        if (!pushed) {
+            res.push_back(newInterval);
         }
         return res;
     }

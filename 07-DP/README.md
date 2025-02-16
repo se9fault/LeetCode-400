@@ -7,6 +7,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [121](121_Best_Time_to_Buy_and_Sell_Stock.cpp) [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
+    Sliding window, according to blind 75
+
 - [x] [122](122_Best_Time_to_Buy_and_Sell_Stock_II.cpp) [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) Greedy
 
 - [x] [123](123_Best_Time_to_Buy_and_Sell_Stock_III.cpp) [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) DP

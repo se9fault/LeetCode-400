@@ -29,8 +29,14 @@ public:
         unordered_map<char, int> hash; // <character, last appeared location>
         int i = 0, j = 0, ans = 0;
         for (i = 0; j < s.length(); ++j) {
+            // abcdbc
+            // i   j
+            // hash['b'] = 1
             if (hash.find(s[j]) != hash.end()) {
                 i = max(i, hash[s[j]] + 1);
+            // i <- 2
+            // abcdbc
+            //   i j
             }
             ans = max(ans, j - i + 1);
             hash[s[j]] = j;

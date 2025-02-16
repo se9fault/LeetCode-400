@@ -15,50 +15,6 @@ Note:
   All inputs are guaranteed to be non-empty strings.
 */
 
-//#define MAP_WITHOUT_NODE
-#ifdef MAP_WITHOUT_NODE
-class Trie {
-private:
-    map<char, Trie*> next = {};
-    bool isword = false;
-public:
-    Trie() {}
-
-    /** Inserts a word into the trie. */
-    void insert(string word) {
-        Trie* node = this;
-        for (char c : word) {
-            if (!node->next.count(c))
-                node->next[c] = new Trie();
-            node = node->next[c];
-        }
-        node->isword = true;
-    }
-
-    /** Returns if the word is in the trie. */
-    bool search(string word) {
-        Trie* node = this;
-        for (char c : word) {
-            if (!node->next.count(c))
-                return false;
-            node = node->next[c];
-        }
-        return node->isword;
-    }
-
-    /** Returns if there is any word in the trie that starts with the given prefix. */
-    bool startsWith(string prefix) {
-        Trie* node = this;
-        for (char c : prefix) {
-            if (!node->next.count(c))
-                return false;
-            node = node->next[c];
-        }
-        return true;
-    }
-};
-#endif
-
 #define ARRAY_WITH_NODE
 #ifdef ARRAY_WITH_NODE
 struct TrieNode {
@@ -115,6 +71,53 @@ private:
             }
         }
         delete root;
+    }
+};
+#endif
+
+// Need to be very careful with map<>, because even a [] read access will insert
+// 0 value into the map.
+// Method above is more recommended.
+//#define MAP_WITHOUT_NODE
+#ifdef MAP_WITHOUT_NODE
+class Trie {
+private:
+    map<char, Trie*> next = {};
+    bool isword = false;
+public:
+    Trie() {}
+
+    /** Inserts a word into the trie. */
+    void insert(string word) {
+        Trie* node = this;
+        for (char c : word) {
+            if (!node->next.count(c))
+                node->next[c] = new Trie();
+            node = node->next[c];
+        }
+        node->isword = true;
+    }
+
+    /** Returns if the word is in the trie. */
+    bool search(string word) {
+        Trie* node = this;
+        for (char c : word) {
+            if (!node->next.count(c))
+                return false;
+            node = node->next[c];
+        }
+        return node->isword;
+    }
+
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    bool startsWith(string prefix) {
+        Trie* node = this;
+        for (char c : prefix) {
+            if (!node->next.count(c))
+                return false;
+            node = node->next[c];
+        }
+        return true;
     }
 };
 #endif

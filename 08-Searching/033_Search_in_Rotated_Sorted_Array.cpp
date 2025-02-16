@@ -16,24 +16,33 @@ Input: nums = [4,5,6,7,0,1,2], target = 3
 Output: -1
 */
 
+// Time Complexity: O(logN)
+// Space Complexity: O(1)
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-        int lo = 0, hi = nums.size();
-        while (lo < hi) {
-            int mid = (lo + hi) / 2;
+        int low = 0, high = nums.size() - 1;
+        // solution space [low, high]
 
-            double num = (nums[mid] < nums[0]) == (target < nums[0])
-                       ? nums[mid]
-                       : target < nums[0] ? -INFINITY : INFINITY;
-
-            if (num < target)
-                lo = mid + 1;
-            else if (num > target)
-                hi = mid;
-            else
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            bool same_side = (nums[mid] >= nums[0]) == (target >= nums[0]);
+            if (nums[mid] > target) {
+                if (same_side) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
+            } else if (nums[mid] < target) {
+                if (same_side) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            } else if (nums[mid] == target) {
                 return mid;
+            }
         }
-        return -1;
+        return -1; // solution space ∅
     }
 };

@@ -19,19 +19,30 @@ You may assume that you have an infinite number of each kind of coin.
 
 class Solution {
 public:
-    int coinChange(vector<int>& coin, int M) {
-        int max = M + 1;
-        vector<int> mem(M + 1, max);
-        mem[0] = 0;
-        for (int i = 1; i <= M; i++) {
-            for (int j = 0; j < coin.size(); j++) {
-                if (coin[j] <= i) {
-                    mem[i] = min(mem[i], mem[i - coin[j]] + 1);
+    int coinChange(vector<int>& coins, int amount) {
+        /* f(n) = 0, n = 0
+                  min()
+        */
+        int m = coins.size();
+        vector<int> dp(amount + 1, amount + 1); // a large enough value
+        dp[0] = 0; // needed. or else how would k=1 start constructing?
+        for (int i = 0; i <= amount; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (coins[j] <= i) {
+                    // int k = i / coins[j];
+                    dp[i] = min(dp[i], dp[i - coins[j]] + 1);
+                    // try to use 1 coins[j] to reduce dp[i]
+                    // why not use multiple?
+                    //   With original optimal dp[i-coins[j]], add 1 coin would
+                    //   be optimal, but dp[i-k*coins[j]] + k is not.
+                    //   You should let dp[i-coins[j]] decide how much coins[j]
+                    //   it need to use.
                 }
             }
         }
-        if (mem[M] > M)
+        if (dp[amount] == amount + 1) {
             return -1;
-        return mem[M];
+        }
+        return dp[amount];
     }
 };

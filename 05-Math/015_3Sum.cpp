@@ -15,47 +15,50 @@ A solution set is:
 ]
 */
 
+// Time Complexity: O(N^2)
+// Space Complexity: O(N^2)
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int> &num) {
-        vector<vector<int>> results;
-        std::sort(num.begin(), num.end());
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> ans;
+        // O(NlogN)
+        std::sort(nums.begin(), nums.end());
 
-        // for each i, use front and back to traverse the parts behind it once,
-        // so O(N)
-        for (int i = 0; i < num.size(); i++) {
-            int target = -num[i];
+        // O(N^2), look at the numbers behind nums[i]
+        int n = nums.size();
+        for (int i = 0; i < n; ++i) {
+            if (nums[i] > 0) {
+                break; // if nums[i] > 0, then no way to hit the target (nums[i + k] > nums[i])
+            }
+            int target = -nums[i];
             int front = i + 1;
-            int back = num.size() - 1;
+            int back = n - 1;
             while (front < back) {
-                int sum = num[front] + num[back];
-                // Finding answer which start from number num[i]
-                if (sum < target)
-                    front++;
-                else if (sum > target)
-                    back--;
-                else {
-                    vector<int> result {num[i], num[front], num[back]};
-                    results.push_back(result);
+                int sum = nums[front] + nums[back];
+                if (sum < target) {
+                    ++front;
+                } else if (sum > target) {
+                    --back;
+                } else {
+                    vector<int> result{nums[i], nums[front], nums[back]};
+                    ans.push_back(result);
 
                     // Processing duplicates of Number 2
-                    // Rolling the front pointer to the next different number
-                    // forwards
-                    while (front < back && num[front] == result[1])
-                        front++;
-
+                    while (front < back && nums[front] == result[1]) {
+                        ++front;
+                    }
                     // Processing duplicates of Number 3
-                    // Rolling the back pointer to the next different number
-                    // backwards
-                    while (front < back && num[back] == result[2])
-                        back--;
+                    while (front < back && nums[back] == result[2]) {
+                        --back;
+                    }
                 }
             }
 
             // Processing duplicates of Number 1
-            while (i + 1 < num.size() && num[i + 1] == num[i])
-                i++;
+            while (i + 1 < n && nums[i + 1] == nums[i]) {
+                ++i;
+            }
         }
-        return results;
+        return ans;
     }
 };

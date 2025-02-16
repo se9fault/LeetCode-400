@@ -18,6 +18,6 @@ https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
-        
+
     }
 };

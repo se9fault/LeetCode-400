@@ -14,25 +14,17 @@ you do it in linear time O(n) and possibly in a single pass?
 `__builtin_popcount` in C++)?
 */
 
+// Solution:
+//   DP; to calculate f(n), reuse the result of f(n/2).
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 class Solution {
 public:
-    vector<int> countBits(int num) {
-        if (num == 0)
-            return {0};
-        vector<int> ans{0, 1};
-        int k = 2, i = 2;
-        while (i <= num) {
-            for (i = pow(2, k - 1); i < pow(2, k); ++i) {
-                if (i > num)
-                    break;
-                int t = (pow(2, k) - pow(2, k - 1)) / 2;
-                if (i < pow(2, k - 1) + t)
-                    ans.push_back(ans[i - t]);
-                else
-                    ans.push_back(ans[i - t] + 1);
-            }
-            ++k;
+    vector<int> countBits(int n) {
+        vector<int> results(n + 1, 0);
+        for (int i = 0; i <= n; ++i) {
+            results[i] = results[i >> 1] + (i & 1);
         }
-        return ans;
+        return results;
     }
 };

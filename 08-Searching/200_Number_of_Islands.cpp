@@ -24,29 +24,30 @@ Output: 3
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
-        m = grid.size();
-        n = m ? grid[0].size() : 0;
-        int islands = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == '1') {
-                    islands++;
-                    eraseIslands(grid, i, j);
+        int m = grid.size(), n = grid[0].size();
+        int ans = 0;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (dfs(grid, i, j, m, n)) {
+                    ++ans;
                 }
             }
         }
-        return islands;
+        return ans;
     }
-
 private:
-    int m, n;
-    void eraseIslands(vector<vector<char>> &grid, int i, int j) {
-        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == '0')
-            return;
+    bool dfs(vector<vector<char>>& grid, int i, int j, int m, int n) {
+        if (i < 0 || i >= m || j < 0 || j >= n) {
+            return false;
+        }
+        if (grid[i][j] == '0') {
+            return false;
+        }
         grid[i][j] = '0';
-        eraseIslands(grid, i + 1, j);
-        eraseIslands(grid, i - 1, j);
-        eraseIslands(grid, i, j + 1);
-        eraseIslands(grid, i, j - 1);
+        dfs(grid, i + 1, j, m, n);
+        dfs(grid, i - 1, j, m, n);
+        dfs(grid, i, j + 1, m, n);
+        dfs(grid, i, j - 1, m, n);
+        return true;
     }
 };

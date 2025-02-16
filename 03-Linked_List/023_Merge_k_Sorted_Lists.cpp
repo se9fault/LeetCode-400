@@ -15,29 +15,29 @@ Output: 1->1->2->3->4->4->5->6
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        auto cmp = [] (ListNode* left, ListNode* right) {
-            return left->val > right->val;
+        auto cmp = [] (ListNode*& n1, ListNode*& n2) {
+            return n1->val > n2->val;
         };
-        priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> pqueue(cmp);
-        ListNode * head = new ListNode(-1), *tail = head;
-        for (ListNode* list : lists) {
+        priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> pq(cmp);
+        ListNode dummy, *tail = &dummy;
+        for (auto list : lists) {
             if (list) {
-                pqueue.push(list);
+                pq.push(list);
             }
         }
-        while (!pqueue.empty()) {
-            auto cur = pqueue.top();
-            pqueue.pop();
+        while (!pq.empty()) {
+            auto cur = pq.top();
+            pq.pop();
             if (cur->next) {
-                pqueue.push(cur->next);
+                pq.push(cur->next);
             }
             tail->next = cur;
             tail = tail->next;
-            cur->next = nullptr;
         }
-        return head->next;
+        return dummy.next;
     }
 };

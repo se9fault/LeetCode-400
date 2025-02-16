@@ -23,18 +23,21 @@ Explanation: There are three ways to climb to the top.
 class Solution {
 public:
     int climbStairs(int n) {
-        vector<int> mem(n + 1, 0);
-        return climbStairs(0, n, mem);
-    }
-
-    int climbStairs(int i, int n, vector<int> &mem) {
-        if (i > n)
-            return 0;
-        if (i == n)
+        // f(n) = 1,               n = 1
+        //        2,               n = 2
+        //        f(n-1) + f(n-2), n ≥ 3
+        int prevprev = 1, prev = 2, ans;
+        if (n == 1) {
             return 1;
-        if (mem[i] > 0)
-            return mem[i];
-        mem[i] = climbStairs(i + 1, n, mem) + climbStairs(i + 2, n, mem);
-        return mem[i];
+        }
+        if (n == 2) {
+            return 2;
+        }
+        for (int i = 3; i <= n; ++i) {
+            ans = prevprev + prev;
+            prevprev = prev;
+            prev = ans;
+        }
+        return ans;
     }
 };

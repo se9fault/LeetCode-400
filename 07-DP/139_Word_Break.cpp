@@ -29,28 +29,27 @@ Output: false
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> dict;
-        int maxWordLength = 0;
-        for (auto str : wordDict) {
-            dict.insert(str);
-            maxWordLength = max((int)str.size(), maxWordLength);
+        unordered_set<string> words;
+        int maxWordLength = 0; // prune optimization
+        for (auto word : wordDict) {
+            words.insert(word);
+            maxWordLength = max((int)word.size(), maxWordLength);
         }
 
-        vector<bool> dp(s.size() + 1, false);
+        int n = s.size();
+        vector<bool> dp(n + 1, false); // is substr[0, idx] segmentable
         dp[0] = true;
-
-        for (int i = 1; i <= s.size(); ++i) {
-            for (int j = i-1; j >= max(i - maxWordLength, 0); --j) {
+        for (int i = 1; i <= n; ++i) {
+            for (int j = i - 1; j >= max(i - maxWordLength, 0); --j) { // start with substr w/ length 1
                 if (dp[j]) {
-                    string word = s.substr(j, i - j);
-                    if (dict.find(word) != dict.end()) {
+                    string following = s.substr(j, i - j);
+                    if (words.find(following) != words.end()) {
                         dp[i] = true;
-                        break; //next i
+                        break;
                     }
                 }
             }
         }
-
-        return dp[s.size()];
+        return dp[n];
     }
 };

@@ -17,6 +17,6 @@ sums are: -2, -1, 2.
 class Solution {
 public:
     int countRangeSum(vector<int>& nums, int lower, int upper) {
-        
+
     }
 };

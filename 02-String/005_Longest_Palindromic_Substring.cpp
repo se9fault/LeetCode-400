@@ -45,3 +45,28 @@ public:
         return s.substr(start, max);
     }
 };
+
+class Solution {
+// expand from the middle (2n-1 middles), time O(N^2), Optimize: manacher
+public:
+    string longestPalindrome(string s) {
+        int maxStart = 0, maxLength = 1; // store ans
+        int n = s.size();
+        for (int i = 0; i < n; ++i) {
+            expand(s, n, i, i, maxStart, maxLength);
+            expand(s, n, i, i + 1, maxStart, maxLength);
+        }
+        return s.substr(maxStart, maxLength);
+    }
+
+    void expand(string &s, int n, int i, int j, int& maxStart, int& maxLength) {
+        while (i >= 0 && j <= n - 1 && s[i] == s[j]) {
+            --i;
+            ++j;
+        }
+        if (j - i - 1 > maxLength) {
+            maxStart = i + 1;
+            maxLength = j - i - 1;
+        }
+    }
+};

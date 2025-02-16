@@ -134,6 +134,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 ## Interval
 
+Recheck 252 & Non-Overlapping Intervals! sort intervals by either start or end should be okay with all problems
+
 - [x] [056](056_Merge_Intervals.cpp) [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 
     Sort the intervals by start time, and merge two adjacent intervals if they overlap.
@@ -167,6 +169,8 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [ ] [238](238_Product_of_Array_Except_Self.cpp) [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
 
+    Use two arrays `Fwd` and `Bwd` to store the product of nums on two sides, and multiply them on every location. Space Optimization: store `Fwd` in the return vector and `Bwd` in one int variable.
+
 - [ ] [152](152_Maximum_Product_Subarray.cpp) [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)
 
 - [ ] [228](228_Summary_Ranges.cpp) [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)
@@ -187,7 +191,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 - [ ] [324](324_Wiggle_Sort_II.cpp) [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)
 
 
-## Matrix
+## Matrix Geometry
 
 - [x] [048](048_Rotate_Image.cpp) [Rotate Image](https://leetcode.com/problems/rotate-image/description/)
 
@@ -195,10 +199,9 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [059](059_Spiral_Matrix_II.cpp) [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)
 
+- [x] [073](073_Set_Matrix_Zeroes.cpp) [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
 
 ## Matrix
-
-- [x] [073](073_Set_Matrix_Zeroes.cpp) [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
 
 - [x] [289](289_Game_of_Life.cpp) [Game of Life](https://leetcode.com/problems/game-of-life/description/)
 

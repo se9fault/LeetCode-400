@@ -36,25 +36,21 @@ public:
 class Solution {
 public:
     Node* cloneGraph(Node* node) {
-        if (node == nullptr)
+        if (node == nullptr) {
             return nullptr;
-        Node* copy = new Node(node->val, {}); // 遍历的节点都是已经分配好的
-        unordered_map<Node*, Node*> mapping;
-        mapping[node] = copy;
-        queue<Node*> q;
-        q.push(node);
-        while (!q.empty()) {
-            Node* cur = q.front();
-            q.pop();
-            for (auto neighbor : cur->neighbors) {
-                // 每次遍历一个节点时，分配好所有邻居
-                if (mapping.find(neighbor) == mapping.end()) {
-                    mapping[neighbor] = new Node(neighbor->val, {});
-                    q.push(neighbor);
-                }
-                mapping[cur]->neighbors.push_back(mapping[neighbor]);
-            }
         }
-        return copy;
+        unordered_map<Node*, Node*> m;
+        cloneNode(node, m);
+        return m[node];
+    }
+private:
+    void cloneNode(Node* node, unordered_map<Node*, Node*> &m) {
+        m[node] = new Node(node->val);
+        for (auto neighbor : node->neighbors) {
+            if (m.find(neighbor) == m.end()) {
+                cloneNode(neighbor, m);
+            }
+            m[node]->neighbors.push_back(m[neighbor]);
+        }
     }
 };

@@ -87,7 +87,7 @@ Note: Click on the number to go to the source code; click on the name to go to t
 
 - [x] [049](049_Group_Anagrams.cpp) [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 
-    (Not `int[26]`) Anagrams of the same group will have identical sorted output, therefore use it as key in `<sorted key, multiset<strings>>`.
+    (Not `int[26]`) Anagrams of the same group will have identical sorted output, therefore use it as key in `<sorted key, multiset<strings>>` (or `<sorted key, vector<string>>`).
 
 - [x] [249](249_Group_Shifted_Strings.cpp) [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) Premium
 

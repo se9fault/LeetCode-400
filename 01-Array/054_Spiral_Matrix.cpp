@@ -23,28 +23,37 @@ public:
         vector<int> ans;
         if (matrix.size() == 0)
             return ans;
-        // (r1, c1) is the upper left point of current layer;
-        // (r2, c2) is the lower right point
-        int r1 = 0, r2 = matrix.size() - 1;
-        int c1 = 0, c2 = matrix[0].size() - 1;
+        // (i1, j1) is the upper left point of current layer;
+        // (i2, j2) is the lower right point
+        int i1 = 0, j1 = 0, i2 = matrix.size() - 1, j2 = matrix[0].size() - 1;
         // 1, 2, 3, 4
         // 5, 6, 7, 8
         // 9,10,11,12
-        while (r1 <= r2 && c1 <= c2) {        // r1=0, c1=0, r2=2, c2=3
-            for (int c = c1; c <= c2; c++)
-                ans.push_back(matrix[r1][c]); // 1,2,3,4
-            for (int r = r1 + 1; r <= r2; r++)
-                ans.push_back(matrix[r][c2]); // 8,12
-            if (r1 < r2 && c1 < c2) {
-                for (int c = c2 - 1; c > c1; c--)
-                    ans.push_back(matrix[r2][c]); // 11,10
-                for (int r = r2; r > r1; r--)
-                    ans.push_back(matrix[r][c1]); // 9,5
+        while (i1 <= i2 && j1 <= j2) {        // i1=0, j1=0, i2=2, j2=3
+
+            // print the two corners to ensure single rows/columns are fully
+            // printed
+            for (int j = j1; j <= j2; j++) {
+                ans.push_back(matrix[i1][j]); // 1,2,3,4
             }
-            r1++;
-            r2--;
-            c1++;
-            c2--;
+            for (int i = i1 + 1; i <= i2; i++) {
+                ans.push_back(matrix[i][j2]); // 8,12
+            }
+
+            // only one row/column, no need to go back
+            if (i1 < i2 && j1 < j2) {
+                for (int j = j2 - 1; j > j1; j--) {
+                    ans.push_back(matrix[i2][j]); // 11,10
+                }
+                for (int i = i2; i > i1; i--) {
+                    ans.push_back(matrix[i][j1]); // 9,5
+                }
+            }
+
+            ++i1;
+            ++j1;
+            --i2;
+            --j2;
         }
         return ans;
     }

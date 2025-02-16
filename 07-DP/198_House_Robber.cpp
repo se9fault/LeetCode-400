@@ -26,17 +26,19 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        vector<int> dp(nums.size(), -1);
-        return MaxRob(nums, dp, 0);
-    }
-
-    int MaxRob(vector<int>& nums, vector<int>& dp, int i) {
-        if (i >= nums.size())
-            return 0;
-        if (dp[i] != -1)
-            return dp[i];
-        int result = max(MaxRob(nums, dp, i+2) + nums[i], MaxRob(nums, dp, i+1));
-        dp[i] = result;
-        return result;
+        /* f(n) = 0, n < 0
+                  max(f(n-1), f(n-2) + nums[n]), 0 ≤ n < nums.size()
+                  (the maximum amount we get when robbing houses [0, n])
+        Note: If we choose to rob house n, we get f(n-2) + nums[n]; if not, we
+              get f(n-1). It has nothing to do with whether f(n-1) robs house
+              n-1 or not.
+        */
+        int n = nums.size(), prevprev = 0, prev = 0, ans;
+        for (int i = 0; i < n; ++i) {
+            ans = max(prev, prevprev + nums[i]);
+            prevprev = prev;
+            prev = ans;
+        }
+        return ans;
     }
 };

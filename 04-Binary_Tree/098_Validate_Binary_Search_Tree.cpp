@@ -58,4 +58,22 @@ public:
         return true;
     }
 
+    bool isValidBST_solution_2(TreeNode* root) {
+        return isValidBST(root, nullptr, nullptr);
+    }
+
+    // cannot store min/max as INT_MIN / INT_MAX, as they may be used as values
+    bool isValidBST(TreeNode* root, TreeNode* min, TreeNode* max) {
+        if (root == nullptr) {
+            return true;
+        }
+        int val = root->val;
+        if (min && val <= min->val) {
+            return false;
+        }
+        if (max && val >= max->val) {
+            return false;
+        }
+        return isValidBST(root->left, min, root) && isValidBST(root->right, root, max);
+    }
 };

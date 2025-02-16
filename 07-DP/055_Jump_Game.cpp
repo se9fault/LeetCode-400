@@ -46,3 +46,15 @@ public:
         return false;
     }
 };
+
+// greedy
+class Solution {
+public:
+    bool canJump(vector<int>& nums) {
+        int furthest = 0, n = nums.size();
+        for (int i = 0; i <= furthest && i < n; ++i) {
+            furthest = max(furthest, i + nums[i]);
+        }
+        return furthest >= n - 1;
+    }
+};
